@@ -1,0 +1,1055 @@
+/*
+ GoHealthNow strings FR
+*/
+
+/*
+ Model/User
+ */
+"Underweight" = "Insuffisance pondérale";
+"Normal weight" = "Poids normal";
+"Overweight" = "Surpoids";
+"Obese" = "Obésité";
+
+"Unknown" = "Inconnu";
+"Already Logged in" = "Déjà connecté";
+"Email and Password cannot be empty" = "Email et mot de passe ne peuvent être vides";
+
+"Invalid email address" = "Cette adresse e-mail est invalide";
+"Password is too short" = "Ce mot de passe est trop court";
+
+/*
+ Model/FoodItem
+ */
+"Failed to save food image to disk" = "Impossible d'enregistrer l'image de l'aliment sur le disque";
+"Failed to load food image from disk" = "Impossible de télécharger l'image de l'aliment à partir du disque";
+
+"In Moderation" = "En modération";
+"Less Often" = "Choisir Moins souvent";
+"More Often" = "Choisir Plus souvent";
+"Not Given" = "Pas donné";
+
+"Barcode" = "Scanner code barre";
+"Auto Estimate" = "Auto estimation";
+"Customized Food" = "Aliment personnalisé";
+"Online Search" = "Recherche en ligne";
+"Standard Foods" = "Rechercher l'aliment";
+
+/*
+ Model/CustomizedFood
+ */
+"Customized Food" = "Aliment personnalisé";
+"1 serving" = "1 portion";
+"Customized Foods" = "Aliments personnalisés";
+
+/*
+ Model/MealRecord
+ */
+"Excellent" = "Excellent";
+"Good" = "Bon";
+"Fair" = "Bon";
+"Needs Improvement" = "Besoin d'amélioration";
+
+/*
+ Model/GlucoseRecord
+ */
+"Before Breakfast" = "Avant le déjeuner";
+"After Breakfast" = "Après le déjeuner";
+"Before Lunch" = "Avant le dîner";
+"After Lunch" = "Après le dîner";
+"Before Dinner" = "Avant le souper";
+"After Dinner" = "Après le souper";
+"Bedtime" = "Au coucher";
+"Other" = "Autre";
+
+/*
+ Model/ExerciseRecord
+ */
+"Light" = "Léger";
+"Moderate" = "Modéré";
+"Vigorous" = "Vigoureux";
+
+/*
+ Model/RecommendationRecord
+ */
+"Advice" = "Conseil";
+"Health Tip" = "Conseil santé";
+"Message" = "Message";
+
+/*
+ Model/NoteRecord
+ */
+"Failed to save image to disk" = "Impossible d'enregistrer l'image sur le disque";
+"image can not be null" = "Image ne peut pas être null";
+
+/*
+ Model/WeightGoal
+ */
+"Gain 1 kilograms per week" = "Gain de 1.0 kg par semaine";
+"Gain 0.8 kilograms per week" = "Gain de 0.8 kg par semaine";
+"Gain 0.5 kilograms per week" = "Gain de 0.5 kg par semaine";
+"Gain 0.2 kilograms per week" = "Gain de 0.2 kg par semaine";
+"Maintain my current weight" = "Maintenir mon poids actuel";
+"Lose 0.2 kilograms per week" = "Perdre 0.2 kg par semaine";
+"Lose 0.5 kilograms per week" = "Perdre 0.5 kg par semaine";
+"Lose 0.8 kilograms per week" = "Perdre 0.8 kg par semaine";
+"Lose 1 kilogram per week" = "Perdre 1.0 kg par semaine";
+"Gain 2 lbs per week" = "Gain de 2.0 livres par semaine";
+"Gain 1 1/2 lbs per week" = "Gain de 1.5 livres par semaine";
+"Gain 1 lb per week" = "Gain 1.0 lb par semaine";
+"Gain 1/2 lb per week" = "Gain de 0.5 livres par semaine";
+"Lose 1/2 lb per week" = "Perdre 0.5 livres par semaine";
+"Lose 1 lb per week" = "Perdre 1.0 livres par semaine";
+"Lose 1 1/2 lbs per week" = "Perdre 1.5 livres par semaine";
+"Lose 2 lbs per week" = "Perdre 2.0 livres par semaine";
+
+/*
+ Model/EmailAssistant
+ */
+"Email Cancelled." = "Email annulé.";
+"Email Saved." = "Email sauvegardé.";
+"Email Sent." = "Email envoyé.";
+
+/*
+ Services/Notification/LocalNotificationResponseAssistant
+ */
+"Snooze" = "Rappel";
+"Login To Record The Information" = "Connectez-vous pour enregistrer les informations";
+"Will Do" = "D'accord";
+"Take & Log" = "Prendre & Enregistrer";
+"Modify Once" = "Modifier Une fois";
+"Log" = "Enregistrement";
+
+
+/*
+ Services/Notification/LocalNotificationAssistant
+ */
+"We haven't see you in awhile. Please log your health information." = "Nous ne vous avons pas vu depuis un certain temps. Inscrivez vos informations de santé s.v.p.";
+"Open" = "Ouvrir";
+
+
+"Failed to get the info, please retry!" = "Impossible d'obtenir les informations, réessayez s.v.p.!";
+
+
+/*
+ Interface/Notifications/NotificationDuplicateCheckClass
+ */
+"Duplicate Notification Times" = "Temps de notification en double";
+"You have another notification set within 2 minutes of this one.\n\nSpace out notifications by 3 or more minutes, to give yourself time to address each notification." = "Vous avez une autre notification prévue dans les 2 prochaines minutes de celle-ci. \n\nEspacez les notifications par 3 minutes ou plus, pour vous donner le temps de répondre à chaque notification.";
+
+/*
+ Interface/Notifications/BloodPressure/NotificationBloodPressureClass
+ */
+"Blood Pressure Reminder" = "Rappel de la pression artérielle";
+"Blood Pressure Reminder: %@" = "Rappel de la pression artérielle: %@";
+
+/*
+ Interface/Notifications/BloodPressure/BloodPressureNotificationViewController
+ */
+"Save" = "Sauvegarder";
+
+/*
+ Interface/Notifications/Exercise/NotificationMedicationClass
+ */
+"Exercise Reminder" = "Rappel d'exercice";
+"Exercise Reminder: %@" = "Rappel d'exercice: %@";
+
+/*
+ Interface/Notifications/Diet/NotificationDietClass
+ */
+"Snack" = "Collation";
+"Breakfast" = "Déjeuner";
+"Lunch" = "Dîner";
+"Dinner" = "Souper";
+"Diet Reminder: %@" = "Rappel de diète: %@";
+
+/*
+ Interface/Notifications/BloodGlucose/NotificationBloodGlucoseClass
+ */
+"Blood Glucose Reminder: %@" = "Rappel de glycémie: %@";
+
+/*
+ Interface/Notifications/Medication/NotificationMedicationClass
+ */
+"Medication Reminder: %@ - %@" = "Rappel de médicaments: %@ - %@";
+
+/*
+ Interface/Notifications/Medication/MedicationInputViewController
+ */
+"Add New Medication" = "Ajouter un nouveau médicament";
+"Enter A Medication That is Not Listed" = "Entrez un médicament qui ne figure pas";
+"Medication Name" = "Nom du médicament";
+"Be creative when creating new medications.  Create a name that encompasses many pills or multivitamins and set the dosage to 1." = "Soyez créatifs lors de la création de nouveaux médicaments.  Créez un nom qui englobe beaucoup de pilules ou de multivitamines et de définir la dose à 1.";
+"Tap To Add New Medication" = "Ajouter de nouveaux médicaments";
+"User Entered Medication" = "Médicament entré par l'utilisateur";
+"Insulin" = "Insuline";
+"Medication" = "Médication";
+
+/*
+ Interface/Notifications/Medication/DosageInputViewController
+ */
+"Create Reminder" = "Créer un Rappel";
+"Record Medication" = "Enregistrer un médicament";
+"Notes" = "Notes";
+
+/*
+ Interface/Notifications/NotificationListViewController
+ */
+"Blood Pressure Reminder" = "Rappel de pression artérielle";
+"Exercise Reminder" = "Rappel d'exercice";
+"Blood Glucose Testing" = "Rappel du test de glycémie";
+"Exercise" = "Exercice";
+"Blood Pressure" = "Pression artérielle";
+"Meal Reminder" = "Rappel de repas";
+"Daily" = "Tous les jours";
+"Set up daily reminders here. If you usually take your morning medication from 7 to 8 am, set it up for 7 am.\n\nWhen the 7 am notification comes, you can click Snooze (reminds you again in 15 min), if you wish.\n\n Try to space your notifications 2 to 3 minutes apart to give you time to address each notification.\n\nYou can delete a notification by swiping the notification to the right and tapping the delete button.\n\nYou can modify medication reminders by tapping on them.  To modify any other reminder please delete and create a new one." = "Mise en place de rappels quotidiens ici. Si vous prenez habituellement vos médicaments le matin entre 7h et 8h, mettez-le en place pour 7 heures du matin.\n\nLorsque la notification de 7h viendra, vous pourrez cliquer sur Rappel (rappel à nouveau après 15 min), si vous le souhaitez.\n\n Pour inscrire un événement unique (non rappel le quotidien), cliquez sur l'onglet ENTRER.";
+
+/*
+ Interface/Notifications/NotificationSelectViewController
+ */
+"Compliance rate: %@%%  Skipped: %@" = "Taux de conformité: %@%%  Ignoré: %@";
+
+/*
+ Interface/Goals/GoalsViewController
+ */
+"Weight Goal" = "Objectifs de poids";
+"Exercise Goal" = "Objectifs d'exercice";
+"Daily Step Count Goal" = "Objectif de pas quotidien";
+"steps" = "pas";
+"Weekly Step Count Goal" = "Objectif de pas hebdomadaire";
+"weekly step count" = "Nombre de pas hebdomadaire";
+"Weekly Moderate/\nVigorous Exercise Goal" = "Objectif hebdomadaire\n d'exercice modéré/Vigoureux";
+"weekly moderate/vigorous exercise" = "exercice modéré/vigoureux hebdomadaire";
+"Synchronizing..." = "Synchronisation...";
+"Not Set" = "Pas défini";
+"Weight Goal" = "Objectif de poids";
+"Current weight:%.1f%@" = "Current weight: %.1f%@";
+"kgs" = "kg";
+"Lbs" = "Livres";
+"%.0f steps" = "%.0f pas";
+"%.0f min" = "%.0f min";
+"Target" = "Cible";
+"Please set your %@ goal." = "Configurer votre objectif %@ .";
+"Invalid number" = "Nombre invalide";
+"Please input a number less than %0.f" = "Veuillez saisir un nombre inférieur à%0.f";
+"Your weight goal affects your daily recommended calories, meal target values and scores" = "Configurez votre objectif de poids (pour la perte ou gain de poids) ici. Notez que cela affecte votre cible quotidienne en calories, vos scores de repas et ainsi de suite";
+
+/*
+ Interface/Progress/ProgressViewController
+ */
+"Not good" = "Pas bon";
+"Minutes" = "Minutes";
+"Total minutes" = "Total des minutes";
+"Target(week)" = "Cible(Semaine)";
+"Calories" = "Calories";
+"Blood glucose" = "Glycémie";
+"Weight(%@)" = "Poids(%@)";
+"Share" = "Partager";
+"Graph to Share?" = "Graphique à partager?";
+"Daily Calories Balance" = "Balance de calories quotidienne";
+"Average Meal Score" = "Score moyen du Repas";
+"Exercise Minutes" = "Minutes d'exercice";
+
+/*
+ Interface/Progress/ProgressDetailController
+ */
+"Weekly Breakdown" = "Répartition hebdomadaire";
+"Monthly Breakdown" = "Répartition mensuelle";
+
+/*
+ Interface/Home/HomeViewController
+ */
+"NEW" = "Nouveau";
+"Retrieving..." = "Récupération en cours...";
+"Health Tip" = "Conseil santé";
+"No notifications" = "Aucune notification";
+
+/*
+ Interface/Input/LabTest/LabTestTableViewController
+ */
+"Tests Uploaded by Lab (if any)" = "Tests Uploaded by Lab (if any)";
+"Tests Entered by User" = "Tests Entered by User";
+
+/*
+ Interface/Input/Weight/AddWeightViewController
+ */
+"Weight (%@)" = "Poids (%@)";
+"Weigh yourself on the same scale and at same time of day to accurately track your weight." = "Pesez-vous sur la même balance et au même moment de la journée pour un suivi précis de votre poids.";
+"Notes" = "Notes";
+
+/*
+ Interface/Input/Medication/MedicationSummaryTableViewController
+ */
+"Medication Info" = "Info sur le médicaments";
+"Name: %@\nDoseage: %@\nRecordedTime: %@\nNote: %@" = "Nom: %@\nDoseage: %@\nHeure d'enregistrement: %@\nNote: %@";
+"Delete Medication Log" = "Supprimer l'entrée de médicament";
+"Are you sure you want to Delete this medication ?" = "Etes-vous sûr de vouloir supprimer ce médicament?";
+"Cancel" = "ANNULER";
+"Delete" = "SUPPRIMER";
+
+/*
+ Interface/Input/A1C/AddA1CViewController
+ */
+"Record your A1C:" = "Enregistrez votre HbA1C:";
+
+/*
+ Interface/Input/Exercise/lastEnteredExerciseClass/LastEnteredExerciseClass
+ */
+"minutes" = "minutes";
+"hours" = "heures";
+"type" = "type";
+
+
+/*
+ Interface/Input/Exercise/ChooseExerciseTypeViewController
+ */
+
+
+/*
+ Interface/Input/Exercise/AddExerciseRecordViewController
+ */
+
+
+/*
+ Interface/Input/Exercise/ExerciseSummaryViewController
+ */
+"Remaining: %.0f (~ %d mins)" = "Restant: %.0f (~ %d min)";
+"Goal achieved!" = "Objectif atteint!";
+"Goal %.0f" = "Objectif %.0f";
+"No daily step goal." = "Aucun objectif de pas quotidien.";
+"Goal 0" = "Objectif 0";
+"%@ mins" = "%@ min";
+"%d mins" = "%d min";
+
+/*
+ Interface/Input/Exercise/ExerciseHistoryDayViewController
+ */
+"%@ steps" = "%@ pas";
+"%@ cals" = "%@ cal";
+
+/*
+ Interface/Input/Exercise/ExerciseHistoryTableViewController
+ */
+"%@mins" = "%@ min";
+"Note: %@" = "Note: %@";
+"%.1f cals" = "%.1f cal";
+"Light Exercise" = "Exercice léger";
+"Moderate Exercise" = "Exercice modéré";
+"Vigorous Exercise" = "Exercice Vigoureux";
+"None" = "Aucun";
+"Exercise Info" = "Info d'exercice";
+"Name: %@\nExercise Time: %@\nRecord Time: %@\nCalories: %@\nNote: %@" = "Nom: %@\nHeure d'exercice: %@\nHeure d'nregistrement: %@\nCalories: %@\nNotes: %@";
+"%.1f cals" = "%.1f cal";
+"Name: %@\nExercise Time: %@\nRecord Time: %@\nCalories: %@\nSteps: %@\nNote: %@" = "Nom: %@\nHeure d'exercice: %@\nHeure d'enregistrement: %@\nCalories: %@\nPas: %@\nNotes: %@";
+
+/*
+ Interface/Input/Diet/FoodRecognitionCameraBase/FoodRecognitionCameraBaseViewController
+ */
+"Auto" = "Auto";
+"Analyze" = "Analyse";
+"Save Only" = "Enregistrement seulment";
+"Redo" = "Refaire";
+"'CANCEL' meal log of photo" = "'ANNULER' journal de repas par photo";
+"'TAKE' a photo of the whole meal" = "'PRENDRE' une photo de tout le repas";
+"'SKIP' photo to enter meal manually" = "'SAUTER' la photo pour entrer manuellement repas";
+"Take" = "PRENDRE";
+"Cancel" = "ANNULER";
+"Skip" = "SAUTER";
+"Saving Photo..." = "Savegarde de la photo...";
+"On" = "Allumer";
+"Off" = "Éteindre";
+"Auto Estimating..." = "Auto estimation...";
+"Unable to classify image" = "Impossible de classer l'image";
+"Unable to retrieve classification results" = "Impossible de récupérer les résultats de la classification";
+"Unknown error" = "Erreur inconnue";
+"Unable to retrieve image" = "Impossible de récupérer l'image";
+"Sorry we could not recognize your food item" = "Désolé, nous ne pouvons pas reconnaître votre aliment";
+"Often lighting, angle, zoom, and camera quality can have an negative affect. Your photo has been saved to help us improve! Thank you." = "Souvent, l'éclairage, l'angle, le zoom et la qualité de la caméra peuvent avoir un effet négatif. Votre photo a été sauvegardé pour nous aider à nous améliorer! Merci.";
+
+/*
+ Interface/Input/Diet/FoodRecognitionCameraBase/FoodLabelSelectionViewController
+ */
+"We have identified the following based upon your image. Select the one that is correct." = "Nous avons identifié les éléments suivants en fonction de votre image. Choisissez celui qui est correct.";
+"Photo taken will be lost. Do you want to save photo for future use?" = "La photo prise sera perdue. Voulez-vous enregistrer la photo pour une utilisation future?";
+
+/*
+ Interface/Input/Diet/FoodSummary/FoodSummaryViewController
+ */
+"Unable to Load" = "Impossible de charger";
+"This food item is missing serving size information." = "Cet aliment manque de l'information sur la portion.";
+"Nutrition Facts" = "Valeur nutritive";
+"Estimated Nutrition Values" = "Valeur nutritive estimée";
+"Nutrition Facts (Powered by FatSecret)" = "Valeur nutritive (Source par FatSecret)";
+"Unknown" = "Inconnu";
+"Number of Servings" = "Nombre de portions";
+"%d and %@" = "%d et %@";
+"Total" = "Total";
+"Calories" = "Calories";
+"Total Carbs" = "Total Glucides";
+"%0.1f g" = "%0.1f g";
+"%@Fibre" = "%@Fibre";
+"%@Sugar" = "%@Sucres";
+"Net Carbs" = "Glucides nets";
+"Protein" = "Protéines";
+"Fat" = "Lipides";
+"Delete this food" = "Supprimer cet aliment";
+"Number of Servings" = "Nombre de portions";
+
+/*
+ Interface/Input/Diet/FoodSummary/ConversionChartViewController
+ */
+"Volume" = "Volume";
+"1/4 teaspoon (tsp)" = "1/4 cuillère à café (c.c.)";
+"1/2 tsp" = "1/2 c.c.";
+"1 tsp" = "1 c.c.";
+"1 tablespoon (tbsp)" = "1 cuillère à soupe (c.s.)";
+"1/4 cup" = "1/4 tasse";
+"1/3 cup" = "1/3 tasse";
+"1/2 cup" = "1/2 tasse";
+"2/3 cup" = "2/3 tasse";
+"3/4 cup" = "3/4 tasse";
+"1 cup" = "1 tasse";
+
+"1.25 ml (mililiter)" = "1.25 ml (mililitre)";
+"1/2 ounce (oz)" = "1/2 once (oz)";
+"1 lb (pound)" = "1 lb (livre)";
+"15 g (grams)" = "15 g (grammes)";
+"1 kg (kilogram)" = "1 kg (kilogramme)";
+
+/*
+ Interface/Input/Diet/RecentMealsController
+ */
+"Score: %@, %.1f calories" = "Score: %@, de %.1f calories";
+"Delete Meal Log" = "Supprimer cette entrée de repas";
+"Are you sure you want to Delete this meal ?" = "Êtes-vous sûr de vouloir Supprimer ce repas ?";
+"Delete" = "SUPPRIMER";
+"%@, %ld item" = "%@, %ld article";
+"%@, %ld items" = "%@, %ld articles";
+"Select a recent meal below or tap 'Add' to add a new meal" = "Sélectionnez un repas récent ci-dessous ou cliquez sur 'Ajouter' pour ajouter un nouveau repas";
+
+/*
+ Interface/Input/Diet/SearchFoodController
+ */
+"Searched For: %@" = "Vous avez cherché: %@";
+"Searching..." = "Recherche...";
+"Auto Estimating..." = "Auto Estimation...";
+"Unable to classify image" = "Impossible de classer l'image";
+"Unable to retrieve classification results" = "Impossible de récupérer les résultats de la classification";
+"Unknown error" = "Erreur inconnue";
+"Unable to retrieve image" = "Impossible de récupérer l'image";
+"Sorry we could not recognize your food item" = "Désolé, nous ne pouvons pas reconnaître votre aliment";
+"Often lighting, angle, zoom, and camera quality can have an negative affect.  Your photo has been  saved to help us improve! Thank you." = "Souvent, l'éclairage, l'angle, le zoom et la qualité de la caméra peuvent avoir un effet négatif.  Votre photo a été sauvegardé pour nous aider à nous améliorer! Merci.";
+"No results found" = "Aucun résultat trouvé";
+"OR" = "OU";
+"Scan Barcode" = "Scanner code barre";
+"Search" = "Rechercher";
+"Manual Input" = "Entrer l'aliment manuellement";
+
+/*
+ Interface/Input/Diet/ManualInputController
+ */
+"Alert" = "Alerte";
+"Please enter a food item name" = "Entrez un nom pour l'aliment";
+"OPTIONAL" = "OPTIONNEL";
+"Take photo" = "Prendre la photo";
+"Choose Existing" = "Choisir existant";
+
+/*
+ Interface/Input/Diet/NutritionFactsGaugeController
+ */
+"Calories" = "Calories";
+"%.1f kcals" = "%.1f kcal";
+"Carbs" = "Glucides";
+"%.1f g" = "%.1f g";
+"Fibre: %.1f g" = "Fibres: %.1f g";
+"Sugar: %.1f g" = "Sucres: %.1f g";
+"Fat" = "Lipides";
+"%.1f g" = "%.1f g";
+"Protein" = "Protéines";
+"Score: %.0f, Excellent" = "Score: %.0f, Excellent";
+"Score: %.0f, Fair" = "Score: %.0f, Bon";
+"Score: %.0f, Needs Improvement" = "Score: %.0f, Besoin d'amélioration";
+"Notice: The info below comes from various sources, including your input.  If you need to determine medications etc. based on it, please check all sources by yourself." = "Avis: L'information ci-dessous provient de diverses sources, y compris votre entrée. Si vous avez besoin de déterminer les médicaments, etc. sur cette base, vérifiez toutes les sources par vous-même s.v.p..";
+
+/*
+ Interface/Input/Diet/QuickEstimateController
+ */
+"Nutrition Facts" = "Informations nutritionnels";
+"Score: %.0f" = "Score: %.0f";
+"Prediction: %@" = "Prévision: %@";
+"Please estimate manually or use Search" = "Estimez manuellement s.v.p. ou utilisez Rechercher";
+"See our top %lu predictions" = "Voir nos meilleures %lu des prévisions";
+"Maximum value: %.0f" = "Valeur maximale: %.0f";
+"Maximum value: %.0f g" = "Valeur maximale: %.0f g";
+"Please input your %@ value" = "Entrez votre %@ valeur s.v.p.";
+"Invalid number" = "Nombre invalide";
+"Please input a number less than %0.f" = "Veuillez entrer un nombre inférieur à %0.f";
+"Too few" = "Trop peu";
+"Target" = "Cible";
+"Too many" = "Trop";
+"Choose Alternative Prediction" = "Choisissez une prévision alternative";
+
+/*
+ Interface/Input/Diet/AddMealRecordController
+ */
+"Notes" = "Notes";
+"New Meal Record" = "Enregistrer un nouveau repas";
+
+/*
+ Interface/Input/Diet/BarcodeViewController
+ */
+
+
+/*
+ Interface/Input/Glucose/AddGlucoseRecordViewController
+ */
+
+
+/*
+ Interface/Input/Glucose/BloodGlucoseSummaryViewController
+ */
+"mmol" = "mmol";
+"mg" = "mg";
+"Note: %@" = "Note: %@";
+"None" = "None";
+"Blood Glucose Info" = "Info glycémie";
+"Name: %@\nLevel: %@\nRecord Time: %@\nNote: %@" = "Nom: %@\nTaux: %@\nHeure d'enregistrement: %@\nNote: %@";
+"Delete Blood Glucose Log" = "Supprimer l'entrée de glycémie";
+"Are you sure you want to Delete this Blood Glucose Log ?" = "Etes-vous sûr de vouloir supprimer cette entrée de glycémie ?";
+
+/*
+ Interface/Input/BloodPressure/AddBloodPressureViewController
+ */
+"Alert" = "Alerte";
+"Empty record cannot be saved!" = "Enregistrement vide ne peut pas être sauvegarder!";
+
+/*
+ Interface/Input/BloodPressure/BloodPressureSummaryViewController
+ */
+"Sys: %@ mmHg" = "Sys: %@ mmHg";
+"Dia: %@ mmHg" = "Dia: %@ mmHg";
+"%@ BPM" = "%@ BPM";
+"Note: %@" = "Note: %@";
+"Blood Pressure Info" = "Info glycémie";
+"Date: %@\nSystolic: %@\nDiastolic: %@\nBPM: %@\nNote: %@" = "Date: %@\nSystolique: %@\nDiastolique: %@\nBPM: %@\nNote: %@";
+"Delete Blood Pressure Log" = "Supprimer l'entrée de glycémie";
+"Are you sure you want to Delete this Blood Pressure Log ?" = "Etes-vous sûr de vouloir supprimer cette entrée de glycémie ?";
+
+/*
+ Interface/Input/InputViewController
+ */
+"Last meal score" = "Dernier Score repas";
+"Please Wait - Do Not Close App\nUpdating Step Information" = "Attendez s.v.p. - Ne pas fermer l'application\nMise à jour des informations de Pas";
+"Daily Step Count" = "Nombre de pas quotidiens";
+"Remaining: %.0f (~ %d mins)" = "Restant: %.0f (~ %d mins)";
+"Minutes this week" = "Minutes cette semaine";
+"Last recorded: %.1f %@" = "Dernier enregistrement: %.1f %@";
+"Last recorded: %@" = "Dernier enregistrement: %@";
+"Last recorded:" = "Dernier enregistrement:";
+"Weight (%@)" = "Poids (%@)";
+
+/*
+ Interface/Notes/NotesViewController
+ */
+"Add" = "Ajouter";
+"Audio Question" = "Question Audio";
+"Diet" = "Diète";
+"Exercise" = "Exercise";
+"Glucose" = "Glucose";
+"Other" = "Autre";
+"Unknown" = "Inconnu";
+"No Questions" = "Aucune questions";
+
+/*
+ Interface/Notes/NotesDetailController
+ */
+"Category: %@" = "Catégorie: %@";
+"Type" = "Type";
+
+/*
+ Interface/Notes/NotesDetailOldController
+ */
+"Unknown error" = "Erreur inconnue";
+"Attach photo" = "Joindre photo";
+"Attached photo" = "Photo ci-joint";
+"Play\nBack" = "Jouer\nReculer";
+"Playing..." = "En cours de jouer...";
+"Hold\nTo Record" = "Appuyer\nPour enregistrer";
+"Record audio\n(60 seconds max)" = "Enregistrer audio\n(60 secondes max)";
+"Recorded audio" = "Audio enregistrée";
+"Play\nBack" = "Jouer\nReculer";
+"We will do our best to provide a quick answer to your question. If you have a medical issue, consult your healthcare providers directly." = "Nous ferons de notre mieux pour vous fournir une réponse rapide à votre question. Si vous avez un problème médical, consultez directement vos fournisseurs de soins de santé.";
+"Question type" = "Type de question";
+"Take photo" = "Prendre une photo";
+"Choose Existing" = "Choisir existant";
+"Show photo" = "Voir la photo";
+"Delete photo" = "Supprimer la photo";
+"Not Available" = "Indisponible";
+"You denied GoHealthNow Access to the Microphone.\n\nTo enable access go to\nSettings -> GoHealthNow -> Microphone" = "Vous refusé l'accès au microphone à GoHealthNow.\n\nPour activer l'accès aller à \nParamètres -> GoHealthNow -> Microphone";
+"Remaining: %d seconds" = "Restant: %d secondes";
+"Playing recording..." = "Jouer l'enregistrement...";
+
+/*
+ Interface/Intro/IntroPageViewController
+ */
+"Manage Your Diabetes" = "Gérer votre diabète";
+"Diabetes care is in your hand with GoHealthNow.  Set up reminders for taking medication, checking blood glucose, and so on.  When it “dings”, you only need one-click to log your data." = "Les soins du diabète sont entre vos mains avec GoHealthNow.  Mettez en place des rappels pour la prise de médicaments, le contrôle de la glycémie, et ainsi de suite.  Quand il sonnera, vous aurez simplement besoin d'un seul clic pour vous connecter à vos données.";
+"Analyze Your Data" = "Analyse de vos données";
+"Advanced data analytics for food recognition and personalized advice. GoHealthNow follows CDA (Canadian Diabetes Association) guidelines" = "Analyse avancée des données pour la reconnaissance des aliments et des conseils personnalisés. GoHealthNow suit les lignes directrices de l'ACD (Association canadienne du diabète)";
+"Online Logbook" = "Journal en ligne";
+"View trends, alerts, charts in your private and secure Online Logbook.  Print one out before seeing your healthcare providers." = "Voir les tendances, les alertes, les graphiques dans votre Journal en ligne qui est privé et sécurisé.  Imprimez-en un avant de voir votre fournisseur en soins de santé.";
+"Clinical Trial" = "Essai clinique";
+"Using GoHealthNow may help you improve your diabetes, as shown in a clinical trial at Western University." = "L'utilisation de GoHealthNow peut vous aider à maîtriser votre diabète, comme indiqué dans un essai clinique à l'Université Western.";
+"Get Started Today!" = "Commencez aujourd'hui!";
+
+/*
+ Interface/Intro/IntroContentViewController
+ */
+"Previous" = "Précédent";
+"Get Started" = "Commencez aujourd'hui!";
+
+/*
+ Interface/Intro/UserSetup/UserSetupPageViewController
+ */
+"User Setup" = "Configuration de l'utilisateur";
+"Failed to save user information." = "Impossible d'enregistrer les informations de l'utilisateur.";
+
+/*
+ Interface/Intro/UserSetup/UserSetupFirstViewController
+ */
+"1.  Access Code" = "1.  Code d'accès";
+"2.  Name" = "2.  Nom";
+"3.  Gender" = "3.  Sexe";
+"4.  Birth Year" = "4.  Année de naissance";
+"5.  Unit System" = "5.  Unité de mesure";
+"6.  Blood Unit" = "6.  Unité de mesure pour glycémie";
+"7.  Weight" = "7.  Poids";
+"8.  Height" = "8.  Grandeur";
+"9.  Daily Calorie" = "9.  Calories quotidiens";
+"10.  BMI and Waist" = "10.  IMC et taille";
+"11 Reminders" = "11 Rappels";
+"To set up your profile, press Continue and follow these steps:" = "Pour configurer votre profil, appuyez sur Continuer et suivez ces étapes:";
+"or press Skip to set up your profile later from the Menu." = "ou appuyez sur Passer pour configurer votre profil plus tard à partir du Menu.";
+
+/*
+ Interface/Settings/InputSelection/InputSelectionTableViewController
+ */
+"Alert" = "Alerte";
+"Please select at least 1 item to log" = "Sélectionnez au moins 1 article à enregistrer";
+"Choose your data to be logged:" = "Choisissez votre donnée à être enregistré:";
+
+/*
+ Interface/Settings/Profile/ProfileTableViewController
+ */
+"Email" = "Email";
+"Name" = "Nom";
+"ID" = "Identifiant";
+"Access Code" = "Code d'accès";
+"Gender" = "Sexe";
+"Birth Year" = "Année de naissance";
+"Conditions / Ethnicity" = "Conditions/Ethnicité";
+"Blood Glucose Unit" = "Unité de glycémie";
+"Unit System" = "Unité de mesure";
+"Height" = "Grandeur";
+"Waist Circumference" = "Circonférence de la taille";
+"BMI" = "IMC";
+"Calorie Distribution" = "Distribution calorique";
+"To get the Best Personalized Experience please fill in all fields. You can always update these fields later." = "Pour obtenir la meilleure expérience personnalisée, remplissez tous les champs s.v.p. Vous pouvez toujours mettre à jour ces champs plus tard.";
+"%.1f cm" = "%.1f cm";
+"%.0f cm" = "%.0f cm";
+"%.1f kg" = "%.1f kg";
+"%.1f lbs" = "%.1f livres";
+"White/Caucasian" = "Blanc(Caucasien)";
+"Black/Afro-Caribbean" = "Noir/Afro-Caribéen";
+"Asian" = "Asiatique";
+"Aboriginal/American Indian" = "Autochtone/Indiens d'Amérique";
+"Hispanic/Latino" = "Hispanique ou Latino";
+"Other" = "Autre";
+"Not Set" = "Non défini";
+"Weight (%@)" = "Poids (%@)";
+
+/*
+ Interface/Settings/SettingsViewController
+ */
+"Menu" = "Menu";
+"Questions About GoHealthNow" = "Questions au sujet de GoHealthNow";
+"Logging out..." = "Déconnection...";
+"Unable to logout." = "Impossible de se déconnecter.";
+
+/*
+ Interface/Recommendations/RecommendationDetailViewController
+ */
+"Log a meal" = "Enregistrer un repas";
+"Add a reminder" = "Ajouter un rappel";
+"Set up your profile" = "Configurer votre profil";
+"Log a meal" = "Enregistrer un repas";
+"Add a reminder" = "Ajouter un rappel";
+"Contact us" = "Contactez-nous";
+"Message" = "Message";
+"Advice" = "Conseil";
+"Health Tip" = "Conseil santé";
+
+/*
+ Interface/Common/ChooseSpecialIDCode/ChooseSpecialIDCodeViewController
+ */
+"If your organization requires you to use a specific ID Code, please enter it above. If not, please leave blank" = "Si votre organisation vous demande d'utiliser un code d'accès spécifique, entrez-le ici s.v.p.:";
+
+/*
+ Interface/Common/GGTabBar/GGTabBar
+ */
+"Diet" = "Diète";
+"Exercise" = "Exercice";
+"Blood Glucose" = "Glycémie";
+"Blood Pressure" = "Pression artérielle";
+"Medication" = "Médicaments";
+"Quick log" = "Enregistrement rapide";
+
+/*
+ Interface/Common/ChooseCalorieDistribution/CalorieDistributionController
+ */
+"Target Calories" = "Calories cibles";
+"We recommend that each day you have three meals and three snacks. Each meal and the three snacks, should each have a calorie allotment of 25% of your total daily targeted calorie consumption. \n\n Your recommeded daily calorie intake is clculated based on your profile, more information can be found by viewing the Harris-Benedict Equation." = "Nous recommandons que vous mangiez trois repas ainsi que trois collations par jour. Chaque repas (déjeuner, dîner, souper, 3 collations combinés) doit représenter une distribution calorique de 25% de votre consommation calorique quotidienne totale.\n\nVotre consommation calorique quotidienne recommandée est calculée selon votre profile. Pour plus d’informations, référez-vous à l’équation de Harris-Benedict.";
+"Harris-Benedict Equation" = "Équation Harris-Benedict";
+
+/*
+ Interface/Common/Charting/GGPlot
+ */
+"No Data" = "Aucune donnée";
+
+/*
+ Interface/Common/ImagePicker/GGImagePickerController
+ */
+"Processing" = "En traitement";
+
+/*
+ Interface/Common/ChooseOrganizationCode/ChooseOrganizationCodeViewController
+ */
+"If your organization requires you to use a specific Access Code, please enter it above. If not, please leave blank" = "Si votre organisation vous demande d'utiliser un code d'accès spécifique, entrez-le ici s.v.p.:";
+
+/*
+ Interface/Common/ChooseWeight/ChooseWeightViewController
+ */
+"Weight %@" = "Poids %@";
+"New Weight Record %@" = "Enregister un nouveau poids %@";
+"Weigh yourself on the same scale and at the same time of day to accurately track your weight" = "Pesez-vous sur la même balance et au même moment de la journée pour un suivi précis de votre poids";
+
+/*
+ Interface/Common/ChooseConditionEthnicity/ChooseConditionEthnicityViewController
+ */
+"Conditions" = "Conditions";
+"Ethnicity" = "Ethnicité";
+"Diabetes / Prediabetes" = "Diabète / Prédiabète";
+"High Blood Pressure" = "Hypertension artérielle";
+"Overweight" = "Surpoids";
+"White / Caucasian" = "Blanc / Caucasien";
+"Black / Afro-Caribbean" = "Noir / Afro-Caribéen";
+"Asian" = "Asiatique";
+"Aboriginal / American Indian" = "Autochtone / Indien d'Amérique";
+"Hispanic / Latino" = "Hispanique / Latino";
+"Other" = "Autre";
+"Weight Goal" = "Objectif de poids";
+"Do you wish to set a weight loss goal ?" = "Voulez-vous fixer un objectif de perte de poids ?";
+"Weight Goal %@" = "Objectif de poids %@";
+"Target" = "Cible";
+
+
+
+/*
+ From constant file
+ */
+"AM" = "AM";
+"PM" = "PM";
+"Today" = "Aujourd'hui";
+"This Week" = "Cette Semaine";
+
+"Yes" = "Oui";
+"No" = "Non";
+"OK" = "OK";
+"Cancel" = "Annuler";
+"More Info" = "Plus d'informations";
+"Continue" = "Continuer";
+"Skip" = "Sauter";
+"Congratulations!" = "Félicitations!";
+
+"Attention!" = "Attention!";
+
+"exercise" = "exercice";
+"glucose" = "glucose";
+"meal" = "repas";
+"other" = "autre";
+
+"Score" = "Score";
+"Weight" = "Poids";
+"Breakfast" = "Déjeuner";
+"Lunch" = "Dîner";
+"Dinner" = "Souper";
+"Snack" = "Collation";
+
+"Back" = "Retour";
+
+"Upgrading Database..." = "Mise à jour de la base de données...";
+"Database Error" = "Erreur de la base de données";
+"Database could not be upgraded. Please restart the app to try again." = "La base de données n'a pas pu être mise à jour. Redémarrer l'application pour essayer à nouveau.";
+
+"Blood Glucose Unit" = "Unité de mesure de glycémie";
+"Unit System" = "Unité de mesure";
+
+"Recording time" = "Heure d'enregistrement";
+"Enter blood glucose type:" = "Entrer le type glycémie:";
+"Enter blood glucose level (%@):" = "Entrer le taux de glycémie (%@):";
+"Your blood glucose level appears high. Monitor and adjust your meal plan and physical activity. Seek medical advice if it remains high." = "Votre taux de glycémie apparaît élevé. Surveillez et ajustez votre plan de repas ainsi que votre activité physique. Consultez un médecin si elle demeure élevée.";
+"Your blood glucose level appears low. Eat or drink 15g of carbs to increase your glucose levels. Seek medical advice if it remains low." = "Votre taux de glycémie semble faible. Mangez ou buvez 15g de glucides pour augmenter votre taux de glycémie. Consultez un médecin si elle reste faible.";
+"High Blood Glucose" = "Glycémie élevée";
+"Low Blood Glucose" = "Glycémie faible";
+"Update Meal" = "Mise à jour de repas";
+"Log New Meal" = "Enregistrer un nouveau repas";
+"Profile missing information" = "Informations manquantes au profil";
+"Please make sure that your profile is setup properly. Your year of birth, gender, weight and height are required to calculate your meal score." = "Assurez-vous que votre profil est configuré correctement s.v.p. Votre année de naissance, le sexe, le poids et la hauteur sont nécessaires pour calculer votre score de repas.";
+"Modify Date & Time" = "Modifier date et heure";
+"Modify Time" = "Modifier l'heure";
+"See Nutrition Facts" = "Voir la valeur nutritive";
+"Nutrition Facts" = "Informations nutritionnelles";
+"Choose Meal Type" = "Choisir le type de repas";
+"Meal Name" = "Nom du repas";
+"Give your meal a name" = "Donner un nom à votre repas";
+"Duplicate Food Items" = "Dupliquer l'aliment";
+"Your meal contains duplicate food items." = "Votre repas contient des aliments en double.";
+"Add Food Item" = "Ajouter un aliment";
+"Less Often" = "Moins souvent";
+"In Moderation" = "En modération";
+"More Often" = "Plus souvent";
+
+"Please Choose a Meal Type" = "Choisissez un type de repas s.v.p.";
+"Our algorithms will give your meal a score out of 100. The higher the score, the healthier your meal" = "Nos algorithmes donneront à votre repas une note sur 100.\nPlus le score est élevé, plus votre repas est sain";
+"Add food for scoring" = "Ajouter aliment pour un score";
+"%.1f cals" = "%.1f cal";
+"Flash" = "Flash";
+"This app does not have permission to use the camera." = "Cette application n'a pas l'autorisation pour utiliser l'appareil photo.";
+"This device does not have a camera." = "Ce dispositif n'a pas d'appareil photo.";
+"An unknown error occurred." = "Une erreur inconnue est survenue.";
+"Daily Step Count Goal" = "Objectif de pas quotidienl";
+"Based on aggregated research, we have pre-set a daily step count goal of 7,500" = "Selon un ensemble de recherches, nous avons préfixé un objectif de 7500 pas";
+"Weekly Step Count Goal" = "Objectif de pas hebdomadaire";
+"Based on aggregated research, we have pre-set a weekly step count goal of 37,500" = "Selon un ensemble de recherches, nous avons préfixé un objectif hebdomadaire de 37 500 pas.";
+"Weekly Moderate And Vigorous Exercise Goal" = "Objectif hebdomadaire d'exercice modéré/Vigoureux";
+"A total of 150 minutes or more of moderate or vigorous exercise is recommended for healthy adults.  Consult your physician prior to engaging in exercise at a level that you are not used to.  Should the pre-set goal be unsuitable for you, change it to a level that fits your lifestyle and modify it as you progress onwards." = "Un total de 150 minutes ou plus d'activité physique modérée ou vigoureux est recommandé pour les adultes en bonne santé. Consultez votre médecin avant vous livrer à un exercice à un niveau que vous n'êtes pas habitué. Si l'objectif prédéfini ne vous convient pas, changez-le à un niveau qui correspond à votre style de vie et modifiez-le selon votre progrès.";
+"How To Video" = "Vidéos démo";
+"Profile" = "Profil";
+"Input Selection" = "Sélection de l'entrée";
+"Set Reminder" = "Configurer un rappel";
+"Logout" = "Se déconnecter";
+"Contact Us" = "Contactez-nous";
+"Goals" = "Objectifs";
+"Home" = "Accueil";
+"Online Logbook" = "Journal en ligne";
+"Access https://myaccount.glucoguide.com from a computer or tablet for a complete overview of your data, charts and trends.\n\nViewing through a smartphone is not recommended due to their small screen size.\n\nLog into your account with the email address and password you used when you created your personalized GoHealthNow account." = "Accéder à  https://myaccount.glucoguide.com à partir d'un ordinateur ou une tablette pour un aperçu complet de vos données, des graphiques et des tendances.\n\ nLa visualisation à travers d'un smartphone n'est pas recommandée en raison de la petite taille de l'écran.\n\nEnregistrez votre compte avec l'adresse email et le mot de passe que vous aviez utilisé lorsque vous avez créé votre compte GoHealthNow personnalisé.";
+
+
+"Tap here to type your question." = "Appuyez ici pour écrire votre question.";
+"Sending note..." = "Envoi de note...";
+"The note has been successfully sent!" = "La note a été envoyée avec succès!";
+"The note could not be sent" = "La note n'a pas été envoyée";
+"Not Set" = "Non défini";
+"None Logged" = "Aucun enregistrement";
+"Medication Has Been Added To The List" = "Le médicament a été ajouté à la liste";
+"Medication Already In The List" = "Le médicament est déjà dans la liste";
+
+"Diet" = "Alimentation";
+"Blood Glucose" = "Glycémie";
+"Blood Pressure" = "Tension Artérielle";
+"Exercise" = "Exercice";
+"Sleep" = "Sommeil";
+"Weight" = "Poids";
+"A1C" = "HbA1C";
+"Lab Tests" = "Test de Laboratoire";
+"Medication" = "Médicaments";
+
+"Confirmation" = "Confirmation";
+"Changes to this %@ record will be lost. Do you want to continue?" = "Les modifications apportées %@ à ce dossier seront perdues. Voulez-vous continuer?";
+"Yes" = "Oui";
+"No" = "Non";
+
+"Your selected inputs have been saved successfully!" = "Vos entrées sélectionnées ont été enregistrées avec succès!";
+
+"From Food Recognition" = "À partir de la reconnaissance des aliments";
+"Top %ld Predictions" = "Top %ld des prévisions";
+"About Food Recognition" = "A propos de la reconnaissance des aliments";
+"This food item was recognized by our smart food recognition algorithm, and we provided those estimated nutritional values based on recognition results." = "Cet aliment a été reconnu par notre algorithme de reconnaissance d'aliment à puce et nous avons fourni ces valeurs nutritives estimées en fonction des résultats de la reconnaissance.";
+"Serving Size" = "Portion";
+"Your Selection" = "Votre sélection";
+
+"Record has been saved sucessfully!" = "L'entrée a été enregistré avec succès!";
+"Record failed to save" = "L'entrée n'a pas réussi à sauvegarder";
+"Saving record..." = "Sauvegarde l'entrée...";
+
+"Saving user..." = "Enregistrement de l'utilisateur...";
+
+"category" = "catégorie";
+
+"Are you sick?" = "Êtes-vous malade?";
+"Are you stressed out?" = "Êtes-vous stressé?";
+"How long did you sleep last night?" = "Combien d'heures avez-vous dormi la nuit dernière?";
+"About today:" = "Aujourd'hui:";
+
+"Abnormal %@ Exercise Minutes" = "Minutes %@ d'exercice anormales";
+"%@ exercise is beneficial but you should increase the duration slowly. Are you sure the duration of your %@ exercise is %ld minutes?" = "%@ l'exercice est bénéfique, mais vous devez augmenter la durée lentement. Êtes-vous sûr que la durée de votre %@ exercice est %ld minutes?";
+"Start Time" = "Heure de départ";
+"Unknown" = "Inconnu";
+"%@ exercise duration" = "Durée de l'exercice %@";
+
+"Manually added" = "Manuellement ajouté";
+"Automatically Added" = "Ajouté automatiquement";
+
+"Calories" = "Calories";
+"Carbs" = "Glucides";
+"Fat" = "Lipides";
+"Protein" = "Protéines";
+
+"Unknown" = "Inconnu";
+
+"Include more fibre" = "Inclure plus de fibres";
+"Reduce unhealthy fat" = "Réduire la graisse malsaine";
+"Reduce salt" = "Réduire le sel";
+
+"Press the info button here to view this screen again at any time" = "Appuyez ici sur la touche info pour afficher cet écran à tout moment";
+
+"Average meal score" = "Score moyen des repas";
+"Exercise minutes" = "Minutes d'exercice";
+"Daily calories balance" = "Balance des calories quotidiennes";
+"Blood glucose (Fasting)" = "Taux de glycémie (à jeun)";
+"Weight" = "Poids";
+
+"Log your weight to view your progress" = "Entrez votre poids pour voir vos progrès";
+"Log your meals to view your progress" = "Entrez vos repas pour voir vos progrès";
+"Log your blood glucose to view your progress" = "Entrez votre taux glycémie pour voir vos progrès";
+"Log your exercise to view your progress" = "Entrez votre exercice pour voir vos progrès";
+
+"GoHealthNow’s pedometer feature tracks your steps automatically on your phone, so you need to have another wearable device!  Just put your phone in your pants pockets or attach it to an armband when you walk, brisk walk, or run. Based on your speed, the app can determine whether your exercise is Light, Moderate, or Vigorous. It is simple and effective! Based on aggregated research, we have pre-set a daily step count goal of 7,500. You can always change it in “Set Your Goals.“" = "La fonction de podomètre de GoHealthNow suit vos pas automatiquement sur votre téléphone, donc vous n'avez pas besoin d'avoir un autre dispositif portable!  Il suffit de mettre votre téléphone dans vos poches de pantalon ou de l'attacher à un brassard quand vous marchez, marchez rapidement ou courez. À partir de votre vitesse, l'application peut déterminer si votre exercice est léger, modéré ou vigoureux. C'est simple et efficace! Selon un ensemble de recherches, nous avons préfixé un objectif de 7500 pas. Vous pouvez toujours changer dans 'Définir vos objectifs.'";
+
+"Step Count Information" = "Information sur le comptage de pas";
+"Calorie Information" = "Information calorique";
+
+"Your body is constantly burning calories even when you are at rest. Thus, the recorded calories burnt in exercise is a rough estimate.  Do not be discouraged by the small amount of calories burnt.  Being active is key. As you becomes more active, you can gradually increase your exercise duration and intensity." = "Votre corps brûle constamment des calories, même lorsque vous êtes au repos. Ainsi, les calories brûlées enregistrées dans l'exercice sont une estimation. Ne soyez pas découragés par la petite quantité de calories brûlées. Être actif est la clé. Lorsque vous deviendrez plus actif, vous pourrez augmenter graduellement votre durée d'exercice ainsi que l'intensité.";
+"No Infomation" = "Aucune infomation";
+"No Light, Moderate, or Vigorous Mintues Were Recorded" = "Les minutes pour exercice léger, modéré ou vigoureux n'ont pas été enregistrées";
+
+"Light" = "Léger";
+"Moderate" = "Modéré";
+"Vigorous" = "Vigoureux";
+"Feels like you can maintain activity for hours. It is easy to breath and carry a conversation." = "sensation de maintenir l'activité pendant des heures, facilité à respirer et mener une conversation.";
+"light walking" = "lmarche légère";
+"yoga" = "yoga";
+"tai chi" = "tai chi";
+"light housework like dusting" = "Travaux ménagers légers comme dépoussièrage";
+"Feels like you are working comfortably while breathing heavily and can hold a short conversation." = "Sensation de travailler confortablement tout en respirant profondément et peut tenir une courte conversation.";
+"walking briskly" = "marche rapide";
+"water aerobics" = "aquagym";
+"bicycling slowly" = "bicyclette lentement";
+"tennis (doubles)" = "tennis (doubles)";
+"ballroom dancing" = "danse de salon";
+"general gardening" = "jardinage général";
+"heavy housework like vacuuming, mopping, scrubbing etc." = "Lourds travaux énagers comme l'aspirateur, passer la vadrouille, frotter, etc.";
+"On the verge of becoming uncomfortable, short of breath and can speak a sentence or two." = "Sur le point de devenir inconfortable, souffle court et peut dire une phrase ou deux.";
+"race walking" = "course à pied";
+"jogging" = "jogging";
+"running" = "course";
+"swimming laps" = "tours de natation";
+
+"tennis (singles)" = "tennis (simples)";
+"aerobics" = "aérobie";
+"bicyling fast" = "Bicyclette rapide";
+"jumping rope" = "corde à sauter";
+"heavy gardening (digging or hoeing)" = "jardinage lourd (creusage ou binage)";
+
+"Hiking uphill" = "Randonnée en montée";
+"intense weight lifting" = "musculation intense";
+
+"interval training" = "excercice par intervalle";
+
+"Examples:\n\n%@" = "Exemples:\n\n%@";
+"If you do other types of exercise such as swimming, or if you didn't carry your phone when you walk, you can enter your exercise here.\n\nIf you allowed Motion Tracking, minutes from vigorous or moderate walking and running will be automatically entered" = "Si vous faites d'autres types d'exercices comme la natation ou si vous ne portez pas votre téléphone sur vous lorsque vous marchez, vous pouvez entrer votre exercice ici.\n\nSi vous avez autorisé la Localisation de mouvement, les minutes de marche et la course vigoureuse ou modérée seront automatiquement inscrits";
+"If you do other types of exercise such as swimming, you can enter your exercise here." = "Si vous faites d'autres types d'exercices comme la natation, vous pouvez entrer votre exercice ici.";
+
+"You can take photo(s) of your food. GoHealthNow, together with nutrition experts, will analyze your photo and provide you with nutrition advice (only for users with a valid access code). You will be notified shortly.\n\nIf you have any questions about this meal, enter here." = "Vous pouvez prendre des photos de vos aliments. GoHealthNow, en collaboration avec des experts en nutrition, analysera votre photo et vous fournira des conseils sur la nutrition (uniquement pour les utilisateurs disposant d'un code d'accès valide). Vous serez avertis dans peu de temps.\n\nSi vous avez des questions sur ce repas, entrez ici.";
+
+"Weekly Moderate and Vigorous Minutes" = "Minutes d'exercice modéré et vigoureux hebdomadaire";
+
+"If you have diabetes, your goal is to accumulate a minimum of 150 mins of moderate and vigorous exercise per week, as recommended by the CDA and the ADA.\n\nThe ACSM recommends a minimum of 150 mins per week to achieve weight loss and a minimum of 250 mins per week to prevent weight regain." = "Si vous avez le diabète, votre objectif est d'accumuler un minimum de 150 minutes d'exercice modéré et vigoureux par semaine, tel que recommandé par l'ACD et l'ADA.\n\nLe ACSM recommande un minimum de 150 minutes par semaine pour  une perte de poids et un minimum de 250 minutes par semaine pour éviter la reprise de poids.";
+"Step Count Goals" = "Objectifs de nombre de pas";
+
+"Based on your age and extensive research, we think this would be a good daily step goal.\n\n You can always change it in “Set Your Own Goals”. However, step counts do not consider how fast you walk, jog, or run. Thus we automatically convert your step counts to Light, Moderate, or Vigorous exercise minutes.\n\n If you live with diabetes, CDA and ADA recommends that you accumulate a minimum 150 min of Moderate and Vigorous exercise per week." = "Basé sur  votre âge ainsi que de longues recherches, nous pensons que ce serait un bon objectif de nombre de pas.\n\n Vous pouvez toujoursle  changer dans 'Définir vos propres objectifs'. Cependant, le nombre de pas ne considèrent pas à quelle vitesse vous marchez, faites du jogging, ou courez. Ainsi, nous convertissons automatiquement vos nombres de pas par minute d'exercice léger, modéré ou vigoureux .\n\nSi vous vivez avec le diabète, l'ACD et ADA recommandent que vous accumulez un minimum de 150 mins d'exercice modéré et vigoureux par semaine.";
+
+"You have reached your daily step count goal.\n\n Your new daily step count goal has been increased by 1000 steps." = "Vous avez atteint votre objectif quotidien de nombre de pas. \n\n Votre nouvel objectif quotidien de nombre de pas a été augmenté de 1000 pas.";
+"You have reached your weekly step count goal.\n\n Your new weekly step count goal has been increased by 5000 steps." = "Vous avez atteint votre objectif de nombre de pas hebdomadaire.\n\nVotre nouvel objectif de nombre de pas hebdomadaire a été augmenté de 5000 pas.";
+
+"Registering..." = "Inscription...";
+"Logging in..." = "Se connecter...";
+"By registering, you agree to our EULA. After registration, you will receive a verification email.  Please verify your account to continue using GoHealthNow." = "En vous inscrivant, vous acceptez nos CLUF. Après l'inscription, vous recevrez un e-mail de vérification.  Vérifiez votre compte pour continuer à utiliser GoHealthNow s.v.p. ";
+"INVALID EMAIL" = "EMAIL INVALIDE";
+"PASSWORD IS TOO SHORT" = "Ce mot de passe est trop court";
+"Continue" = "Continuer";
+"View EULA" = "Voir CLUF";
+
+"Your height seems too short. Please input your height correctly(Not less than 40cm/1ft 4inch)." = "Votre taille semble être trop courte. Veuillez entrer votre taille correctement (Pas moins de 40cm / 1ft 4inch).";
+
+"Your weight seems too low. Please input your weight correctly(Not less than 10kg/23lb)." = "Votre poids semble trop petit. Veuillez entrer votre poids correctement (Pas moins de 10kg / 23lb).";
+
+"Please input your %@ percentage" = "Entrez votre %@ pourcentage s.v.p.";
+"Maximum value: 100" = "Valeur maximale: 100";
+"Invalid number" = "Nombre invalide";
+
+"Please input a number less than or equal to 100" = "Veuillez saisir un nombre inférieur ou égal à 100";
+"Your total percentage value must add up to 100" = "Votre pourcentage total doit être de 100";
+
+"Meal/Snack" = "Repas/Collation";
+"Calories" = "Calories";
+"Carbs (g)" = "Glucides (g)";
+"Breakfast" = "Déjeuner";
+"Lunch" = "Dîner";
+"Dinner" = "Souper";
+"3 Snacks" = "3 Collations";
+"Total" = "Total";
+"%@ calories" = "%@ calories";
+"Log Time" = "Heure d'enregistrement";
+"Daily" = "Tous les jours";
+
+"Reminder Notification Created" = "Rappel de notification créé";
+"Reminder Notification Updated" = "Mise à jour Rappel de notification";
+
+"mg" = "mg";
+"mL" = "mL";
+
+"Medication Record" = "Médicament enregistré";
+"Modify Reminder" = "Modifier Rappel";
+
+"Small Issue. Please Try Again." = "Petit problème. Veuillez réessayer.";
+
+"mmol/L" = "mmol/L";
+"mg/dL" = "mg/dL";
+"Metric (kg, cm)" = "Métrique (kg, cm)";
+"Imperial (lbs, ft/in)" = "Impérial (livres, ft/in)";
+"Male" = "Homme";
+"Female" = "Femme";
+"Height (cm)" = "Grandeur (cm)";
+"Height (feet, inches)" = "Grandeur (Pieds, Pouces)";
+"kg" = "kg";
+"lbs" = "livres";
+"BMI and Waist (cm)" = "IMC et taille (cm)";
+"BMI and Waist (inches)" = "IMC et taille (en pouces)";
+
+"Not another tracker!\n\nGoHealthNow is your personal guide. \n\n Lose weight, gain health NOW! \n\nMay help you reduce medications. (read Eula)" = "Pas un autre localisateur!\n\nUn GUIDE personnel. \n\n Perdez du poids, gagnez en santé MAINTENANT. \n\nPeut vous aider à réduire la prise de médicaments (lire CLUF)";
+"Welcome to GoHealthNow" = "Bienvenue";
+"Get instructions" = "Pour en savoir plus";
+"To learn more ? \n\n   Go to Menu->How to..." = "Pour en savoir plus: \n\n   Menu > Fonctionnement…?";
+
+
+"Set goals" = "Définir votre objectif";
+
+"Please hold the microphone button while you are speaking. \nRelease the button to finish." = "Veuillez maintenir la touche microphone pendant que vous parlez. \nRelâchez le bouton pour terminer.";
+"Release to finish" = "Relâchez pour terminer";
+"Recording..." = "Enregistrement...";
+
+"Register" = "Registre";
+"Login" = "S'identifier";
+
+
+

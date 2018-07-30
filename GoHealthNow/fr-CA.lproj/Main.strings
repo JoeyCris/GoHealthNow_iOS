@@ -1,0 +1,1182 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "04x-cG-qqf"; */
+"04x-cG-qqf.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Meal Camera"; ObjectID = "0EW-uf-L9t"; */
+"0EW-uf-L9t.title" = "Meal Camera";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "0GB-Bv-jEI"; */
+"0GB-Bv-jEI.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "0K3-nx-KOM"; */
+"0K3-nx-KOM.text" = "99999";
+
+/* Class = "UILabel"; text = "Moderate"; ObjectID = "0PL-Dk-6cE"; */
+"0PL-Dk-6cE.text" = "Moderate";
+
+/* Class = "UIBarButtonItem"; title = "Note"; ObjectID = "0en-GC-5bN"; */
+"0en-GC-5bN.title" = "Note";
+
+/* Class = "UILabel"; text = "Please try to be accurate as this information is essential to setting up GlucoGuide correctly, such as your ideal meal size"; ObjectID = "0iK-7F-Zf4"; */
+"0iK-7F-Zf4.text" = "Please try to be accurate as this information is essential to setting up GlucoGuide correctly, such as your ideal meal size";
+
+/* Class = "UINavigationItem"; title = "Auto Estimate"; ObjectID = "0nF-Wf-LqN"; */
+"0nF-Wf-LqN.title" = "Auto Estimate";
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "0w6-9V-NdO"; */
+"0w6-9V-NdO.placeholder" = "0";
+
+/* Class = "UILabel"; text = "SENTENCE_MSG_02"; ObjectID = "130-oX-gQZ"; */
+"130-oX-gQZ.text" = "SENTENCE_MSG_02";
+
+/* Class = "UINavigationItem"; title = "Gender"; ObjectID = "158-h3-E0a"; */
+"158-h3-E0a.title" = "Gender";
+
+/* Class = "UILabel"; text = "If your organization requires you to use a specific Access Code, please enter it here. If not, please leave blank"; ObjectID = "15b-xv-jse"; */
+"15b-xv-jse.text" = "If your organization requires you to use a specific Access Code, please enter it here. If not, please leave blank";
+
+/* Class = "UINavigationItem"; title = "Name"; ObjectID = "1Eh-Zs-0Dn"; */
+"1Eh-Zs-0Dn.title" = "Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1GB-ep-NCP"; */
+"1GB-ep-NCP.text" = "Label";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "1MF-Y0-cCe"; */
+"1MF-Y0-cCe.text" = "Time";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "1Ov-jM-ou6"; */
+"1Ov-jM-ou6.title" = "Home";
+
+/* Class = "UILabel"; text = "systolic"; ObjectID = "1WX-3b-Px9"; */
+"1WX-3b-Px9.text" = "systolic";
+
+/* Class = "UILabel"; text = "Result:"; ObjectID = "1fG-F7-obx"; */
+"1fG-F7-obx.text" = "Result:";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "1p6-6r-PA5"; */
+"1p6-6r-PA5.text" = "99999";
+
+/* Class = "UILabel"; text = "mmHg"; ObjectID = "1rM-vK-kTO"; */
+"1rM-vK-kTO.text" = "mmHg";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "260-PR-vJL"; */
+"260-PR-vJL.text" = "Label";
+
+/* Class = "UILabel"; text = "Target"; ObjectID = "269-uL-HVO"; */
+"269-uL-HVO.text" = "Target";
+
+/* Class = "UINavigationItem"; title = "Blood Glucose Reminder"; ObjectID = "29M-a5-up4"; */
+"29M-a5-up4.title" = "Blood Glucose Reminder";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2Ka-8A-keF"; */
+"2Ka-8A-keF.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "2ft-0B-cdU"; */
+"2ft-0B-cdU.text" = "Title";
+
+/* Class = "UILabel"; text = "Mar 02, 2016 12:52 am"; ObjectID = "2ls-y8-bRp"; */
+"2ls-y8-bRp.text" = "Mar 02, 2016 12:52 am";
+
+/* Class = "UILabel"; text = "Manually added"; ObjectID = "2rs-5H-okw"; */
+"2rs-5H-okw.text" = "Manually added";
+
+/* Class = "UILabel"; text = "Question type"; ObjectID = "35e-n6-0Ui"; */
+"35e-n6-0Ui.text" = "Question type";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3Dr-aR-yQY"; */
+"3Dr-aR-yQY.text" = "Label";
+
+/* Class = "UILabel"; text = "1.5 mg"; ObjectID = "3Gx-68-4Xl"; */
+"3Gx-68-4Xl.text" = "1.5 mg";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "3OJ-3T-7zt"; */
+"3OJ-3T-7zt.text" = "99999";
+
+/* Class = "UILabel"; text = "0 / 100"; ObjectID = "3RO-Jf-tow"; */
+"3RO-Jf-tow.text" = "0 / 100";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "3df-I9-KsI"; */
+"3df-I9-KsI.text" = "Detail";
+
+/* Class = "UINavigationItem"; title = "Meal Record"; ObjectID = "3f9-Bp-Uod"; */
+"3f9-Bp-Uod.title" = "Meal Record";
+
+/* Class = "UILabel"; text = "999 mins"; ObjectID = "3h0-qp-cri"; */
+"3h0-qp-cri.text" = "999 mins";
+
+/* Class = "UITextField"; placeholder = "EMAIL"; ObjectID = "3rv-WQ-0Tp"; */
+"3rv-WQ-0Tp.placeholder" = "EMAIL";
+
+/* Class = "UILabel"; text = "Tap For Details"; ObjectID = "4GG-oW-4mm"; */
+"4GG-oW-4mm.text" = "Tap For Details";
+
+/* Class = "UIBarButtonItem"; title = "Note"; ObjectID = "4Pj-A8-LNW"; */
+"4Pj-A8-LNW.title" = "Note";
+
+/* Class = "UILabel"; text = "Please Wait "; ObjectID = "4hA-G8-n4e"; */
+"4hA-G8-n4e.text" = "Please Wait ";
+
+/* Class = "UILabel"; text = "Record audio"; ObjectID = "56O-cT-3jf"; */
+"56O-cT-3jf.text" = "Record audio";
+
+/* Class = "UILabel"; text = "First name:"; ObjectID = "5Bs-dK-xg3"; */
+"5Bs-dK-xg3.text" = "First name:";
+
+/* Class = "UINavigationItem"; title = "Birth Year"; ObjectID = "5DK-on-23H"; */
+"5DK-on-23H.title" = "Birth Year";
+
+/* Class = "UINavigationItem"; title = "Goals"; ObjectID = "5G6-mv-h5f"; */
+"5G6-mv-h5f.title" = "Goals";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "5bh-fX-Y7L"; */
+"5bh-fX-Y7L.title" = "Save";
+
+/* Class = "UIBarButtonItem"; title = "Add"; ObjectID = "5d7-5e-irt"; */
+"5d7-5e-irt.title" = "Add";
+
+/* Class = "UILabel"; text = "feet"; ObjectID = "62j-oz-5cr"; */
+"62j-oz-5cr.text" = "feet";
+
+/* Class = "UILabel"; text = "BPM"; ObjectID = "64C-0Q-jaj"; */
+"64C-0Q-jaj.text" = "BPM";
+
+/* Class = "UILabel"; text = "8.7 mmol/L"; ObjectID = "6MP-je-SPJ"; */
+"6MP-je-SPJ.text" = "8.7 mmol/L";
+
+/* Class = "UILabel"; text = "99999 steps"; ObjectID = "6Tq-kh-r9h"; */
+"6Tq-kh-r9h.text" = "99999 steps";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6hh-Jb-Hbv"; */
+"6hh-Jb-Hbv.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6jL-tW-T5A"; */
+"6jL-tW-T5A.text" = "Label";
+
+/* Class = "UILabel"; text = "Too few"; ObjectID = "6ri-k1-Jtw"; */
+"6ri-k1-Jtw.text" = "Too few";
+
+/* Class = "UILabel"; text = "Systolic:"; ObjectID = "6uz-XL-S3r"; */
+"6uz-XL-S3r.text" = "Systolic:";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "74d-83-u6c"; */
+"74d-83-u6c.title" = "Save";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "78G-F8-HNy"; */
+"78G-F8-HNy.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7jq-e0-FF9"; */
+"7jq-e0-FF9.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Ask Expert"; ObjectID = "7mY-Pn-m6I"; */
+"7mY-Pn-m6I.title" = "Ask Expert";
+
+/* Class = "UILabel"; text = "Note"; ObjectID = "7tm-FL-Dc8"; */
+"7tm-FL-Dc8.text" = "Note";
+
+/* Class = "UIButton"; normalTitle = "See Details"; ObjectID = "85q-XY-GyQ"; */
+"85q-XY-GyQ.normalTitle" = "See Details";
+
+/* Class = "UILabel"; text = "Total Steps"; ObjectID = "8MZ-pG-Db2"; */
+"8MZ-pG-Db2.text" = "Total Steps";
+
+/* Class = "UILabel"; text = "Step Count"; ObjectID = "8fP-FO-vEa"; */
+"8fP-FO-vEa.text" = "Step Count";
+
+/* Class = "UILabel"; text = "FoodNameMsg"; ObjectID = "8pw-VH-LQC"; */
+"8pw-VH-LQC.text" = "FoodNameMsg";
+
+/* Class = "UILabel"; text = "Daily"; ObjectID = "8qP-PE-6r9"; */
+"8qP-PE-6r9.text" = "Daily";
+
+/* Class = "UIBarButtonItem"; title = "Add"; ObjectID = "8sS-Ok-fJ5"; */
+"8sS-Ok-fJ5.title" = "Add";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8v5-aw-Wes"; */
+"8v5-aw-Wes.text" = "Label";
+
+/* Class = "UILabel"; text = "Please Wait "; ObjectID = "998-jn-aYf"; */
+"998-jn-aYf.text" = "Please Wait ";
+
+/* Class = "UILabel"; text = "."; ObjectID = "9b7-gG-7EG"; */
+"9b7-gG-7EG.text" = ".";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9bS-Jk-fso"; */
+"9bS-Jk-fso.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Insulin"; ObjectID = "9kk-1g-G8m"; */
+"9kk-1g-G8m.title" = "Insulin";
+
+/* Class = "UILabel"; text = "Score"; ObjectID = "A08-rU-B3p"; */
+"A08-rU-B3p.text" = "Score";
+
+/* Class = "UINavigationItem"; title = "Log"; ObjectID = "A9w-yS-rQt"; */
+"A9w-yS-rQt.title" = "Log";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AN4-yL-lgn"; */
+"AN4-yL-lgn.text" = "Label";
+
+/* Class = "UILabel"; text = "Too many"; ObjectID = "AQm-Qs-CU7"; */
+"AQm-Qs-CU7.text" = "Too many";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "AhS-GL-7mF"; */
+"AhS-GL-7mF.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "999 mins"; ObjectID = "AhZ-XH-qvY"; */
+"AhZ-XH-qvY.text" = "999 mins";
+
+/* Class = "UINavigationItem"; title = "Regular Input Selection"; ObjectID = "AkA-cT-73Z"; */
+"AkA-cT-73Z.title" = "Regular Input Selection";
+
+/* Class = "UILabel"; text = "Goal 99999 Steps"; ObjectID = "Aoo-2j-Msh"; */
+"Aoo-2j-Msh.text" = "Goal 99999 Steps";
+
+/* Class = "UILabel"; text = "hours"; ObjectID = "B11-qh-5ly"; */
+"B11-qh-5ly.text" = "hours";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "BFG-8J-JFH"; */
+"BFG-8J-JFH.text" = "99999";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "BKP-lL-Qeu"; */
+"BKP-lL-Qeu.text" = "Time";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "BU4-Kd-8dp"; */
+"BU4-Kd-8dp.text" = "Time";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BUf-Eq-NcQ"; */
+"BUf-Eq-NcQ.text" = "Label";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "BaK-Ri-P7q"; */
+"BaK-Ri-P7q.text" = "0";
+
+/* Class = "UILabel"; text = "Too few"; ObjectID = "BbG-kZ-wmx"; */
+"BbG-kZ-wmx.text" = "Too few";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BbI-oz-6Jb"; */
+"BbI-oz-6Jb.text" = "Label";
+
+/* Class = "UILabel"; text = "2000 calories"; ObjectID = "Bhs-UQ-SEO"; */
+"Bhs-UQ-SEO.text" = "2000 calories";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "Blo-1t-soa"; */
+"Blo-1t-soa.text" = "99999";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "Bqz-Nq-atI"; */
+"Bqz-Nq-atI.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Some health tips and parameters will be personalized according to your input.This does not replace medical advice. You should always consult with your doctor about your medical condition."; ObjectID = "C0k-rW-kks"; */
+"C0k-rW-kks.text" = "Some health tips and parameters will be personalized according to your input.This does not replace medical advice. You should always consult with your doctor about your medical condition.";
+
+/* Class = "UILabel"; text = "which indicates that you are: "; ObjectID = "CGK-pg-ZoJ"; */
+"CGK-pg-ZoJ.text" = "which indicates that you are: ";
+
+/* Class = "UILabel"; text = "0 g"; ObjectID = "CIP-ff-9rq"; */
+"CIP-ff-9rq.text" = "0 g";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CKR-4T-GLG"; */
+"CKR-4T-GLG.text" = "Label";
+
+/* Class = "UILabel"; text = "Note"; ObjectID = "CPL-9c-Bai"; */
+"CPL-9c-Bai.text" = "Note";
+
+/* Class = "UILabel"; text = "Total Moderate/Vigorous"; ObjectID = "CXp-Ph-b6o"; */
+"CXp-Ph-b6o.text" = "Total Moderate/Vigorous";
+
+/* Class = "UIBarButtonItem"; title = "History"; ObjectID = "Cao-o8-KCx"; */
+"Cao-o8-KCx.title" = "History";
+
+/* Class = "UILabel"; text = "g"; ObjectID = "CcF-PQ-g9V"; */
+"CcF-PQ-g9V.text" = "g";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Cfc-4G-Ctc"; */
+"Cfc-4G-Ctc.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "CsB-rz-WQV"; */
+"CsB-rz-WQV.normalTitle" = "Record";
+
+/* Class = "UITabBarItem"; title = "Log"; ObjectID = "DYU-qn-OuE"; */
+"DYU-qn-OuE.title" = "Log";
+
+/* Class = "UINavigationItem"; title = "Reminder Type"; ObjectID = "Daz-y0-oeG"; */
+"Daz-y0-oeG.title" = "Reminder Type";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Dpn-Rd-Lij"; */
+"Dpn-Rd-Lij.text" = "Detail";
+
+/* Class = "UILabel"; text = "Manual Exercise Input"; ObjectID = "DwJ-IN-qBM"; */
+"DwJ-IN-qBM.text" = "Manual Exercise Input";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "EAy-Zp-3ec"; */
+"EAy-Zp-3ec.text" = "99999";
+
+/* Class = "UILabel"; text = "Set Your Goals"; ObjectID = "EI5-5M-DFv"; */
+"EI5-5M-DFv.text" = "Set Your Goals";
+
+/* Class = "UITabBarItem"; title = "Reminders"; ObjectID = "EQO-Lh-cDA"; */
+"EQO-Lh-cDA.title" = "Reminders";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EgC-CI-vR3"; */
+"EgC-CI-vR3.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "EkZ-Jh-mnW"; */
+"EkZ-Jh-mnW.normalTitle" = "Record";
+
+/* Class = "UINavigationItem"; title = "Diet Reminder"; ObjectID = "El8-O8-vyx"; */
+"El8-O8-vyx.title" = "Diet Reminder";
+
+/* Class = "UITextField"; placeholder = "PASSWORD"; ObjectID = "FK1-aq-SuW"; */
+"FK1-aq-SuW.placeholder" = "PASSWORD";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FfE-8R-msL"; */
+"FfE-8R-msL.text" = "Label";
+
+/* Class = "UIViewController"; title = "AddBloodPressureViewController"; ObjectID = "FhJ-Mq-2Ui"; */
+"FhJ-Mq-2Ui.title" = "AddBloodPressureViewController";
+
+/* Class = "UINavigationItem"; title = "Blood Pressure Reminder"; ObjectID = "Fx1-bn-o7B"; */
+"Fx1-bn-o7B.title" = "Blood Pressure Reminder";
+
+/* Class = "UILabel"; text = "Remaining: 99999  (~ 87 mins)"; ObjectID = "G80-jv-rIX"; */
+"G80-jv-rIX.text" = "Remaining: 99999  (~ 87 mins)";
+
+/* Class = "UILabel"; text = "Target"; ObjectID = "GMk-cT-yx6"; */
+"GMk-cT-yx6.text" = "Target";
+
+/* Class = "UILabel"; text = "Additional Messages"; ObjectID = "GSy-he-Do0"; */
+"GSy-he-Do0.text" = "Additional Messages";
+
+/* Class = "UILabel"; text = "or Press Skip to set up later."; ObjectID = "GVl-4W-5aU"; */
+"GVl-4W-5aU.text" = "or Press Skip to set up later.";
+
+/* Class = "UILabel"; text = "inches"; ObjectID = "GXu-C9-Hcw"; */
+"GXu-C9-Hcw.text" = "inches";
+
+/* Class = "UILabel"; text = "Tap For Details"; ObjectID = "GZb-b3-2mO"; */
+"GZb-b3-2mO.text" = "Tap For Details";
+
+/* Class = "UILabel"; text = "."; ObjectID = "Gd3-Dw-AUL"; */
+"Gd3-Dw-AUL.text" = ".";
+
+/* Class = "UINavigationItem"; title = "Choose a Date"; ObjectID = "GeI-0L-e7v"; */
+"GeI-0L-e7v.title" = "Choose a Date";
+
+/* Class = "UILabel"; text = "Last name:"; ObjectID = "GhR-qo-Zbv"; */
+"GhR-qo-Zbv.text" = "Last name:";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "GkF-iA-XSL"; */
+"GkF-iA-XSL.normalTitle" = "Record";
+
+/* Class = "UILabel"; text = "Too many"; ObjectID = "GmD-aA-FYB"; */
+"GmD-aA-FYB.text" = "Too many";
+
+/* Class = "UILabel"; text = "Photo"; ObjectID = "GmP-0b-y0I"; */
+"GmP-0b-y0I.text" = "Photo";
+
+/* Class = "UILabel"; text = "Cal"; ObjectID = "Gsh-Il-aSZ"; */
+"Gsh-Il-aSZ.text" = "Cal";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Gvn-jH-Bgw"; */
+"Gvn-jH-Bgw.text" = "Label";
+
+/* Class = "UILabel"; text = "Recording time"; ObjectID = "Gza-Db-Xlv"; */
+"Gza-Db-Xlv.text" = "Recording time";
+
+/* Class = "UILabel"; text = "Blood Glucose Type"; ObjectID = "H2c-TO-Ekq"; */
+"H2c-TO-Ekq.text" = "Blood Glucose Type";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "H3y-sb-bba"; */
+"H3y-sb-bba.normalTitle" = "LOGIN";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "HGj-kJ-XrI"; */
+"HGj-kJ-XrI.text" = "0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Hac-hn-Uhu"; */
+"Hac-hn-Uhu.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Place Barcode In View"; ObjectID = "Hdi-fS-y77"; */
+"Hdi-fS-y77.title" = "Place Barcode In View";
+
+/* Class = "UILabel"; text = "BMI is not an accurate measure for weight loss. Please enter your waist circumference instead:"; ObjectID = "HeV-G6-JG2"; */
+"HeV-G6-JG2.text" = "BMI is not an accurate measure for weight loss. Please enter your waist circumference instead:";
+
+/* Class = "UISegmentedControl"; HuD-fR-fce.segmentTitles[0] = "mg"; ObjectID = "HuD-fR-fce"; */
+"HuD-fR-fce.segmentTitles[0]" = "mg";
+
+/* Class = "UISegmentedControl"; HuD-fR-fce.segmentTitles[1] = "mL"; ObjectID = "HuD-fR-fce"; */
+"HuD-fR-fce.segmentTitles[1]" = "mL";
+
+/* Class = "UISegmentedControl"; HuD-fR-fce.segmentTitles[2] = "Units"; ObjectID = "HuD-fR-fce"; */
+"HuD-fR-fce.segmentTitles[2]" = "Units";
+
+/* Class = "UILabel"; text = "Daily"; ObjectID = "Hxq-1P-vnl"; */
+"Hxq-1P-vnl.text" = "Daily";
+
+/* Class = "UILabel"; text = "After Breakfast"; ObjectID = "IMI-BS-I3s"; */
+"IMI-BS-I3s.text" = "After Breakfast";
+
+/* Class = "UILabel"; text = "After Breakfast"; ObjectID = "IOo-eB-7C9"; */
+"IOo-eB-7C9.text" = "After Breakfast";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "IRt-de-JbA"; */
+"IRt-de-JbA.text" = "Label";
+
+/* Class = "UILabel"; text = "If your organization requires you to use a specific Access Code, please enter it here. If not, please leave blank"; ObjectID = "ISI-Bi-UZX"; */
+"ISI-Bi-UZX.text" = "If your organization requires you to use a specific Access Code, please enter it here. If not, please leave blank";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "IU6-5u-F5a"; */
+"IU6-5u-F5a.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Insulin"; ObjectID = "Ixr-gD-qJX"; */
+"Ixr-gD-qJX.title" = "Insulin";
+
+/* Class = "UILabel"; text = "Name*"; ObjectID = "JEb-Rq-sHV"; */
+"JEb-Rq-sHV.text" = "Name*";
+
+/* Class = "UILabel"; text = "Calories:"; ObjectID = "JYC-oP-ML0"; */
+"JYC-oP-ML0.text" = "Calories:";
+
+/* Class = "UISegmentedControl"; JdT-XR-TmZ.segmentTitles[0] = "mmol/L"; ObjectID = "JdT-XR-TmZ"; */
+"JdT-XR-TmZ.segmentTitles[0]" = "mmol/L";
+
+/* Class = "UISegmentedControl"; JdT-XR-TmZ.segmentTitles[1] = "mg/dL"; ObjectID = "JdT-XR-TmZ"; */
+"JdT-XR-TmZ.segmentTitles[1]" = "mg/dL";
+
+/* Class = "UINavigationItem"; title = "New Advice"; ObjectID = "Jdg-ue-WcO"; */
+"Jdg-ue-WcO.title" = "New Advice";
+
+/* Class = "UILabel"; text = "hours"; ObjectID = "Jml-t8-naM"; */
+"Jml-t8-naM.text" = "hours";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "Jn8-56-Yh5"; */
+"Jn8-56-Yh5.title" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Jzd-gZ-YYG"; */
+"Jzd-gZ-YYG.text" = "Title";
+
+/* Class = "UILabel"; text = "Remaining: 99999"; ObjectID = "K7a-HG-QK0"; */
+"K7a-HG-QK0.text" = "Remaining: 99999";
+
+/* Class = "UILabel"; text = "999 mins"; ObjectID = "K8P-O8-3nr"; */
+"K8P-O8-3nr.text" = "999 mins";
+
+/* Class = "UILabel"; text = "Please try to be accurate as this information is essential to setting up GlucoGuide correctly, such as your ideal meal size"; ObjectID = "KB7-ys-i2s"; */
+"KB7-ys-i2s.text" = "Please try to be accurate as this information is essential to setting up GlucoGuide correctly, such as your ideal meal size";
+
+/* Class = "UILabel"; text = "Target"; ObjectID = "KDi-aU-8EE"; */
+"KDi-aU-8EE.text" = "Target";
+
+/* Class = "UITextField"; placeholder = "myfood1"; ObjectID = "KNk-Zw-1aP"; */
+"KNk-Zw-1aP.placeholder" = "myfood1";
+
+/* Class = "UINavigationItem"; title = "Blood Glucose Unit"; ObjectID = "KOJ-zl-Phh"; */
+"KOJ-zl-Phh.title" = "Blood Glucose Unit";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "KRz-jx-8oP"; */
+"KRz-jx-8oP.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Kid-3K-wFs"; */
+"Kid-3K-wFs.text" = "Label";
+
+/* Class = "UILabel"; text = "g"; ObjectID = "LJm-Y0-Tmd"; */
+"LJm-Y0-Tmd.text" = "g";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Lk9-D8-xmG"; */
+"Lk9-D8-xmG.text" = "Label";
+
+/* Class = "UILabel"; text = "999 cals"; ObjectID = "Lny-EB-177"; */
+"Lny-EB-177.text" = "999 cals";
+
+/* Class = "UILabel"; text = "Meal Type"; ObjectID = "MCw-pL-6Zs"; */
+"MCw-pL-6Zs.text" = "Meal Type";
+
+/* Class = "UINavigationItem"; title = "Access Code"; ObjectID = "MMs-no-703"; */
+"MMs-no-703.title" = "Access Code";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "McT-d0-bpM"; */
+"McT-d0-bpM.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Sleep Record"; ObjectID = "MxG-RU-Iba"; */
+"MxG-RU-Iba.title" = "Sleep Record";
+
+/* Class = "UITextField"; placeholder = "0.0"; ObjectID = "NCk-k7-K5O"; */
+"NCk-k7-K5O.placeholder" = "0.0";
+
+/* Class = "UINavigationItem"; title = "Select Medication"; ObjectID = "NdP-Ay-yOh"; */
+"NdP-Ay-yOh.title" = "Select Medication";
+
+/* Class = "UILabel"; text = "g"; ObjectID = "Nhg-e1-sJq"; */
+"Nhg-e1-sJq.text" = "g";
+
+/* Class = "UITextField"; placeholder = "0.0"; ObjectID = "Nmz-H9-Y8b"; */
+"Nmz-H9-Y8b.placeholder" = "0.0";
+
+/* Class = "UILabel"; text = "9:30AM"; ObjectID = "OO2-Y5-5lc"; */
+"OO2-Y5-5lc.text" = "9:30AM";
+
+/* Class = "UIBarButtonItem"; title = "Note"; ObjectID = "OVH-cR-zUy"; */
+"OVH-cR-zUy.title" = "Note";
+
+/* Class = "UILabel"; text = "0 / 100"; ObjectID = "OWq-RL-lx1"; */
+"OWq-RL-lx1.text" = "0 / 100";
+
+/* Class = "UILabel"; text = "Medication"; ObjectID = "OZ4-hs-yEJ"; */
+"OZ4-hs-yEJ.text" = "Medication";
+
+/* Class = "UILabel"; text = "99999 Steps"; ObjectID = "OaY-b6-xa2"; */
+"OaY-b6-xa2.text" = "99999 Steps";
+
+/* Class = "UIBarButtonItem"; title = "Note"; ObjectID = "OnY-CQ-C6H"; */
+"OnY-CQ-C6H.title" = "Note";
+
+/* Class = "UILabel"; text = "To set up your profile, press Continue and follow these steps:"; ObjectID = "P1J-lk-0nk"; */
+"P1J-lk-0nk.text" = "To set up your profile, press Continue and follow these steps:";
+
+/* Class = "UILabel"; text = "9:30AM"; ObjectID = "PTD-LF-sRJ"; */
+"PTD-LF-sRJ.text" = "9:30AM";
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "Pnd-Jf-ibA"; */
+"Pnd-Jf-ibA.placeholder" = "0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Q9i-vR-BSt"; */
+"Q9i-vR-BSt.text" = "Label";
+
+/* Class = "UILabel"; text = "Attach photo"; ObjectID = "QEC-Vd-c9O"; */
+"QEC-Vd-c9O.text" = "Attach photo";
+
+/* Class = "UINavigationItem"; title = "Reminders"; ObjectID = "QPB-sV-Dqm"; */
+"QPB-sV-Dqm.title" = "Reminders";
+
+/* Class = "UINavigationItem"; title = "User Setup"; ObjectID = "QRZ-DH-CTx"; */
+"QRZ-DH-CTx.title" = "User Setup";
+
+/* Class = "UILabel"; text = "Version 100 (ABCDEFGHIJ)"; ObjectID = "QXD-RI-7Cq"; */
+"QXD-RI-7Cq.text" = "Version 100 (ABCDEFGHIJ)";
+
+/* Class = "UINavigationItem"; title = "Choose Exercise"; ObjectID = "Qys-fJ-0lY"; */
+"Qys-fJ-0lY.title" = "Choose Exercise";
+
+/* Class = "UILabel"; text = "Fat:"; ObjectID = "R6R-vi-lpn"; */
+"R6R-vi-lpn.text" = "Fat:";
+
+/* Class = "UILabel"; text = "Recording time"; ObjectID = "RA6-go-CZe"; */
+"RA6-go-CZe.text" = "Recording time";
+
+/* Class = "UILabel"; text = "Diastolic:"; ObjectID = "RAG-xi-Dzg"; */
+"RAG-xi-Dzg.text" = "Diastolic:";
+
+/* Class = "UILabel"; text = "Manual Input"; ObjectID = "Rfk-fC-3b4"; */
+"Rfk-fC-3b4.text" = "Manual Input";
+
+/* Class = "UILabel"; text = "Points:"; ObjectID = "RgV-dt-xGk"; */
+"RgV-dt-xGk.text" = "Points:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Rhk-QJ-Sca"; */
+"Rhk-QJ-Sca.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "S00-hV-ety"; */
+"S00-hV-ety.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Please try to be accurate as this information is essential to setting up GlucoGuide correctly, such as your ideal meal size"; ObjectID = "SFL-Bx-eLF"; */
+"SFL-Bx-eLF.text" = "Please try to be accurate as this information is essential to setting up GlucoGuide correctly, such as your ideal meal size";
+
+/* Class = "UILabel"; text = "Please try to be accurate as this information is essential to setting up GlucoGuide correctly, such as your ideal meal size"; ObjectID = "SGL-v7-709"; */
+"SGL-v7-709.text" = "Please try to be accurate as this information is essential to setting up GlucoGuide correctly, such as your ideal meal size";
+
+/* Class = "UILabel"; text = "%"; ObjectID = "SK4-lo-NPp"; */
+"SK4-lo-NPp.text" = "%";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Syx-zv-eUd"; */
+"Syx-zv-eUd.text" = "Label";
+
+/* Class = "UILabel"; text = "Daily Step Count Goal"; ObjectID = "TAg-Iz-vzl"; */
+"TAg-Iz-vzl.text" = "Daily Step Count Goal";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TEZ-k9-9LA"; */
+"TEZ-k9-9LA.text" = "Label";
+
+/* Class = "UITableViewController"; title = "Recent Glood Glucose"; ObjectID = "TLu-0k-UqC"; */
+"TLu-0k-UqC.title" = "Recent Glood Glucose";
+
+/* Class = "UINavigationItem"; title = "Progress"; ObjectID = "TV2-cq-rT2"; */
+"TV2-cq-rT2.title" = "Progress";
+
+/* Class = "UIBarButtonItem"; title = "History"; ObjectID = "TWu-f2-GdW"; */
+"TWu-f2-GdW.title" = "History";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Tfw-Jn-Ze3"; */
+"Tfw-Jn-Ze3.text" = "0";
+
+/* Class = "UILabel"; text = "Note"; ObjectID = "Thj-Wt-1kz"; */
+"Thj-Wt-1kz.text" = "Note";
+
+/* Class = "UINavigationItem"; title = "Recent Blood Pressure"; ObjectID = "TjT-WY-iDu"; */
+"TjT-WY-iDu.title" = "Recent Blood Pressure";
+
+/* Class = "UILabel"; text = "Score : 100"; ObjectID = "ToT-08-7zw"; */
+"ToT-08-7zw.text" = "Score : 100";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "Tv7-PM-enR"; */
+"Tv7-PM-enR.text" = "99999";
+
+/* Class = "UITabBarItem"; title = "Goals"; ObjectID = "U8b-PI-x9t"; */
+"U8b-PI-x9t.title" = "Goals";
+
+/* Class = "UINavigationItem"; title = "A1C Record"; ObjectID = "UGz-aC-imy"; */
+"UGz-aC-imy.title" = "A1C Record";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UI6-0P-5F5"; */
+"UI6-0P-5F5.text" = "Label";
+
+/* Class = "UILabel"; text = "9:30AM"; ObjectID = "UKF-ZL-LGq"; */
+"UKF-ZL-LGq.text" = "9:30AM";
+
+/* Class = "UILabel"; text = "Please try to be accurate as this information is essential to setting up GlucoGuide correctly, such as your ideal meal size"; ObjectID = "URh-jk-eLB"; */
+"URh-jk-eLB.text" = "Please try to be accurate as this information is essential to setting up GlucoGuide correctly, such as your ideal meal size";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "UaE-TM-TnV"; */
+"UaE-TM-TnV.text" = "99999";
+
+/* Class = "UIBarButtonItem"; title = "Notes"; ObjectID = "V9L-ig-oZq"; */
+"V9L-ig-oZq.title" = "Notes";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VLx-Dv-Lnn"; */
+"VLx-Dv-Lnn.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "BMI and Waist"; ObjectID = "VN2-El-fed"; */
+"VN2-El-fed.title" = "BMI and Waist";
+
+/* Class = "UISegmentedControl"; VRT-kX-uqf.segmentTitles[0] = "Week"; ObjectID = "VRT-kX-uqf"; */
+"VRT-kX-uqf.segmentTitles[0]" = "Week";
+
+/* Class = "UISegmentedControl"; VRT-kX-uqf.segmentTitles[1] = "Month"; ObjectID = "VRT-kX-uqf"; */
+"VRT-kX-uqf.segmentTitles[1]" = "Month";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Vka-Ab-zAU"; */
+"Vka-Ab-zAU.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Vwh-7O-woF"; */
+"Vwh-7O-woF.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Wmp-DF-QCC"; */
+"Wmp-DF-QCC.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "Wpg-t9-GcM"; */
+"Wpg-t9-GcM.normalTitle" = "Record";
+
+/* Class = "UIButton"; normalTitle = "Previous"; ObjectID = "Wug-ab-NyN"; */
+"Wug-ab-NyN.normalTitle" = "Previous";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "X35-5n-8ue"; */
+"X35-5n-8ue.text" = "100";
+
+/* Class = "UILabel"; text = "Access Code:"; ObjectID = "X8h-l3-O12"; */
+"X8h-l3-O12.text" = "Access Code:";
+
+/* Class = "UINavigationItem"; title = "Recent Exercise Details"; ObjectID = "XDS-kO-lMa"; */
+"XDS-kO-lMa.title" = "Recent Exercise Details";
+
+/* Class = "UILabel"; text = "kcal"; ObjectID = "XXg-lo-SBH"; */
+"XXg-lo-SBH.text" = "kcal";
+
+/* Class = "UILabel"; text = "99999 steps"; ObjectID = "Y00-4t-v9h"; */
+"Y00-4t-v9h.text" = "99999 steps";
+
+/* Class = "UILabel"; text = "Too few"; ObjectID = "YxJ-jJ-QHz"; */
+"YxJ-jJ-QHz.text" = "Too few";
+
+/* Class = "UIBarButtonItem"; title = "Send"; ObjectID = "ZdC-0I-FaS"; */
+"ZdC-0I-FaS.title" = "Send";
+
+/* Class = "UILabel"; text = "Protein"; ObjectID = "Zwv-ZP-vIu"; */
+"Zwv-ZP-vIu.text" = "Protein";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "a0e-jK-52R"; */
+"a0e-jK-52R.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "a54-BM-KWS"; */
+"a54-BM-KWS.text" = "0";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "a92-ps-7fZ"; */
+"a92-ps-7fZ.placeholder" = "Search";
+
+/* Class = "UISearchBar"; a92-ps-7fZ.scopeButtonTitles[0] = "Title"; ObjectID = "a92-ps-7fZ"; */
+"a92-ps-7fZ.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; a92-ps-7fZ.scopeButtonTitles[1] = "Title"; ObjectID = "a92-ps-7fZ"; */
+"a92-ps-7fZ.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UILabel"; text = "Welcome!"; ObjectID = "aBo-jd-mE1"; */
+"aBo-jd-mE1.text" = "Welcome!";
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "aJj-tb-5v2"; */
+"aJj-tb-5v2.placeholder" = "0";
+
+/* Class = "UILabel"; text = "Are you sick?"; ObjectID = "aKP-yJ-Nto"; */
+"aKP-yJ-Nto.text" = "Are you sick?";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "aL9-sc-HzP"; */
+"aL9-sc-HzP.normalTitle" = "Record";
+
+/* Class = "UINavigationItem"; title = "Recent Blood Glucose"; ObjectID = "aNx-IE-cqj"; */
+"aNx-IE-cqj.title" = "Recent Blood Glucose";
+
+/* Class = "UILabel"; text = "Pulse:"; ObjectID = "aSC-Gz-9hf"; */
+"aSC-Gz-9hf.text" = "Pulse:";
+
+/* Class = "UILabel"; text = "Current weight: 80KG"; ObjectID = "aYV-RC-NVO"; */
+"aYV-RC-NVO.text" = "Current weight: 80KG";
+
+/* Class = "UILabel"; text = "Total Calories"; ObjectID = "ad0-3i-QfM"; */
+"ad0-3i-QfM.text" = "Total Calories";
+
+/* Class = "UILabel"; text = "999 mins"; ObjectID = "ajB-3X-mJU"; */
+"ajB-3X-mJU.text" = "999 mins";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "alG-2H-Cpu"; */
+"alG-2H-Cpu.title" = "Save";
+
+/* Class = "UINavigationItem"; title = "Recent Medication"; ObjectID = "aqx-uJ-86t"; */
+"aqx-uJ-86t.title" = "Recent Medication";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "auC-3H-BiN"; */
+"auC-3H-BiN.normalTitle" = "Skip";
+
+/* Class = "UILabel"; text = "Carbs:"; ObjectID = "b0v-gg-Bfg"; */
+"b0v-gg-Bfg.text" = "Carbs:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "b3c-Fl-mbS"; */
+"b3c-Fl-mbS.text" = "Label";
+
+/* Class = "UILabel"; text = "Only partial data is plotted here.  For all data entered, see the Online Logbook"; ObjectID = "b6l-Jb-3BF"; */
+"b6l-Jb-3BF.text" = "Only partial data is plotted here.  For all data entered, see the Online Logbook";
+
+/* Class = "UILabel"; text = "Goal 99999 Steps"; ObjectID = "b6p-Wq-UtA"; */
+"b6p-Wq-UtA.text" = "Goal 99999 Steps";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "bC7-Yd-jBZ"; */
+"bC7-Yd-jBZ.normalTitle" = "Record";
+
+/* Class = "UITabBarItem"; title = "Progress"; ObjectID = "bLY-Ao-8eu"; */
+"bLY-Ao-8eu.title" = "Progress";
+
+/* Class = "UILabel"; text = "Sugar"; ObjectID = "bWQ-fn-Lqv"; */
+"bWQ-fn-Lqv.text" = "Sugar";
+
+/* Class = "UINavigationItem"; title = "Ask Expert"; ObjectID = "bWb-bK-5Rt"; */
+"bWb-bK-5Rt.title" = "Ask Expert";
+
+/* Class = "UIButton"; normalTitle = "See Top 5 Predictions"; ObjectID = "bj1-WW-jE3"; */
+"bj1-WW-jE3.normalTitle" = "See Top 5 Predictions";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bk5-nc-0QO"; */
+"bk5-nc-0QO.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "bsf-mX-rER"; */
+"bsf-mX-rER.title" = "Back";
+
+/* Class = "UILabel"; text = "Daily"; ObjectID = "bwn-1e-93M"; */
+"bwn-1e-93M.text" = "Daily";
+
+/* Class = "UILabel"; text = "Total Calories"; ObjectID = "c7y-K1-UrD"; */
+"c7y-K1-UrD.text" = "Total Calories";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "c8D-2j-AaT"; */
+"c8D-2j-AaT.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Nutrition Facts"; ObjectID = "cFc-4p-e6L"; */
+"cFc-4p-e6L.title" = "Nutrition Facts";
+
+/* Class = "UILabel"; text = "."; ObjectID = "cGc-CK-SIA"; */
+"cGc-CK-SIA.text" = ".";
+
+/* Class = "UILabel"; text = "Target"; ObjectID = "cIK-CT-PIZ"; */
+"cIK-CT-PIZ.text" = "Target";
+
+/* Class = "UILabel"; text = "12:50 AM"; ObjectID = "cJa-Hr-IOD"; */
+"cJa-Hr-IOD.text" = "12:50 AM";
+
+/* Class = "UINavigationItem"; title = "New Insulin Record"; ObjectID = "cSA-1N-nq7"; */
+"cSA-1N-nq7.title" = "New Insulin Record";
+
+/* Class = "UIBarButtonItem"; title = "Ask"; ObjectID = "ckr-fQ-8VM"; */
+"ckr-fQ-8VM.title" = "Ask";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ctf-dK-j0z"; */
+"ctf-dK-j0z.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "d5m-1D-p0k"; */
+"d5m-1D-p0k.text" = "Label";
+
+/* Class = "UILabel"; text = "Vigorous"; ObjectID = "d6f-T1-GVE"; */
+"d6f-T1-GVE.text" = "Vigorous";
+
+/* Class = "UINavigationItem"; title = "Weight"; ObjectID = "dZe-dd-Fez"; */
+"dZe-dd-Fez.title" = "Weight";
+
+/* Class = "UILabel"; text = "SENTENCE_MSG_03"; ObjectID = "e6d-VA-kT6"; */
+"e6d-VA-kT6.text" = "SENTENCE_MSG_03";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "e80-Gx-tKz"; */
+"e80-Gx-tKz.text" = "Label";
+
+/* Class = "UILabel"; text = "Recording Time"; ObjectID = "eA6-Wi-cJ8"; */
+"eA6-Wi-cJ8.text" = "Recording Time";
+
+/* Class = "UIBarButtonItem"; title = "Ask Expert"; ObjectID = "eTY-T9-q6D"; */
+"eTY-T9-q6D.title" = "Ask Expert";
+
+/* Class = "UILabel"; text = "Fibre"; ObjectID = "eWb-7V-SdQ"; */
+"eWb-7V-SdQ.text" = "Fibre";
+
+/* Class = "UINavigationItem"; title = "Exercise Reminder"; ObjectID = "ek3-oc-F6A"; */
+"ek3-oc-F6A.title" = "Exercise Reminder";
+
+/* Class = "UILabel"; text = "Your BMI (Body Mass Index): "; ObjectID = "emu-ZT-qNB"; */
+"emu-ZT-qNB.text" = "Your BMI (Body Mass Index): ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gHY-SJ-Te1"; */
+"gHY-SJ-Te1.text" = "Label";
+
+/* Class = "UILabel"; text = "Recommended daily caloric Intake"; ObjectID = "gIk-Y0-Lfc"; */
+"gIk-Y0-Lfc.text" = "Recommended daily caloric Intake";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "gW1-j0-ZGM"; */
+"gW1-j0-ZGM.title" = "Save";
+
+/* Class = "UINavigationItem"; title = "Exercise Summary"; ObjectID = "gfw-3x-mKg"; */
+"gfw-3x-mKg.title" = "Exercise Summary";
+
+/* Class = "UILabel"; text = "Calorie distribution for a typical day"; ObjectID = "h66-B1-cWr"; */
+"h66-B1-cWr.text" = "Calorie distribution for a typical day";
+
+/* Class = "UILabel"; text = "9:30AM"; ObjectID = "hW3-O8-3ua"; */
+"hW3-O8-3ua.text" = "9:30AM";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "hd0-UU-JhF"; */
+"hd0-UU-JhF.text" = "Time";
+
+/* Class = "UILabel"; text = "Goal 99999 mins"; ObjectID = "hwa-gV-21H"; */
+"hwa-gV-21H.text" = "Goal 99999 mins";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iV4-nc-A9y"; */
+"iV4-nc-A9y.text" = "Label";
+
+/* Class = "UILabel"; text = "Fat"; ObjectID = "ico-Ek-H9L"; */
+"ico-Ek-H9L.text" = "Fat";
+
+/* Class = "UILabel"; text = "Pedometer"; ObjectID = "ie1-tW-O8u"; */
+"ie1-tW-O8u.text" = "Pedometer";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "igi-3N-dWi"; */
+"igi-3N-dWi.text" = "99999";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ihy-3b-PKW"; */
+"ihy-3b-PKW.text" = "Label";
+
+/* Class = "UILabel"; text = "0 g"; ObjectID = "inS-OP-CS4"; */
+"inS-OP-CS4.text" = "0 g";
+
+/* Class = "UILabel"; text = "0 / 100"; ObjectID = "jDK-2U-lhU"; */
+"jDK-2U-lhU.text" = "0 / 100";
+
+/* Class = "UILabel"; text = "Too few"; ObjectID = "jdM-8d-VNn"; */
+"jdM-8d-VNn.text" = "Too few";
+
+/* Class = "UILabel"; text = "Create Reminders to help you remember when to take your medication and how much to take."; ObjectID = "jhQ-DP-smY"; */
+"jhQ-DP-smY.text" = "Create Reminders to help you remember when to take your medication and how much to take.";
+
+/* Class = "UINavigationItem"; title = "Recent Meals"; ObjectID = "jo1-8i-4Hi"; */
+"jo1-8i-4Hi.title" = "Recent Meals";
+
+/* Class = "UILabel"; text = "Light"; ObjectID = "joc-LV-3qG"; */
+"joc-LV-3qG.text" = "Light";
+
+/* Class = "UIBarButtonItem"; title = "History"; ObjectID = "jow-uJ-ioa"; */
+"jow-uJ-ioa.title" = "History";
+
+/* Class = "UILabel"; text = "1.5 mg"; ObjectID = "jw9-k8-6kk"; */
+"jw9-k8-6kk.text" = "1.5 mg";
+
+/* Class = "UIButton"; normalTitle = "Create Reminders"; ObjectID = "kAF-CF-Mbl"; */
+"kAF-CF-Mbl.normalTitle" = "Create Reminders";
+
+/* Class = "UIBarButtonItem"; title = "History"; ObjectID = "kQS-kF-1JE"; */
+"kQS-kF-1JE.title" = "History";
+
+/* Class = "UILabel"; text = "Blood Pressure"; ObjectID = "kc6-3K-NwY"; */
+"kc6-3K-NwY.text" = "Blood Pressure";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "kfX-8a-P21"; */
+"kfX-8a-P21.title" = "Save";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "kiy-mM-ewP"; */
+"kiy-mM-ewP.text" = "Time";
+
+/* Class = "UINavigationItem"; title = "Identification Code"; ObjectID = "l2c-cx-wwf"; */
+"l2c-cx-wwf.title" = "Identification Code";
+
+/* Class = "UIButton"; normalTitle = "REGISTER"; ObjectID = "lFQ-G4-gKC"; */
+"lFQ-G4-gKC.normalTitle" = "REGISTER";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "lZS-Q6-3ob"; */
+"lZS-Q6-3ob.normalTitle" = "Record";
+
+/* Class = "UINavigationItem"; title = "Food Summary"; ObjectID = "lbU-GR-Nba"; */
+"lbU-GR-Nba.title" = "Food Summary";
+
+/* Class = "UILabel"; text = "Protein:"; ObjectID = "lfy-ml-4ow"; */
+"lfy-ml-4ow.text" = "Protein:";
+
+/* Class = "UILabel"; text = "After Breakfast"; ObjectID = "lhM-j8-jSH"; */
+"lhM-j8-jSH.text" = "After Breakfast";
+
+/* Class = "UILabel"; text = "For Advanced Users Only"; ObjectID = "lqV-ea-0sp"; */
+"lqV-ea-0sp.text" = "For Advanced Users Only";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mQS-SC-k0x"; */
+"mQS-SC-k0x.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Note"; ObjectID = "mWd-oa-9oC"; */
+"mWd-oa-9oC.title" = "Note";
+
+/* Class = "UILabel"; text = "12:50 AM"; ObjectID = "maB-ss-H7r"; */
+"maB-ss-H7r.text" = "12:50 AM";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "mcH-kR-7wv"; */
+"mcH-kR-7wv.text" = "0";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "n2w-Pm-7yq"; */
+"n2w-Pm-7yq.title" = "Save";
+
+/* Class = "UILabel"; text = "0 g"; ObjectID = "n4b-pt-xPR"; */
+"n4b-pt-xPR.text" = "0 g";
+
+/* Class = "UILabel"; text = "Disagree? See our Top 10 Predictions"; ObjectID = "n9x-ou-k5j"; */
+"n9x-ou-k5j.text" = "Disagree? See our Top 10 Predictions";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nLj-4Z-gMt"; */
+"nLj-4Z-gMt.text" = "Label";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "nUU-d4-EOE"; */
+"nUU-d4-EOE.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "diastolic"; ObjectID = "nWT-9C-5YS"; */
+"nWT-9C-5YS.text" = "diastolic";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nd5-HH-C8p"; */
+"nd5-HH-C8p.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ndz-vK-eaB"; */
+"ndz-vK-eaB.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ni9-xo-qnh"; */
+"ni9-xo-qnh.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "0.0"; ObjectID = "nmm-d4-w8c"; */
+"nmm-d4-w8c.placeholder" = "0.0";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "oEi-Ek-Keo"; */
+"oEi-Ek-Keo.title" = "Save";
+
+/* Class = "UIBarButtonItem"; title = "Note"; ObjectID = "oZX-dq-9GH"; */
+"oZX-dq-9GH.title" = "Note";
+
+/* Class = "UILabel"; text = "Too many"; ObjectID = "oev-lY-riS"; */
+"oev-lY-riS.text" = "Too many";
+
+/* Class = "UINavigationItem"; title = "Exercise Record"; ObjectID = "ohZ-Fj-Bex"; */
+"ohZ-Fj-Bex.title" = "Exercise Record";
+
+/* Class = "UILabel"; text = "© GlucoGuide"; ObjectID = "pIu-vv-wn7"; */
+"pIu-vv-wn7.text" = "© GlucoGuide";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "pIx-mz-efz"; */
+"pIx-mz-efz.text" = "99999";
+
+/* Class = "UINavigationItem"; title = "Reminders"; ObjectID = "pdq-bf-lHk"; */
+"pdq-bf-lHk.title" = "Reminders";
+
+/* Class = "UINavigationItem"; title = "Search"; ObjectID = "pl2-f9-h3O"; */
+"pl2-f9-h3O.title" = "Search";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "poY-QC-ALA"; */
+"poY-QC-ALA.normalTitle" = "Record";
+
+/* Class = "UILabel"; text = "1.5 mg"; ObjectID = "qEt-v4-jwY"; */
+"qEt-v4-jwY.text" = "1.5 mg";
+
+/* Class = "UILabel"; text = "mmHg"; ObjectID = "qUb-5T-8Fh"; */
+"qUb-5T-8Fh.text" = "mmHg";
+
+/* Class = "UINavigationItem"; title = "Height"; ObjectID = "qjR-cR-72g"; */
+"qjR-cR-72g.title" = "Height";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium "; ObjectID = "qpg-Fj-Sjc"; */
+"qpg-Fj-Sjc.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "quf-zs-juj"; */
+"quf-zs-juj.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "r05-zT-jnN"; */
+"r05-zT-jnN.title" = "Profile";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "r2t-qZ-7YU"; */
+"r2t-qZ-7YU.title" = "Back";
+
+/* Class = "UILabel"; text = "Medication"; ObjectID = "r3W-kD-Rlm"; */
+"r3W-kD-Rlm.text" = "Medication";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "rEk-QZ-2eK"; */
+"rEk-QZ-2eK.text" = "99999";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rHq-ED-IcB"; */
+"rHq-ED-IcB.text" = "Label";
+
+/* Class = "UILabel"; text = "Too many"; ObjectID = "rhc-uU-u0t"; */
+"rhc-uU-u0t.text" = "Too many";
+
+/* Class = "UILabel"; text = "99999"; ObjectID = "riU-8i-ycg"; */
+"riU-8i-ycg.text" = "99999";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "rs4-Oz-SIV"; */
+"rs4-Oz-SIV.title" = "Home";
+
+/* Class = "UINavigationItem"; title = "Choose Your Foods"; ObjectID = "s8t-J3-v7l"; */
+"s8t-J3-v7l.title" = "Choose Your Foods";
+
+/* Class = "UINavigationItem"; title = "Converstion Chart"; ObjectID = "sE1-ky-bSS"; */
+"sE1-ky-bSS.title" = "Converstion Chart";
+
+/* Class = "UILabel"; text = "ID Code:"; ObjectID = "sNj-yq-iyi"; */
+"sNj-yq-iyi.text" = "ID Code:";
+
+/* Class = "UILabel"; text = "minutes"; ObjectID = "ske-Lu-SDC"; */
+"ske-Lu-SDC.text" = "minutes";
+
+/* Class = "UILabel"; text = "Carbs"; ObjectID = "t2M-yU-h0h"; */
+"t2M-yU-h0h.text" = "Carbs";
+
+/* Class = "UILabel"; text = "SENTENCE_MSG_01"; ObjectID = "tB2-CL-HPQ"; */
+"tB2-CL-HPQ.text" = "SENTENCE_MSG_01";
+
+/* Class = "UILabel"; text = "999 mins"; ObjectID = "tKy-Ai-NOP"; */
+"tKy-Ai-NOP.text" = "999 mins";
+
+/* Class = "UILabel"; text = "pulse"; ObjectID = "tjc-cB-Cyp"; */
+"tjc-cB-Cyp.text" = "pulse";
+
+/* Class = "UILabel"; text = "Remaining: 99999  (~ 87 mins)"; ObjectID = "tn0-Xc-mN9"; */
+"tn0-Xc-mN9.text" = "Remaining: 99999  (~ 87 mins)";
+
+/* Class = "UIBarButtonItem"; title = "Share"; ObjectID = "u1L-HC-8cR"; */
+"u1L-HC-8cR.title" = "Share";
+
+/* Class = "UILabel"; text = "g"; ObjectID = "uAa-Gx-5Be"; */
+"uAa-Gx-5Be.text" = "g";
+
+/* Class = "UILabel"; text = "Meal Type"; ObjectID = "uBp-cP-P5j"; */
+"uBp-cP-P5j.text" = "Meal Type";
+
+/* Class = "UILabel"; text = "Note"; ObjectID = "uLZ-cl-bD9"; */
+"uLZ-cl-bD9.text" = "Note";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "uNI-O2-ryb"; */
+"uNI-O2-ryb.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Recent Exercise"; ObjectID = "uOa-Ff-d7d"; */
+"uOa-Ff-d7d.title" = "Recent Exercise";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "uTB-JL-UjG"; */
+"uTB-JL-UjG.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Online Log Book"; ObjectID = "uWN-ef-bNB"; */
+"uWN-ef-bNB.text" = "Online Log Book";
+
+/* Class = "UILabel"; text = "Weight Goal"; ObjectID = "uX0-F3-qdN"; */
+"uX0-F3-qdN.text" = "Weight Goal";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "vAh-hL-ltg"; */
+"vAh-hL-ltg.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Password Is Too Short / Invalid Email"; ObjectID = "vGC-TF-4aj"; */
+"vGC-TF-4aj.text" = "Password Is Too Short / Invalid Email";
+
+/* Class = "UINavigationItem"; title = "Manual Input"; ObjectID = "vGR-Zl-j2Q"; */
+"vGR-Zl-j2Q.title" = "Manual Input";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "wET-25-V1T"; */
+"wET-25-V1T.normalTitle" = "Delete";
+
+/* Class = "UILabel"; text = "Meal Type"; ObjectID = "wQa-C3-KfI"; */
+"wQa-C3-KfI.text" = "Meal Type";
+
+/* Class = "UILabel"; text = "Daily"; ObjectID = "wge-e9-SBJ"; */
+"wge-e9-SBJ.text" = "Daily";
+
+/* Class = "UILabel"; text = "Fibre"; ObjectID = "wm2-d0-JVO"; */
+"wm2-d0-JVO.text" = "Fibre";
+
+/* Class = "UINavigationItem"; title = "Condition and Ethnicitiy"; ObjectID = "xCr-Px-Cpa"; */
+"xCr-Px-Cpa.title" = "Condition and Ethnicitiy";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "xEx-sL-IlC"; */
+"xEx-sL-IlC.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xI5-rq-Ugy"; */
+"xI5-rq-Ugy.text" = "Label";
+
+/* Class = "UISegmentedControl"; xP1-O4-DeZ.segmentTitles[0] = "Male"; ObjectID = "xP1-O4-DeZ"; */
+"xP1-O4-DeZ.segmentTitles[0]" = "Male";
+
+/* Class = "UISegmentedControl"; xP1-O4-DeZ.segmentTitles[1] = "Female"; ObjectID = "xP1-O4-DeZ"; */
+"xP1-O4-DeZ.segmentTitles[1]" = "Female";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "xSN-6y-hrf"; */
+"xSN-6y-hrf.title" = "Save";
+
+/* Class = "UILabel"; text = "8.7 mmol/L"; ObjectID = "xVD-vc-maI"; */
+"xVD-vc-maI.text" = "8.7 mmol/L";
+
+/* Class = "UILabel"; text = "minutes"; ObjectID = "xip-uv-ALF"; */
+"xip-uv-ALF.text" = "minutes";
+
+/* Class = "UINavigationItem"; title = "Progress Detail"; ObjectID = "y9p-B1-gTL"; */
+"y9p-B1-gTL.title" = "Progress Detail";
+
+/* Class = "UITextField"; placeholder = "0.0"; ObjectID = "yGP-25-GJJ"; */
+"yGP-25-GJJ.placeholder" = "0.0";
+
+/* Class = "UIBarButtonItem"; title = "Ask Expert"; ObjectID = "yV9-vY-HuS"; */
+"yV9-vY-HuS.title" = "Ask Expert";
+
+/* Class = "UILabel"; text = "Daily"; ObjectID = "yWs-oJ-ZJz"; */
+"yWs-oJ-ZJz.text" = "Daily";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "yn8-Yr-MQJ"; */
+"yn8-Yr-MQJ.title" = "Save";
+
+/* Class = "UIButton"; normalTitle = "Choose"; ObjectID = "z1Y-Rn-4tk"; */
+"z1Y-Rn-4tk.normalTitle" = "Choose";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "z38-eP-zHN"; */
+"z38-eP-zHN.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zJP-Yn-LRE"; */
+"zJP-Yn-LRE.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zQe-26-Xda"; */
+"zQe-26-Xda.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Enter Dosage"; ObjectID = "zV3-06-2sY"; */
+"zV3-06-2sY.placeholder" = "Enter Dosage";
+
+/* Class = "UITextField"; placeholder = "0.0"; ObjectID = "zfA-ZS-aPp"; */
+"zfA-ZS-aPp.placeholder" = "0.0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zgF-qa-9iy"; */
+"zgF-qa-9iy.text" = "Label";
+
+/* Class = "UILabel"; text = "Item Not Found"; ObjectID = "ztR-Ny-wTD"; */
+"ztR-Ny-wTD.text" = "Item Not Found";
+
+/* Class = "UINavigationItem"; title = "Daily Calorie Distribution"; ObjectID = "zvN-pT-wra"; */
+"zvN-pT-wra.title" = "Daily Calorie Distribution";

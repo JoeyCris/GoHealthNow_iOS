@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2016. GlucoGuide Corp.
+  -->
+
+<!--->rangeFactor define the range from the min/max value on the progress bar
+min = target * rangeFactor
+max = target * (1 + (1 - rangeFactor))
+<-->
+
+<!-->Snack, 0<-->
+<!-->Breakfast, 1<-->
+<!-->Lunch, 2<-->
+<!-->Supper, 3<-->
+<MealScoring rangeFactor = "0" maxProgress = "10000">
+	<LogMethod logType = "0">
+		<Meal mealType="0"><!-- Snack -->
+			<Nutrition name = "Calories"  viewType = "0"  calsPerUnit = "1" unit = "" targetRatio = "0.08333333333" subTargetRatio = "1.0">100</Nutrition>
+			<Nutrition name = "Carbs" viewType = "0"  calsPerUnit = "4" unit = "g" targetRatio = "0.08333333333" subTargetRatio="0.5">0</Nutrition>
+			<Nutrition name = "Fats" viewType = "0"  calsPerUnit = "9" unit = "g" targetRatio = "0.08333333333" subTargetRatio="0.3">0</Nutrition>
+			<Nutrition name = "Protein" viewType = "0" calsPerUnit = "4" unit = "g" targetRatio = "0.08333333333" subTargetRatio="0.2">0</Nutrition>
+		</Meal>
+		<Meal mealType="1"><!-- Breakfast -->
+			<Nutrition name = "Calories" viewType = "0" calsPerUnit = "1" unit = "kcals" targetRatio = "0.25" subTargetRatio = "1.0">0</Nutrition>
+			<Nutrition name = "Carbs" viewType = "0" calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.5">40</Nutrition>
+			<Nutrition name = "Fats" viewType = "0"  calsPerUnit = "9" unit = "g" targetRatio = "0.25" subTargetRatio="0.3">30</Nutrition>
+			<Nutrition name = "Protein" viewType = "0" calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.2">30</Nutrition>
+		</Meal>
+		<Meal mealType="2"><!-- Lunch -->
+			<Nutrition name = "Calories" viewType = "0"  calsPerUnit = "1" unit = "kcals" targetRatio = "0.25" subTargetRatio = "1.0">0</Nutrition>
+			<Nutrition name = "Carbs" viewType = "0"  calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.5">40</Nutrition>
+			<Nutrition name = "Fats" viewType = "0" calsPerUnit = "9" unit = "g" targetRatio = "0.25" subTargetRatio="0.3">30</Nutrition>
+			<Nutrition name = "Protein" viewType = "0" calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.2">30</Nutrition>
+		</Meal>
+		<Meal mealType="3"><!-- Dinner -->
+			<Nutrition name = "Calories" viewType = "0" calsPerUnit = "1" unit = "kcals" targetRatio = "0.25" subTargetRatio = "1.0">0</Nutrition>
+			<Nutrition name = "Carbs" viewType = "0"  calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.5">40</Nutrition>
+			<Nutrition name = "Fats" viewType = "0"  calsPerUnit = "9" unit = "g" targetRatio = "0.25" subTargetRatio="0.3">30</Nutrition>
+			<Nutrition name = "Protein" viewType = "0" calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.2">30</Nutrition>
+		</Meal>
+	</LogMethod>
+	<LogMethod logType = "1">
+		<Meal mealType="0">
+			<Nutrition name = "Calories" viewType = "0" calsPerUnit = "1" unit = "" targetRatio = "0.08333333333" subTargetRatio = "1.0">100</Nutrition>
+			<Nutrition name = "Carbs" viewType = "0" calsPerUnit = "4" unit = "g" targetRatio = "0.08333333333" subTargetRatio="0.5">0</Nutrition>
+			<Nutrition name = "Fats" viewType = "0"  calsPerUnit = "9" unit = "g" targetRatio = "0.08333333333" subTargetRatio="0.3">0</Nutrition>
+			<Nutrition name = "Protein" viewType = "0" calsPerUnit = "4" unit = "g" targetRatio = "0.08333333333" subTargetRatio="0.2">0</Nutrition>
+			<!-->Sugar Ratio, 0<-->
+			<Nutrition name = "SugarRatio" viewType = "2" adequateStatement = "" warningStatement = "Reduce sugar" calsPerUnit = "4" unit = "g" lowBound = "0.5" highBound = "0.7">0</Nutrition>
+			<Nutrition name = "Fiber" viewType = "1" adequateStatement = "Adequate fibre" warningStatement = "Include more fibre" calsPerUnit = "9" unit = "g" lowBound = "4" highBound = "200">0</Nutrition>
+			<Nutrition name = "UnHealthyFat" viewType = "1" adequateStatement = "Adequate healthy fat" warningStatement = "Reduce unhealthy fat" calsPerUnit = "9" unit = "g" targetRatio = "0.25" subTargetRatio="0.3" lowBound = "0" highBound = "0.35">0</Nutrition>
+			<Nutrition name = "Sodium" viewType = "1" adequateStatement = "Adequate salt" warningStatement = "Reduce salt" calsPerUnit = "4" unit = "g" lowBound = "0" highBound = "800">0</Nutrition>
+		</Meal>
+		<Meal mealType="1">
+			<Nutrition name = "Calories" viewType = "0" calsPerUnit = "1" unit = "kcals" targetRatio = "0.25" subTargetRatio = "1.0">0</Nutrition>
+			<Nutrition name = "Carbs" viewType = "0" calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.5">40</Nutrition>
+			<Nutrition name = "Fats" viewType = "0" calsPerUnit = "9" unit = "g" targetRatio = "0.25" subTargetRatio="0.3">30</Nutrition>
+			<Nutrition name = "Protein" viewType = "0" warningStatement = "" calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.2">30</Nutrition>
+			<!-->Sugar Ratio, 0<-->
+			<Nutrition name = "SugarRatio" viewType = "2" adequateStatement = "" warningStatement = "Reduce sugar" calsPerUnit = "4" unit = "g" lowBound = "0.5" highBound = "0.7">5</Nutrition>
+			<Nutrition name = "Fiber" viewType = "1" adequateStatement = "Adequate fibre" warningStatement = "Include more fibre" calsPerUnit = "9" unit = "g" lowBound = "4" highBound = "200">5</Nutrition>
+			<Nutrition name = "UnHealthyFat" viewType = "1" adequateStatement = "Adequate healthy fat" warningStatement = "Reduce unhealthy fat" calsPerUnit = "9" unit = "g" targetRatio = "0.25" subTargetRatio="0.3" lowBound = "0" highBound = "0.35">5</Nutrition>
+			<Nutrition name = "Sodium" viewType = "1" adequateStatement = "Adequate salt" warningStatement = "Reduce salt" calsPerUnit = "4" unit = "g" lowBound = "0" highBound = "800">5</Nutrition>
+		</Meal>
+		<Meal mealType="2">
+			<Nutrition name = "Calories" viewType = "0" calsPerUnit = "1" unit = "kcals" targetRatio = "0.25" subTargetRatio = "1.0">0</Nutrition>
+			<Nutrition name = "Carbs" viewType = "0" calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.5">40</Nutrition>
+			<Nutrition name = "Fats" viewType = "0"  calsPerUnit = "9" unit = "g" targetRatio = "0.25" subTargetRatio="0.3">30</Nutrition>
+			<Nutrition name = "Protein" viewType = "0"  calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.2">30</Nutrition>
+			<!-->Sugar Ratio, 0<-->
+			<Nutrition name = "SugarRatio" viewType = "2" adequateStatement = "" warningStatement = "Reduce sugar" calsPerUnit = "4" unit = "g" lowBound = "0.5" highBound = "0.7">5</Nutrition>
+			<Nutrition name = "Fiber" viewType = "1" adequateStatement = "Adequate fibre" warningStatement = "Include more fibre" calsPerUnit = "9" unit = "g" lowBound = "4" highBound = "200">5</Nutrition>
+			<Nutrition name = "UnHealthyFat" viewType = "1" adequateStatement = "Adequate healthy fat" warningStatement = "Reduce unhealthy fat" calsPerUnit = "9" unit = "g"  targetRatio = "0.25" subTargetRatio="0.3" lowBound = "0" highBound = "0.35">5</Nutrition>
+			<Nutrition name = "Sodium" viewType = "1" adequateStatement = "Adequate salt" warningStatement = "Reduce salt" calsPerUnit = "4" unit = "g" lowBound = "0" highBound = "800">5</Nutrition>
+		</Meal>
+		<Meal mealType="3">
+			<Nutrition name = "Calories" viewType = "0" calsPerUnit = "1" unit = "kcals" targetRatio = "0.25" subTargetRatio = "1.0">0</Nutrition>
+			<Nutrition name = "Carbs" viewType = "0" calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.5">40</Nutrition>
+			<Nutrition name = "Fats" viewType = "0" calsPerUnit = "9" unit = "g" targetRatio = "0.25" subTargetRatio="0.3">30</Nutrition>
+			<Nutrition name = "Protein" viewType = "0" calsPerUnit = "4" unit = "g" targetRatio = "0.25" subTargetRatio="0.2">30</Nutrition>
+			<!-->Sugar Ratio, 0<-->
+			<Nutrition name = "SugarRatio" viewType = "2" adequateStatement = "" warningStatement = "Reduce sugar" calsPerUnit = "4" unit = "g" lowBound = "0.5" highBound = "0.7">5</Nutrition>
+			<Nutrition name = "Fiber" viewType = "1" adequateStatement = "Adequate fibre" warningStatement = "Include more fibre" calsPerUnit = "9" unit = "g" lowBound = "4" highBound = "200">5</Nutrition>
+			<Nutrition name = "UnHealthyFat" viewType = "1" adequateStatement = "Adequate healthy fat" warningStatement = "Reduce unhealthy fat" calsPerUnit = "9" unit = "g" targetRatio = "0.25" subTargetRatio="0.3" lowBound = "0" highBound = "0.35">5</Nutrition>
+			<Nutrition name = "Sodium" viewType = "1" adequateStatement = "Adequate salt" warningStatement = "Reduce salt" calsPerUnit = "4" unit = "g" lowBound = "0" highBound = "800">5</Nutrition>
+		</Meal>
+	</LogMethod>
+</MealScoring>

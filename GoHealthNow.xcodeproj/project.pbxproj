@@ -1,0 +1,2365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1806DAE11BBDAA4700B4885E /* ChooseRemindersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806DADF1BBDAA4700B4885E /* ChooseRemindersViewController.m */; };
+		181D30051BB2F7D800253030 /* NotificationSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D30041BB2F7D800253030 /* NotificationSelectViewController.m */; };
+		182C0C1A1B9641C300793408 /* RegisterLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182C0C191B9641C300793408 /* RegisterLoginViewController.m */; };
+		185292911BB38AEE00EF876F /* LocalNotificationAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852928E1BB38AEE00EF876F /* LocalNotificationAssistant.m */; };
+		186027D21BBB09D5008235B7 /* LocalNotificationResponseAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 186027D11BBB09D5008235B7 /* LocalNotificationResponseAssistant.m */; };
+		18ABDF671B9C035F0071031E /* EmailAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ABDF661B9C035F0071031E /* EmailAssistant.m */; };
+		18DA19EB1BB0995700DFBE89 /* NotificationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA19E91BB0995700DFBE89 /* NotificationListViewController.m */; };
+		18DA19F01BB09CAB00DFBE89 /* MedicationInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA19ED1BB09CAB00DFBE89 /* MedicationInputTableViewCell.m */; };
+		18DA19F11BB09CAB00DFBE89 /* MedicationInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA19EE1BB09CAB00DFBE89 /* MedicationInputViewController.m */; };
+		18DA19F51BB09E8300DFBE89 /* MedicationRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA19F31BB09E8300DFBE89 /* MedicationRecord.m */; };
+		18DA19F81BB09F2600DFBE89 /* NotificationMedicationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA19F71BB09F2600DFBE89 /* NotificationMedicationClass.m */; };
+		18DA19FB1BB0F02500DFBE89 /* DosageInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA19F91BB0F02500DFBE89 /* DosageInputViewController.m */; };
+		4C0537971D26355C005E037F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0537961D26355C005E037F /* Launch Screen.storyboard */; };
+		4C272E9A1E0A4C590071C4ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C272E9C1E0A4C590071C4ED /* InfoPlist.strings */; };
+		4C272E9F1E0A4C5A0071C4ED /* AFNetworking.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C272EA11E0A4C5A0071C4ED /* AFNetworking.strings */; };
+		4C272EA51E0A4C5C0071C4ED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C272EA71E0A4C5C0071C4ED /* Localizable.strings */; };
+		4C272EAA1E0A4C5D0071C4ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C272EAC1E0A4C5D0071C4ED /* InfoPlist.strings */; };
+		4C320FA11C6DA1B90004EE47 /* PedometerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C320FA01C6DA1B80004EE47 /* PedometerClass.m */; };
+		4C3397581D08FDD20064F5F7 /* ActivityLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3397571D08FDD20064F5F7 /* ActivityLevel.m */; };
+		4C34FE7B1DC9625B0095FDDE /* ChooseConditionEthnicityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C34FE7A1DC9625B0095FDDE /* ChooseConditionEthnicityViewController.m */; };
+		4C409A4A1BCC88AD001478F9 /* NotificationBloodGlucoseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C409A481BCC88AD001478F9 /* NotificationBloodGlucoseClass.m */; };
+		4C4B5D4F1C4779FC0096463A /* BarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B5D4D1C4779FC0096463A /* BarcodeScanner.m */; };
+		4C66EA941DF6322400518E83 /* NotificationBloodPressureClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66EA901DF6322400518E83 /* NotificationBloodPressureClass.m */; };
+		4C66EA951DF6322400518E83 /* BloodPressureNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66EA921DF6322400518E83 /* BloodPressureNotificationViewController.m */; };
+		4C6711AB1BCDB00A0078E669 /* UIAlertController+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6711AA1BCDB00A0078E669 /* UIAlertController+Window.m */; };
+		4C6711AF1BCDC7BA0078E669 /* DietNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6711AD1BCDC7BA0078E669 /* DietNotificationViewController.m */; };
+		4C6711B21BCDCA2C0078E669 /* NotificationDietClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6711B01BCDCA2C0078E669 /* NotificationDietClass.m */; };
+		4C6B14751D1C445600344E82 /* CalorieDistribution.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B14731D1C445600344E82 /* CalorieDistribution.m */; };
+		4C6F62CB1C40388200E93AAE /* NotificationDuplicateCheckClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F62C91C40388200E93AAE /* NotificationDuplicateCheckClass.m */; };
+		4C75B85E1CAC6C90004FBCE9 /* ExerciseHistoryDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C75B85C1CAC6C90004FBCE9 /* ExerciseHistoryDayViewController.m */; };
+		4C7957991CEAFEA6005E2F3D /* NotificationRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C331EFD1CEA1ECD0058252A /* NotificationRecord.m */; };
+		4C79579A1CEAFEB5005E2F3D /* ReminderCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EDB881B5AFAE500928E10 /* ReminderCard.m */; };
+		4C8D730F1C42183700EA69A3 /* BarcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D730E1C42183700EA69A3 /* BarcodeViewController.m */; };
+		4C8E663D1D91B8B1004769DC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8E663C1D91B8B1004769DC /* AVFoundation.framework */; };
+		4C9106A11D9A0D4400E79E7E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9106951D9A0D4400E79E7E /* AFHTTPSessionManager.m */; };
+		4C9106A21D9A0D4400E79E7E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9106981D9A0D4400E79E7E /* AFNetworkReachabilityManager.m */; };
+		4C9106A31D9A0D4400E79E7E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91069A1D9A0D4400E79E7E /* AFSecurityPolicy.m */; };
+		4C9106A41D9A0D4400E79E7E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91069C1D9A0D4400E79E7E /* AFURLRequestSerialization.m */; };
+		4C9106A51D9A0D4400E79E7E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91069E1D9A0D4400E79E7E /* AFURLResponseSerialization.m */; };
+		4C9106A61D9A0D4400E79E7E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9106A01D9A0D4400E79E7E /* AFURLSessionManager.m */; };
+		4C9106D41D9A277A00E79E7E /* lame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9106D31D9A277A00E79E7E /* lame.framework */; };
+		4C9E73B31DDC05510062D682 /* ChooseSpecialIDCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E73B21DDC05510062D682 /* ChooseSpecialIDCodeViewController.m */; };
+		4CA94F4A1BEA904E00073FC4 /* XMLUpdate Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA94F491BEA904E00073FC4 /* XMLUpdate Class.m */; };
+		4CA94F521BEBADF200073FC4 /* LastEnteredExerciseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA94F511BEBADF200073FC4 /* LastEnteredExerciseClass.m */; };
+		4CA94F5B1BED176600073FC4 /* TextAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA94F5A1BED176600073FC4 /* TextAlertController.m */; };
+		4CCC62071C76F63A007C087A /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC62061C76F63A007C087A /* iRate.m */; };
+		4CDC717E1BC8DD760000BEB5 /* BloodGlucoseNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC717C1BC8DD760000BEB5 /* BloodGlucoseNotificationViewController.m */; };
+		4CE851BA1D9AD894004DACAE /* Mp3EncodeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE851B51D9AD894004DACAE /* Mp3EncodeOperation.m */; };
+		4CE851BB1D9AD894004DACAE /* Mp3Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE851B71D9AD894004DACAE /* Mp3Recorder.m */; };
+		4CE851BC1D9AD894004DACAE /* Mp3RecordingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE851B91D9AD894004DACAE /* Mp3RecordingClient.m */; };
+		4CEA48841BE7BE82004DFD24 /* ExerciseNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA48831BE7BE82004DFD24 /* ExerciseNotificationViewController.m */; };
+		5DF9E6061A20DE98000431AE /* GlucoguideAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF9E6051A20DE98000431AE /* GlucoguideAPI.m */; };
+		860F91321CB309C9009EBC95 /* dropdownList.m in Sources */ = {isa = PBXBuildFile; fileRef = 860F91311CB309C9009EBC95 /* dropdownList.m */; };
+		861EDB8C1B5AFAE500928E10 /* SlideInCardBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 861EDB8A1B5AFAE500928E10 /* SlideInCardBaseView.m */; };
+		861EDB8E1B5AFB4700928E10 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861EDB8D1B5AFB4700928E10 /* EventKit.framework */; };
+		8630A3D91CB0673A00396904 /* ExerciseGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8630A3D81CB0673A00396904 /* ExerciseGoal.m */; };
+		8630F9FB1E5BA51900094630 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 8630F9FA1E5BA51900094630 /* assets */; };
+		863582651B1671C200F0C253 /* ServingSizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 863582641B1671C200F0C253 /* ServingSizeView.m */; };
+		863582671B16749700F0C253 /* ServingSizeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 863582661B16749700F0C253 /* ServingSizeView.xib */; };
+		8637B5A61B1CFD7B00F3FD5B /* ImageCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8637B5A51B1CFD7B00F3FD5B /* ImageCard.m */; };
+		863B764D1CE9419400A6BDCB /* MealPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863B764C1CE9419400A6BDCB /* MealPhotoViewController.m */; };
+		863D8C3A1C7246AF00DCC34B /* BloodGlucoseSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863D8C391C7246AF00DCC34B /* BloodGlucoseSummaryViewController.m */; };
+		864E20C91AE67D7400C40C35 /* GGWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864E20C81AE67D7400C40C35 /* GGWebBrowserViewController.m */; };
+		865B89CE1E0F82C7005BC591 /* LocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 865B89CD1E0F82C7005BC591 /* LocalizationManager.m */; };
+		8678C46B1E5CA5840002316D /* A1CView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50C56131AF6F22700B8432F /* A1CView.xib */; };
+		8678C46C1E5CA5E70002316D /* dialGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6062D1C1D0B6C46004322D3 /* dialGaugeView.m */; };
+		8678C46D1E5CA8710002316D /* ConversionChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C320FA31C739A920004EE47 /* ConversionChartViewController.m */; };
+		8678C46E1E5CA9D90002316D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF9E6011A20DCAE000431AE /* User.m */; };
+		86791A0D1CD92F1A00B3DB4D /* FoodRecognitionCameraBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86791A0C1CD92F1A00B3DB4D /* FoodRecognitionCameraBaseViewController.m */; };
+		867EFEEC1CDE7A030099BE4C /* FoodLabelSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867EFEEB1CDE7A030099BE4C /* FoodLabelSelectionViewController.m */; };
+		8697CDD91E42AF3A007C73EE /* RecorderIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8697CDD81E42AF3A007C73EE /* RecorderIndicator.m */; };
+		86A6009A1C750F2D002CA20D /* MedicationSummaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A600991C750F2D002CA20D /* MedicationSummaryTableViewController.m */; };
+		86AC764E1AF7F4C700F034A8 /* GGPlotTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC764A1AF7F4C700F034A8 /* GGPlotTheme.m */; };
+		86AC764F1AF7F4C700F034A8 /* GGPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC764D1AF7F4C700F034A8 /* GGPlot.m */; };
+		86B4E2161B484137008B6B5B /* MacroNutrientEstimation.xml in Resources */ = {isa = PBXBuildFile; fileRef = 86B4E2151B484137008B6B5B /* MacroNutrientEstimation.xml */; };
+		86DAA7AB1BDA71A500033D08 /* GGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DAA7AA1BDA71A500033D08 /* GGTabBar.m */; };
+		86DC37431C8A2803001BCBA0 /* ExerciseHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DC37421C8A2803001BCBA0 /* ExerciseHistoryTableViewController.m */; };
+		86F26D1A1B0FB6340028F84D /* multiColorBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F26D191B0FB6340028F84D /* multiColorBar.m */; };
+		86FE1D9D1ED753BE007C7714 /* LabTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FE1D9C1ED753BE007C7714 /* LabTestTableViewController.m */; };
+		88113A1A6E49A8708E3E4B25 /* libPods-GoHealthNow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75163CDC739DDF5C16227BC8 /* libPods-GoHealthNow.a */; };
+		9AE49605B4BB26D7390D2622 /* libPods-GoHealthNowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 332C6878CF132EBCC9893B26 /* libPods-GoHealthNowTests.a */; };
+		A901D46F1A6E7D51006E76B8 /* A1CRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A901D46E1A6E7D51006E76B8 /* A1CRecord.m */; };
+		A901D4711A6E7E80006E76B8 /* WeightRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A901D4701A6E7E80006E76B8 /* WeightRecord.m */; };
+		A901D4751A6E7FCA006E76B8 /* DBHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A901D4741A6E7FCA006E76B8 /* DBHelper.mm */; };
+		A901D4771A6E803C006E76B8 /* DBRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A901D4761A6E803C006E76B8 /* DBRecordTests.m */; };
+		A901D4791A6E8051006E76B8 /* WeightRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A901D4781A6E8051006E76B8 /* WeightRecordTests.m */; };
+		A9077E171A623F1A003992A3 /* RecommendationRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A9077E161A623F1A003992A3 /* RecommendationRecord.m */; };
+		A9077E191A648B05003992A3 /* RecommendationRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9077E181A648B05003992A3 /* RecommendationRecordTests.m */; };
+		A908F8B81A660F900041009E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A908F8B71A660F900041009E /* Reachability.m */; };
+		A90FD67B1D2EEDBD0079182D /* build-libcurl-ios.sh in Resources */ = {isa = PBXBuildFile; fileRef = A90FD67A1D2EEDBD0079182D /* build-libcurl-ios.sh */; };
+		A936DAFB1B4ADE79004B0D01 /* GlucoseRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A936DAFA1B4ADE79004B0D01 /* GlucoseRecordTests.m */; };
+		A940D7F31ABC6FEC004546C5 /* NoteRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A940D7F21ABC6FEC004546C5 /* NoteRecord.m */; };
+		A946BFE91A3D342C00B0CB88 /* HttpClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = A946BFE81A3D342C00B0CB88 /* HttpClient.mm */; };
+		A946BFF01A3F969C00B0CB88 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A946BFEF1A3F969C00B0CB88 /* libcurl.a */; };
+		A946C0251A4001CA00B0CB88 /* GGAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A946C0241A4001CA00B0CB88 /* GGAPITests.m */; };
+		A94DB5CA1A55DCFA00E5530B /* GGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DB5C91A55DCFA00E5530B /* GGUtils.m */; };
+		A94DB5CD1A55F8C600E5530B /* GlucoseRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DB5CC1A55F8C600E5530B /* GlucoseRecord.m */; };
+		A94DB5D01A55F90A00E5530B /* SleepRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DB5CF1A55F90A00E5530B /* SleepRecord.m */; };
+		A94DB5D31A55FB5600E5530B /* ExerciseRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DB5D21A55FB5600E5530B /* ExerciseRecord.m */; };
+		A95A28C51A492C5600A7CE36 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A946BFED1A3F685500B0CB88 /* libz.dylib */; };
+		A95A28C81A4F5D7700A7CE36 /* UserAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A95A28C71A4F5D7700A7CE36 /* UserAPITests.m */; };
+		A97C1EDA1B1A670600EDD3FB /* FoodItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A97C1ED91B1A670600EDD3FB /* FoodItemTests.m */; };
+		A980815B1A558138006B5518 /* RecordSaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A980815A1A558138006B5518 /* RecordSaveTests.m */; };
+		A9B71FAF1AF512230004B42E /* GoalsDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B71FAE1AF512230004B42E /* GoalsDelegate.m */; };
+		A9B71FB21AF5133E0004B42E /* WeightGoal.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B71FB11AF5133E0004B42E /* WeightGoal.m */; };
+		A9B71FB41AF90A920004B42E /* GoalsDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B71FB31AF90A920004B42E /* GoalsDelegateTests.m */; };
+		A9C474091B42EE0500DDE126 /* InsulinRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C474081B42EE0500DDE126 /* InsulinRecordTests.m */; };
+		A9C680081AA8EC010004C02D /* MealRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C680071AA8EC010004C02D /* MealRecordTests.m */; };
+		A9CBD95B1A4515550001E274 /* SecurityStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CBD95A1A4515550001E274 /* SecurityStorage.m */; };
+		A9CBD9631A487BF10001E274 /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CBD9621A487BF10001E274 /* FoodItem.m */; };
+		A9CBD9691A489F1B0001E274 /* MealRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CBD9681A489F1B0001E274 /* MealRecord.m */; };
+		A9CBD96B1A48A1C60001E274 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CBD96A1A48A1C60001E274 /* libsqlite3.dylib */; };
+		A9FA4E521AD2C18100242B16 /* NoteRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA4E511AD2C18100242B16 /* NoteRecordTests.m */; };
+		D60032061CDD441800484D62 /* CustomizedFoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D60032051CDD441800484D62 /* CustomizedFoodItem.m */; };
+		D6062D1A1D0B6569004322D3 /* NutritionFactsGaugeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6062D191D0B6569004322D3 /* NutritionFactsGaugeController.m */; };
+		D6062D621D36A526004322D3 /* InputSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6062D611D36A526004322D3 /* InputSelectionTableViewController.m */; };
+		D6062D661D50F64F004322D3 /* AddBloodPressureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6062D651D50F64F004322D3 /* AddBloodPressureViewController.m */; };
+		D6062D6A1D51A68A004322D3 /* BloodPressureSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6062D691D51A68A004322D3 /* BloodPressureSummaryViewController.m */; };
+		D6062D6C1D52DC79004322D3 /* BPRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D6062D6B1D52DC79004322D3 /* BPRecord.m */; };
+		D63F21EA1CE4FB510061E731 /* ShowPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63F21E91CE4FB510061E731 /* ShowPhotoController.m */; };
+		D6F2B3AC1CDFE37100DB40A4 /* ManualInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F2B3AB1CDFE37100DB40A4 /* ManualInputController.m */; };
+		D6FD915D1D67FB3A00FC5713 /* AddA1CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FD915C1D67FB3A00FC5713 /* AddA1CViewController.m */; };
+		D6FD91601D690C1400FC5713 /* AddWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FD915F1D690C1400FC5713 /* AddWeightViewController.m */; };
+		F505F9711C02304B00B5A0B6 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = F505F96F1C02304B00B5A0B6 /* iTunesArtwork */; };
+		F505F9721C02304B00B5A0B6 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = F505F9701C02304B00B5A0B6 /* iTunesArtwork@2x */; };
+		F5083FCB1A242D3C009833FB /* ChooseExerciseTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5083FCA1A242D3C009833FB /* ChooseExerciseTypeViewController.m */; };
+		F50944D51A6DDF03000CDCD0 /* ChooseHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50944D41A6DDF03000CDCD0 /* ChooseHeightViewController.m */; };
+		F50C56171AF6F7E700B8432F /* A1CView.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C56161AF6F7E700B8432F /* A1CView.m */; };
+		F515978E1A8AD071009C25E9 /* GGProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F515978D1A8AD071009C25E9 /* GGProgressView.m */; };
+		F520C3041AF9766F007F8DBE /* ProgressDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F520C3031AF9766F007F8DBE /* ProgressDetailController.m */; };
+		F523EC6B1A6893880020E189 /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F523EC6A1A6893880020E189 /* ProfileTableViewController.m */; };
+		F523EC771A68AD2D0020E189 /* ChooseUnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F523EC761A68AD2D0020E189 /* ChooseUnitViewController.m */; };
+		F52FF08019F9A24B0012FCA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF07F19F9A24B0012FCA4 /* main.m */; };
+		F52FF08319F9A24B0012FCA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF08219F9A24B0012FCA4 /* AppDelegate.m */; };
+		F52FF08C19F9A24B0012FCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52FF08A19F9A24B0012FCA4 /* Main.storyboard */; };
+		F52FF08E19F9A24B0012FCA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52FF08D19F9A24B0012FCA4 /* Images.xcassets */; };
+		F52FF09D19F9A24B0012FCA4 /* GlucoGuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F52FF09C19F9A24B0012FCA4 /* GlucoGuideTests.m */; };
+		F533C71B1B1CF8FD00BFA87B /* RecentMealsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F533C71A1B1CF8FD00BFA87B /* RecentMealsController.m */; };
+		F533C75C1B1D4DDD00BFA87B /* StretchableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F533C75B1B1D4DDD00BFA87B /* StretchableHeaderView.m */; };
+		F534DC5B1AD209E7001E58E0 /* NotesDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F534DC5A1AD209E7001E58E0 /* NotesDetailController.m */; };
+		F53C69CE1B687009006DB9CA /* CalorieDistributionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C69CD1B687009006DB9CA /* CalorieDistributionController.m */; };
+		F53C69D11B693EBC006DB9CA /* MultiColumnTableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C69D01B693EBC006DB9CA /* MultiColumnTableLayout.m */; };
+		F5429D9E1BACCE4C00C5B73C /* GGWebBrowserProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5429D9D1BACCE4C00C5B73C /* GGWebBrowserProxy.m */; };
+		F54F4F811B211C8700B4CABF /* SearchFoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54F4F801B211C8700B4CABF /* SearchFoodController.m */; };
+		F550908E1AF440F300DD9B0F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F550908D1AF440F300DD9B0F /* HomeViewController.m */; };
+		F55090911AF4411700DD9B0F /* GoalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55090901AF4411700DD9B0F /* GoalsViewController.m */; };
+		F55090941AF4414700DD9B0F /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55090931AF4414700DD9B0F /* ProgressViewController.m */; };
+		F56641111ACCCCFD008A0500 /* RecommendationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56641101ACCCCFD008A0500 /* RecommendationDetailViewController.m */; };
+		F56B003C1A6C94ED005A5ED1 /* ChooseWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B003B1A6C94ED005A5ED1 /* ChooseWeightViewController.m */; };
+		F5734D751B3B50AC00CDE6BB /* NotesDetailBodyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5734D741B3B50AC00CDE6BB /* NotesDetailBodyView.xib */; };
+		F575AE171ACE2C9C007385DD /* UserSetupFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F575AE161ACE2C9C007385DD /* UserSetupFirstViewController.m */; };
+		F57A629E1A29508C00282335 /* AddExerciseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57A629D1A29508B00282335 /* AddExerciseRecordViewController.m */; };
+		F57B3FAA1A23EA45009B9FA7 /* AddSleepRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57B3FA91A23EA45009B9FA7 /* AddSleepRecordViewController.m */; };
+		F57C13A71A17D3A8008F7BE7 /* AddGlucoseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C13A61A17D3A8008F7BE7 /* AddGlucoseRecordViewController.m */; };
+		F57C13AA1A183B67008F7BE7 /* ChooseDateTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C13A91A183B67008F7BE7 /* ChooseDateTimeViewController.m */; };
+		F57DFE0A1A82EDA20034387D /* ExerciseSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57DFE091A82EDA20034387D /* ExerciseSummaryViewController.m */; };
+		F58172621A6B707700E299F9 /* ChooseBirthYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58172611A6B707700E299F9 /* ChooseBirthYearViewController.m */; };
+		F583656E1B2236CD000E37A8 /* QuickEstimateController.m in Sources */ = {isa = PBXBuildFile; fileRef = F583656D1B2236CD000E37A8 /* QuickEstimateController.m */; };
+		F5860E8A1A798D0800DC1941 /* FoodSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5860E891A798D0800DC1941 /* FoodSummaryViewController.m */; };
+		F58A170A1B7E4D4400AA5D3F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58A17091B7E4D4400AA5D3F /* SWRevealViewController.m */; };
+		F58C7BCA1A75652100B38FFC /* IntroPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C7BC91A75652100B38FFC /* IntroPageViewController.m */; };
+		F58C7BCD1A75687200B38FFC /* IntroContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C7BCC1A75687200B38FFC /* IntroContentViewController.m */; };
+		F58C7BD11A75B1B800B38FFC /* UserSetupPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C7BD01A75B1B800B38FFC /* UserSetupPageViewController.m */; };
+		F58C7E081A76DA5700BB9F50 /* ChooseOrganizationCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C7E071A76DA5700BB9F50 /* ChooseOrganizationCodeViewController.m */; };
+		F58C7E0D1A76DDAE00BB9F50 /* ChooseNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C7E0C1A76DDAE00BB9F50 /* ChooseNameViewController.m */; };
+		F59A5A571BE430B200566044 /* NotificationExerciseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A5A561BE430B200566044 /* NotificationExerciseClass.m */; };
+		F59F77181A7C5FA500247D6B /* GlucoGuideTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59F77171A7C5FA500247D6B /* GlucoGuideTabBarController.m */; };
+		F5AC72551A69985700C9363F /* ChooseGenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AC72541A69985700C9363F /* ChooseGenderViewController.m */; };
+		F5AC725A1A69B4EA00C9363F /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AC72591A69B4EA00C9363F /* NotesViewController.m */; };
+		F5AC72691A69C9DE00C9363F /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AC72681A69C9DE00C9363F /* UIView+Extensions.m */; };
+		F5AD7D9D1A7B295300972935 /* MealCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AD7D9C1A7B295300972935 /* MealCalculator.m */; };
+		F5AD7DA31A7B2F3B00972935 /* MealCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AD7DA21A7B2F3B00972935 /* MealCalculatorTests.m */; };
+		F5B4CBD81AF599A9006BBAC5 /* WeightHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B4CBD71AF599A9006BBAC5 /* WeightHelper.m */; };
+		F5C152D31AF2CF2100F7193D /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C152D21AF2CF2100F7193D /* InputViewController.m */; };
+		F5C9EF251A0AD86E00705100 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C9EF241A0AD86E00705100 /* UIColor+Extensions.m */; };
+		F5C9EF2A1A0AE70700705100 /* StyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C9EF291A0AE70700705100 /* StyleManager.m */; };
+		F5CE76661A14402A00EBA5D7 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CE76651A14402A00EBA5D7 /* SettingsViewController.m */; };
+		F5D6D1E71A770E5600615CBC /* ChooseBMIAndWaistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D6D1E61A770E5600615CBC /* ChooseBMIAndWaistViewController.m */; };
+		F5D6FC411AAA9EB40094B63B /* GGImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D6FC401AAA9EB40094B63B /* GGImagePickerController.m */; };
+		F5DA3AC91B8E33B70079404A /* HelpTipController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DA3AC81B8E33B70079404A /* HelpTipController.m */; };
+		F5DA3ACD1B8E368E0079404A /* OverlayAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DA3ACC1B8E368E0079404A /* OverlayAnimationManager.m */; };
+		F5EC23C81BDAFD7100EEC4CA /* AddMealRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EC23C71BDAFD7100EEC4CA /* AddMealRecordController.m */; };
+		F5F88BC21B3C8481005BC693 /* NotesDetailOldController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F88BC11B3C8481005BC693 /* NotesDetailOldController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F52FF09719F9A24B0012FCA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52FF07219F9A24A0012FCA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52FF07919F9A24B0012FCA4;
+			remoteInfo = GlucoGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1806DADF1BBDAA4700B4885E /* ChooseRemindersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseRemindersViewController.m; sourceTree = "<group>"; };
+		1806DAE01BBDAA4700B4885E /* ChooseRemindersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseRemindersViewController.h; sourceTree = "<group>"; };
+		181D30031BB2F7D800253030 /* NotificationSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationSelectViewController.h; sourceTree = "<group>"; };
+		181D30041BB2F7D800253030 /* NotificationSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationSelectViewController.m; sourceTree = "<group>"; };
+		182C0C181B9641C300793408 /* RegisterLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterLoginViewController.h; sourceTree = "<group>"; };
+		182C0C191B9641C300793408 /* RegisterLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterLoginViewController.m; sourceTree = "<group>"; };
+		1852928E1BB38AEE00EF876F /* LocalNotificationAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationAssistant.m; sourceTree = "<group>"; };
+		1852928F1BB38AEE00EF876F /* LocalNotificationAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotificationAssistant.h; sourceTree = "<group>"; };
+		186027D01BBB09D5008235B7 /* LocalNotificationResponseAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotificationResponseAssistant.h; sourceTree = "<group>"; };
+		186027D11BBB09D5008235B7 /* LocalNotificationResponseAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationResponseAssistant.m; sourceTree = "<group>"; };
+		18ABDF661B9C035F0071031E /* EmailAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailAssistant.m; sourceTree = "<group>"; };
+		18ABDF681B9C03B10071031E /* EmailAssistant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailAssistant.h; sourceTree = "<group>"; };
+		18DA19E91BB0995700DFBE89 /* NotificationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationListViewController.m; sourceTree = "<group>"; };
+		18DA19EA1BB0995700DFBE89 /* NotificationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationListViewController.h; sourceTree = "<group>"; };
+		18DA19EC1BB09CAB00DFBE89 /* MedicationInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationInputViewController.h; sourceTree = "<group>"; };
+		18DA19ED1BB09CAB00DFBE89 /* MedicationInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationInputTableViewCell.m; sourceTree = "<group>"; };
+		18DA19EE1BB09CAB00DFBE89 /* MedicationInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationInputViewController.m; sourceTree = "<group>"; };
+		18DA19EF1BB09CAB00DFBE89 /* MedicationInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationInputTableViewCell.h; sourceTree = "<group>"; };
+		18DA19F31BB09E8300DFBE89 /* MedicationRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationRecord.m; sourceTree = "<group>"; };
+		18DA19F41BB09E8300DFBE89 /* MedicationRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationRecord.h; sourceTree = "<group>"; };
+		18DA19F61BB09F2600DFBE89 /* NotificationMedicationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMedicationClass.h; sourceTree = "<group>"; };
+		18DA19F71BB09F2600DFBE89 /* NotificationMedicationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationMedicationClass.m; sourceTree = "<group>"; };
+		18DA19F91BB0F02500DFBE89 /* DosageInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DosageInputViewController.m; sourceTree = "<group>"; };
+		18DA19FA1BB0F02500DFBE89 /* DosageInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DosageInputViewController.h; sourceTree = "<group>"; };
+		268B4B6F9080C87EC25E1099 /* Pods-GoHealthNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoHealthNow.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoHealthNow/Pods-GoHealthNow.release.xcconfig"; sourceTree = "<group>"; };
+		332C6878CF132EBCC9893B26 /* libPods-GoHealthNowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoHealthNowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0537961D26355C005E037F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4C272E9B1E0A4C590071C4ED /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C272EA01E0A4C5A0071C4ED /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/AFNetworking.strings; sourceTree = "<group>"; };
+		4C272EA21E0A4C5B0071C4ED /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		4C272EA61E0A4C5C0071C4ED /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4C272EAB1E0A4C5D0071C4ED /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C320F9F1C6DA1B80004EE47 /* PedometerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PedometerClass.h; sourceTree = "<group>"; };
+		4C320FA01C6DA1B80004EE47 /* PedometerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PedometerClass.m; sourceTree = "<group>"; };
+		4C320FA21C739A920004EE47 /* ConversionChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversionChartViewController.h; sourceTree = "<group>"; };
+		4C320FA31C739A920004EE47 /* ConversionChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversionChartViewController.m; sourceTree = "<group>"; };
+		4C331EFC1CEA1ECD0058252A /* NotificationRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationRecord.h; sourceTree = "<group>"; };
+		4C331EFD1CEA1ECD0058252A /* NotificationRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationRecord.m; sourceTree = "<group>"; };
+		4C3397561D08FDD20064F5F7 /* ActivityLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ActivityLevel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4C3397571D08FDD20064F5F7 /* ActivityLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ActivityLevel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4C34FE781DC9625B0095FDDE /* ChooseConditionEthnicityDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseConditionEthnicityDelegate.h; sourceTree = "<group>"; };
+		4C34FE791DC9625B0095FDDE /* ChooseConditionEthnicityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseConditionEthnicityViewController.h; sourceTree = "<group>"; };
+		4C34FE7A1DC9625B0095FDDE /* ChooseConditionEthnicityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseConditionEthnicityViewController.m; sourceTree = "<group>"; };
+		4C409A481BCC88AD001478F9 /* NotificationBloodGlucoseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationBloodGlucoseClass.m; sourceTree = "<group>"; };
+		4C409A491BCC88AD001478F9 /* NotificationBloodGlucoseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationBloodGlucoseClass.h; sourceTree = "<group>"; };
+		4C4B5D4D1C4779FC0096463A /* BarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeScanner.m; sourceTree = "<group>"; };
+		4C4B5D4E1C4779FC0096463A /* BarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeScanner.h; sourceTree = "<group>"; };
+		4C66EA901DF6322400518E83 /* NotificationBloodPressureClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationBloodPressureClass.m; sourceTree = "<group>"; };
+		4C66EA911DF6322400518E83 /* NotificationBloodPressureClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationBloodPressureClass.h; sourceTree = "<group>"; };
+		4C66EA921DF6322400518E83 /* BloodPressureNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureNotificationViewController.m; sourceTree = "<group>"; };
+		4C66EA931DF6322400518E83 /* BloodPressureNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureNotificationViewController.h; sourceTree = "<group>"; };
+		4C6711A91BCDB00A0078E669 /* UIAlertController+Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Window.h"; sourceTree = "<group>"; };
+		4C6711AA1BCDB00A0078E669 /* UIAlertController+Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Window.m"; sourceTree = "<group>"; };
+		4C6711AD1BCDC7BA0078E669 /* DietNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DietNotificationViewController.m; sourceTree = "<group>"; };
+		4C6711AE1BCDC7BA0078E669 /* DietNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DietNotificationViewController.h; sourceTree = "<group>"; };
+		4C6711B01BCDCA2C0078E669 /* NotificationDietClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationDietClass.m; sourceTree = "<group>"; };
+		4C6711B11BCDCA2C0078E669 /* NotificationDietClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationDietClass.h; sourceTree = "<group>"; };
+		4C6B14731D1C445600344E82 /* CalorieDistribution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalorieDistribution.m; sourceTree = "<group>"; };
+		4C6B14741D1C445600344E82 /* CalorieDistribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalorieDistribution.h; sourceTree = "<group>"; };
+		4C6D278B1DE3F5EE00EB9341 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		4C6D278C1DE3F5EE00EB9341 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		4C6F62C91C40388200E93AAE /* NotificationDuplicateCheckClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationDuplicateCheckClass.m; sourceTree = "<group>"; };
+		4C6F62CA1C40388200E93AAE /* NotificationDuplicateCheckClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationDuplicateCheckClass.h; sourceTree = "<group>"; };
+		4C75B85C1CAC6C90004FBCE9 /* ExerciseHistoryDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseHistoryDayViewController.m; sourceTree = "<group>"; };
+		4C75B85D1CAC6C90004FBCE9 /* ExerciseHistoryDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseHistoryDayViewController.h; sourceTree = "<group>"; };
+		4C8D730D1C42183700EA69A3 /* BarcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeViewController.h; sourceTree = "<group>"; };
+		4C8D730E1C42183700EA69A3 /* BarcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeViewController.m; sourceTree = "<group>"; };
+		4C8E663C1D91B8B1004769DC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C9106941D9A0D4400E79E7E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4C9106951D9A0D4400E79E7E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		4C9106961D9A0D4400E79E7E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4C9106971D9A0D4400E79E7E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4C9106981D9A0D4400E79E7E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4C9106991D9A0D4400E79E7E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4C91069A1D9A0D4400E79E7E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4C91069B1D9A0D4400E79E7E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4C91069C1D9A0D4400E79E7E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4C91069D1D9A0D4400E79E7E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		4C91069E1D9A0D4400E79E7E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4C91069F1D9A0D4400E79E7E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		4C9106A01D9A0D4400E79E7E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		4C9106D31D9A277A00E79E7E /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lame.framework; path = thirdparty/lib/lame.framework; sourceTree = "<group>"; };
+		4C9E73B11DDC05510062D682 /* ChooseSpecialIDCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseSpecialIDCodeViewController.h; sourceTree = "<group>"; };
+		4C9E73B21DDC05510062D682 /* ChooseSpecialIDCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseSpecialIDCodeViewController.m; sourceTree = "<group>"; };
+		4CA94F481BEA904E00073FC4 /* XMLUpdateClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLUpdateClass.h; sourceTree = "<group>"; };
+		4CA94F491BEA904E00073FC4 /* XMLUpdate Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XMLUpdate Class.m"; sourceTree = "<group>"; };
+		4CA94F501BEBADF200073FC4 /* LastEnteredExerciseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastEnteredExerciseClass.h; sourceTree = "<group>"; };
+		4CA94F511BEBADF200073FC4 /* LastEnteredExerciseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastEnteredExerciseClass.m; sourceTree = "<group>"; };
+		4CA94F591BED176600073FC4 /* TextAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextAlertController.h; sourceTree = "<group>"; };
+		4CA94F5A1BED176600073FC4 /* TextAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextAlertController.m; sourceTree = "<group>"; };
+		4CCC62051C76F63A007C087A /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		4CCC62061C76F63A007C087A /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		4CDC717C1BC8DD760000BEB5 /* BloodGlucoseNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucoseNotificationViewController.m; sourceTree = "<group>"; };
+		4CDC717D1BC8DD760000BEB5 /* BloodGlucoseNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodGlucoseNotificationViewController.h; sourceTree = "<group>"; };
+		4CE851B31D9AD850004DACAE /* lame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		4CE851B41D9AD894004DACAE /* Mp3EncodeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3EncodeOperation.h; sourceTree = "<group>"; };
+		4CE851B51D9AD894004DACAE /* Mp3EncodeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3EncodeOperation.m; sourceTree = "<group>"; };
+		4CE851B61D9AD894004DACAE /* Mp3Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3Recorder.h; sourceTree = "<group>"; };
+		4CE851B71D9AD894004DACAE /* Mp3Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3Recorder.m; sourceTree = "<group>"; };
+		4CE851B81D9AD894004DACAE /* Mp3RecordingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3RecordingClient.h; sourceTree = "<group>"; };
+		4CE851B91D9AD894004DACAE /* Mp3RecordingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3RecordingClient.m; sourceTree = "<group>"; };
+		4CEA48821BE7BE6F004DFD24 /* ExerciseNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseNotificationViewController.h; sourceTree = "<group>"; };
+		4CEA48831BE7BE82004DFD24 /* ExerciseNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseNotificationViewController.m; sourceTree = "<group>"; };
+		561907019DAD2552356EE0CB /* Pods-GoHealthNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoHealthNow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoHealthNow/Pods-GoHealthNow.debug.xcconfig"; sourceTree = "<group>"; };
+		5DF9E6011A20DCAE000431AE /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5DF9E6031A20DCBE000431AE /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		5DF9E6051A20DE98000431AE /* GlucoguideAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucoguideAPI.m; sourceTree = "<group>"; };
+		5DF9E6071A20DEAF000431AE /* GlucoguideAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucoguideAPI.h; sourceTree = "<group>"; };
+		75163CDC739DDF5C16227BC8 /* libPods-GoHealthNow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoHealthNow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		860F91301CB309C9009EBC95 /* dropdownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dropdownList.h; sourceTree = "<group>"; };
+		860F91311CB309C9009EBC95 /* dropdownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dropdownList.m; sourceTree = "<group>"; };
+		861EDB871B5AFAE500928E10 /* ReminderCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderCard.h; sourceTree = "<group>"; };
+		861EDB881B5AFAE500928E10 /* ReminderCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderCard.m; sourceTree = "<group>"; };
+		861EDB891B5AFAE500928E10 /* SlideInCardBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideInCardBaseView.h; sourceTree = "<group>"; };
+		861EDB8A1B5AFAE500928E10 /* SlideInCardBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideInCardBaseView.m; sourceTree = "<group>"; };
+		861EDB8D1B5AFB4700928E10 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		861EFF941E0E39BA00BDBD54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		861EFF951E0E39CE00BDBD54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8630A3D71CB0673A00396904 /* ExerciseGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseGoal.h; sourceTree = "<group>"; };
+		8630A3D81CB0673A00396904 /* ExerciseGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseGoal.m; sourceTree = "<group>"; };
+		8630F9F91E5BA46100094630 /* IntroContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroContentViewController.h; path = GoHealthNow/IntroContentViewController.h; sourceTree = SOURCE_ROOT; };
+		8630F9FA1E5BA51900094630 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = GoHealthNow/assets; sourceTree = SOURCE_ROOT; };
+		863582631B1671C200F0C253 /* ServingSizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServingSizeView.h; sourceTree = "<group>"; };
+		863582641B1671C200F0C253 /* ServingSizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServingSizeView.m; sourceTree = "<group>"; };
+		863582661B16749700F0C253 /* ServingSizeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServingSizeView.xib; sourceTree = "<group>"; };
+		8637B5A41B1CFD7B00F3FD5B /* ImageCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCard.h; sourceTree = "<group>"; };
+		8637B5A51B1CFD7B00F3FD5B /* ImageCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCard.m; sourceTree = "<group>"; };
+		863B764B1CE9419400A6BDCB /* MealPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealPhotoViewController.h; sourceTree = "<group>"; };
+		863B764C1CE9419400A6BDCB /* MealPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealPhotoViewController.m; sourceTree = "<group>"; };
+		863D8C381C7246AF00DCC34B /* BloodGlucoseSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodGlucoseSummaryViewController.h; sourceTree = "<group>"; };
+		863D8C391C7246AF00DCC34B /* BloodGlucoseSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucoseSummaryViewController.m; sourceTree = "<group>"; };
+		864E20C71AE67D7400C40C35 /* GGWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGWebBrowserViewController.h; sourceTree = "<group>"; };
+		864E20C81AE67D7400C40C35 /* GGWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGWebBrowserViewController.m; sourceTree = "<group>"; };
+		865B89CC1E0F82C7005BC591 /* LocalizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizationManager.h; sourceTree = "<group>"; };
+		865B89CD1E0F82C7005BC591 /* LocalizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizationManager.m; sourceTree = "<group>"; };
+		86791A0B1CD92F1A00B3DB4D /* FoodRecognitionCameraBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodRecognitionCameraBaseViewController.h; sourceTree = "<group>"; };
+		86791A0C1CD92F1A00B3DB4D /* FoodRecognitionCameraBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodRecognitionCameraBaseViewController.m; sourceTree = "<group>"; };
+		867EFEEA1CDE7A030099BE4C /* FoodLabelSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodLabelSelectionViewController.h; sourceTree = "<group>"; };
+		867EFEEB1CDE7A030099BE4C /* FoodLabelSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodLabelSelectionViewController.m; sourceTree = "<group>"; };
+		8697CDD71E42AF3A007C73EE /* RecorderIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecorderIndicator.h; sourceTree = "<group>"; };
+		8697CDD81E42AF3A007C73EE /* RecorderIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecorderIndicator.m; sourceTree = "<group>"; };
+		86A600981C750F2D002CA20D /* MedicationSummaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationSummaryTableViewController.h; sourceTree = "<group>"; };
+		86A600991C750F2D002CA20D /* MedicationSummaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationSummaryTableViewController.m; sourceTree = "<group>"; };
+		86AC76491AF7F4C700F034A8 /* GGPlotTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGPlotTheme.h; sourceTree = "<group>"; };
+		86AC764A1AF7F4C700F034A8 /* GGPlotTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGPlotTheme.m; sourceTree = "<group>"; };
+		86AC764B1AF7F4C700F034A8 /* GraphConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphConstants.h; sourceTree = "<group>"; };
+		86AC764C1AF7F4C700F034A8 /* GGPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGPlot.h; sourceTree = "<group>"; };
+		86AC764D1AF7F4C700F034A8 /* GGPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGPlot.m; sourceTree = "<group>"; };
+		86B4E2151B484137008B6B5B /* MacroNutrientEstimation.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MacroNutrientEstimation.xml; sourceTree = "<group>"; };
+		86DAA7A91BDA71A500033D08 /* GGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBar.h; sourceTree = "<group>"; };
+		86DAA7AA1BDA71A500033D08 /* GGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBar.m; sourceTree = "<group>"; };
+		86DC37411C8A2803001BCBA0 /* ExerciseHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseHistoryTableViewController.h; sourceTree = "<group>"; };
+		86DC37421C8A2803001BCBA0 /* ExerciseHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseHistoryTableViewController.m; sourceTree = "<group>"; };
+		86F26D181B0FB6340028F84D /* multiColorBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multiColorBar.h; sourceTree = "<group>"; };
+		86F26D191B0FB6340028F84D /* multiColorBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = multiColorBar.m; sourceTree = "<group>"; };
+		86F6A8C41C4E97EF0097235C /* GoHealthNow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoHealthNow.entitlements; sourceTree = "<group>"; };
+		86FE1D9B1ED753BE007C7714 /* LabTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabTestTableViewController.h; sourceTree = "<group>"; };
+		86FE1D9C1ED753BE007C7714 /* LabTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabTestTableViewController.m; sourceTree = "<group>"; };
+		8D3047AEA7D4D1F1E30B057D /* Pods-GoHealthNowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoHealthNowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoHealthNowTests/Pods-GoHealthNowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A901D46D1A6E7D41006E76B8 /* A1CRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = A1CRecord.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A901D46E1A6E7D51006E76B8 /* A1CRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = A1CRecord.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A901D4701A6E7E80006E76B8 /* WeightRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightRecord.m; sourceTree = "<group>"; };
+		A901D4721A6E7E98006E76B8 /* WeightRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightRecord.h; sourceTree = "<group>"; };
+		A901D4731A6E7FAA006E76B8 /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		A901D4741A6E7FCA006E76B8 /* DBHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DBHelper.mm; sourceTree = "<group>"; };
+		A901D4761A6E803C006E76B8 /* DBRecordTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBRecordTests.m; sourceTree = "<group>"; };
+		A901D4781A6E8051006E76B8 /* WeightRecordTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightRecordTests.m; sourceTree = "<group>"; };
+		A9077E151A623E3C003992A3 /* RecommendationRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendationRecord.h; sourceTree = "<group>"; };
+		A9077E161A623F1A003992A3 /* RecommendationRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendationRecord.m; sourceTree = "<group>"; };
+		A9077E181A648B05003992A3 /* RecommendationRecordTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendationRecordTests.m; sourceTree = "<group>"; };
+		A908F8B61A660F7B0041009E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A908F8B71A660F900041009E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A90FD67A1D2EEDBD0079182D /* build-libcurl-ios.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-libcurl-ios.sh"; sourceTree = "<group>"; };
+		A93034F11AF0247700055067 /* BPRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPRecord.h; sourceTree = "<group>"; };
+		A936DAFA1B4ADE79004B0D01 /* GlucoseRecordTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucoseRecordTests.m; sourceTree = "<group>"; };
+		A940D7F11ABC6F59004546C5 /* NoteRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteRecord.h; sourceTree = "<group>"; };
+		A940D7F21ABC6FEC004546C5 /* NoteRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteRecord.m; sourceTree = "<group>"; };
+		A946BFE81A3D342C00B0CB88 /* HttpClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HttpClient.mm; sourceTree = "<group>"; };
+		A946BFEA1A3D344700B0CB88 /* HttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		A946BFED1A3F685500B0CB88 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A946BFEF1A3F969C00B0CB88 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = thirdparty/lib/libcurl.a; sourceTree = "<group>"; };
+		A946C0241A4001CA00B0CB88 /* GGAPITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGAPITests.m; sourceTree = "<group>"; };
+		A94DB5C81A55DC8200E5530B /* GGUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGUtils.h; sourceTree = "<group>"; };
+		A94DB5C91A55DCFA00E5530B /* GGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGUtils.m; sourceTree = "<group>"; };
+		A94DB5CB1A55F8B000E5530B /* GlucoseRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucoseRecord.h; sourceTree = "<group>"; };
+		A94DB5CC1A55F8C600E5530B /* GlucoseRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucoseRecord.m; sourceTree = "<group>"; };
+		A94DB5CE1A55F8FB00E5530B /* SleepRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepRecord.h; sourceTree = "<group>"; };
+		A94DB5CF1A55F90A00E5530B /* SleepRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepRecord.m; sourceTree = "<group>"; };
+		A94DB5D11A55F92500E5530B /* ExerciseRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseRecord.h; sourceTree = "<group>"; };
+		A94DB5D21A55FB5600E5530B /* ExerciseRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseRecord.m; sourceTree = "<group>"; };
+		A95A28C31A492AC100A7CE36 /* curl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = curl; path = thirdparty/include/curl; sourceTree = SOURCE_ROOT; };
+		A95A28C71A4F5D7700A7CE36 /* UserAPITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAPITests.m; sourceTree = "<group>"; };
+		A95B67E91A581848004BCD57 /* GGRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGRecord.h; sourceTree = "<group>"; };
+		A97C1ED91B1A670600EDD3FB /* FoodItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodItemTests.m; sourceTree = "<group>"; };
+		A980815A1A558138006B5518 /* RecordSaveTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordSaveTests.m; sourceTree = "<group>"; };
+		A9B71FAD1AF512040004B42E /* GoalsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalsDelegate.h; sourceTree = "<group>"; };
+		A9B71FAE1AF512230004B42E /* GoalsDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalsDelegate.m; sourceTree = "<group>"; };
+		A9B71FB01AF5130C0004B42E /* WeightGoal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightGoal.h; sourceTree = "<group>"; };
+		A9B71FB11AF5133E0004B42E /* WeightGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightGoal.m; sourceTree = "<group>"; };
+		A9B71FB31AF90A920004B42E /* GoalsDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalsDelegateTests.m; sourceTree = "<group>"; };
+		A9C474081B42EE0500DDE126 /* InsulinRecordTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsulinRecordTests.m; sourceTree = "<group>"; };
+		A9C680071AA8EC010004C02D /* MealRecordTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealRecordTests.m; sourceTree = "<group>"; };
+		A9CBD95A1A4515550001E274 /* SecurityStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityStorage.m; sourceTree = "<group>"; };
+		A9CBD95C1A4515880001E274 /* SecurityStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityStorage.h; sourceTree = "<group>"; };
+		A9CBD9601A453AC70001E274 /* ServicesConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicesConstants.h; sourceTree = "<group>"; };
+		A9CBD9611A4878FF0001E274 /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodItem.h; sourceTree = "<group>"; };
+		A9CBD9621A487BF10001E274 /* FoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodItem.m; sourceTree = "<group>"; };
+		A9CBD9671A48887B0001E274 /* MealRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealRecord.h; sourceTree = "<group>"; };
+		A9CBD9681A489F1B0001E274 /* MealRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealRecord.m; sourceTree = "<group>"; };
+		A9CBD96A1A48A1C60001E274 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A9FA4E511AD2C18100242B16 /* NoteRecordTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteRecordTests.m; sourceTree = "<group>"; };
+		D60032041CDD441800484D62 /* CustomizedFoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedFoodItem.h; sourceTree = "<group>"; };
+		D60032051CDD441800484D62 /* CustomizedFoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedFoodItem.m; sourceTree = "<group>"; };
+		D6062D181D0B6569004322D3 /* NutritionFactsGaugeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutritionFactsGaugeController.h; sourceTree = "<group>"; };
+		D6062D191D0B6569004322D3 /* NutritionFactsGaugeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutritionFactsGaugeController.m; sourceTree = "<group>"; };
+		D6062D1B1D0B6C46004322D3 /* dialGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dialGaugeView.h; sourceTree = "<group>"; };
+		D6062D1C1D0B6C46004322D3 /* dialGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dialGaugeView.m; sourceTree = "<group>"; };
+		D6062D601D36A526004322D3 /* InputSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputSelectionTableViewController.h; sourceTree = "<group>"; };
+		D6062D611D36A526004322D3 /* InputSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputSelectionTableViewController.m; sourceTree = "<group>"; };
+		D6062D641D50F64F004322D3 /* AddBloodPressureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AddBloodPressureViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D6062D651D50F64F004322D3 /* AddBloodPressureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AddBloodPressureViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D6062D681D51A68A004322D3 /* BloodPressureSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureSummaryViewController.h; sourceTree = "<group>"; };
+		D6062D691D51A68A004322D3 /* BloodPressureSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureSummaryViewController.m; sourceTree = "<group>"; };
+		D6062D6B1D52DC79004322D3 /* BPRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPRecord.m; sourceTree = "<group>"; };
+		D63F21E81CE4FB510061E731 /* ShowPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPhotoController.h; sourceTree = "<group>"; };
+		D63F21E91CE4FB510061E731 /* ShowPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPhotoController.m; sourceTree = "<group>"; };
+		D6F2B3AA1CDFE37100DB40A4 /* ManualInputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualInputController.h; sourceTree = "<group>"; };
+		D6F2B3AB1CDFE37100DB40A4 /* ManualInputController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualInputController.m; sourceTree = "<group>"; };
+		D6FD915B1D67FB3A00FC5713 /* AddA1CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AddA1CViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D6FD915C1D67FB3A00FC5713 /* AddA1CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AddA1CViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D6FD915E1D690C1400FC5713 /* AddWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWeightViewController.h; sourceTree = "<group>"; };
+		D6FD915F1D690C1400FC5713 /* AddWeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddWeightViewController.m; sourceTree = "<group>"; };
+		E2B090156C301079EC60F148 /* Pods-GoHealthNowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoHealthNowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoHealthNowTests/Pods-GoHealthNowTests.release.xcconfig"; sourceTree = "<group>"; };
+		F505F96F1C02304B00B5A0B6 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		F505F9701C02304B00B5A0B6 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		F5083FC91A242D3C009833FB /* ChooseExerciseTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseExerciseTypeViewController.h; sourceTree = "<group>"; };
+		F5083FCA1A242D3C009833FB /* ChooseExerciseTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseExerciseTypeViewController.m; sourceTree = "<group>"; };
+		F50944D31A6DDF03000CDCD0 /* ChooseHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseHeightViewController.h; sourceTree = "<group>"; };
+		F50944D41A6DDF03000CDCD0 /* ChooseHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseHeightViewController.m; sourceTree = "<group>"; };
+		F50944D61A6DDF22000CDCD0 /* ChooseHeightDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseHeightDelegate.h; sourceTree = "<group>"; };
+		F50C56131AF6F22700B8432F /* A1CView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = A1CView.xib; sourceTree = "<group>"; };
+		F50C56151AF6F7E700B8432F /* A1CView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = A1CView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F50C56161AF6F7E700B8432F /* A1CView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = A1CView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F515978C1A8AD071009C25E9 /* GGProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGProgressView.h; sourceTree = "<group>"; };
+		F515978D1A8AD071009C25E9 /* GGProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGProgressView.m; sourceTree = "<group>"; };
+		F520C3021AF9766E007F8DBE /* ProgressDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressDetailController.h; sourceTree = "<group>"; };
+		F520C3031AF9766F007F8DBE /* ProgressDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressDetailController.m; sourceTree = "<group>"; };
+		F523EC691A6893880020E189 /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewController.h; sourceTree = "<group>"; };
+		F523EC6A1A6893880020E189 /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
+		F523EC751A68AD2D0020E189 /* ChooseUnitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseUnitViewController.h; sourceTree = "<group>"; };
+		F523EC761A68AD2D0020E189 /* ChooseUnitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseUnitViewController.m; sourceTree = "<group>"; };
+		F523EC781A68AF1F0020E189 /* ChooseUnitDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseUnitDelegate.h; sourceTree = "<group>"; };
+		F52FF07A19F9A24B0012FCA4 /* GoHealthNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoHealthNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52FF07E19F9A24B0012FCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52FF07F19F9A24B0012FCA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F52FF08119F9A24B0012FCA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F52FF08219F9A24B0012FCA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F52FF08B19F9A24B0012FCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F52FF08D19F9A24B0012FCA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F52FF09619F9A24B0012FCA4 /* GoHealthNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoHealthNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52FF09B19F9A24B0012FCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52FF09C19F9A24B0012FCA4 /* GlucoGuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlucoGuideTests.m; sourceTree = "<group>"; };
+		F533C7191B1CF8FD00BFA87B /* RecentMealsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentMealsController.h; sourceTree = "<group>"; };
+		F533C71A1B1CF8FD00BFA87B /* RecentMealsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentMealsController.m; sourceTree = "<group>"; };
+		F533C75A1B1D4DDD00BFA87B /* StretchableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StretchableHeaderView.h; sourceTree = "<group>"; };
+		F533C75B1B1D4DDD00BFA87B /* StretchableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StretchableHeaderView.m; sourceTree = "<group>"; };
+		F534DC591AD209E7001E58E0 /* NotesDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesDetailController.h; sourceTree = "<group>"; };
+		F534DC5A1AD209E7001E58E0 /* NotesDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesDetailController.m; sourceTree = "<group>"; };
+		F53800EA1A2142D4004812D5 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F53C69CC1B687009006DB9CA /* CalorieDistributionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalorieDistributionController.h; sourceTree = "<group>"; };
+		F53C69CD1B687009006DB9CA /* CalorieDistributionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalorieDistributionController.m; sourceTree = "<group>"; };
+		F53C69CF1B693EBC006DB9CA /* MultiColumnTableLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiColumnTableLayout.h; sourceTree = "<group>"; };
+		F53C69D01B693EBC006DB9CA /* MultiColumnTableLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiColumnTableLayout.m; sourceTree = "<group>"; };
+		F5429D9C1BACCE4C00C5B73C /* GGWebBrowserProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGWebBrowserProxy.h; sourceTree = "<group>"; };
+		F5429D9D1BACCE4C00C5B73C /* GGWebBrowserProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGWebBrowserProxy.m; sourceTree = "<group>"; };
+		F54F4F7F1B211C8700B4CABF /* SearchFoodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFoodController.h; sourceTree = "<group>"; };
+		F54F4F801B211C8700B4CABF /* SearchFoodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFoodController.m; sourceTree = "<group>"; };
+		F550908C1AF440F300DD9B0F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F550908D1AF440F300DD9B0F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F550908F1AF4411700DD9B0F /* GoalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalsViewController.h; sourceTree = "<group>"; };
+		F55090901AF4411700DD9B0F /* GoalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalsViewController.m; sourceTree = "<group>"; };
+		F55090921AF4414700DD9B0F /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		F55090931AF4414700DD9B0F /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		F566410F1ACCCCFD008A0500 /* RecommendationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendationDetailViewController.h; sourceTree = "<group>"; };
+		F56641101ACCCCFD008A0500 /* RecommendationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendationDetailViewController.m; sourceTree = "<group>"; };
+		F56B003A1A6C94ED005A5ED1 /* ChooseWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseWeightViewController.h; sourceTree = "<group>"; };
+		F56B003B1A6C94ED005A5ED1 /* ChooseWeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseWeightViewController.m; sourceTree = "<group>"; };
+		F56B003D1A6C9513005A5ED1 /* ChooseWeightDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseWeightDelegate.h; sourceTree = "<group>"; };
+		F5734D741B3B50AC00CDE6BB /* NotesDetailBodyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotesDetailBodyView.xib; sourceTree = "<group>"; };
+		F575AE151ACE2C9C007385DD /* UserSetupFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSetupFirstViewController.h; sourceTree = "<group>"; };
+		F575AE161ACE2C9C007385DD /* UserSetupFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSetupFirstViewController.m; sourceTree = "<group>"; };
+		F575C70D1A184577009A77AE /* ChooseDateTimeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseDateTimeDelegate.h; sourceTree = "<group>"; };
+		F57A629C1A29508B00282335 /* AddExerciseRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AddExerciseRecordViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F57A629D1A29508B00282335 /* AddExerciseRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AddExerciseRecordViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F57B3FA81A23EA45009B9FA7 /* AddSleepRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSleepRecordViewController.h; sourceTree = "<group>"; };
+		F57B3FA91A23EA45009B9FA7 /* AddSleepRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSleepRecordViewController.m; sourceTree = "<group>"; };
+		F57C13A51A17D3A8008F7BE7 /* AddGlucoseRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AddGlucoseRecordViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F57C13A61A17D3A8008F7BE7 /* AddGlucoseRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AddGlucoseRecordViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F57C13A81A183B67008F7BE7 /* ChooseDateTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseDateTimeViewController.h; sourceTree = "<group>"; };
+		F57C13A91A183B67008F7BE7 /* ChooseDateTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseDateTimeViewController.m; sourceTree = "<group>"; };
+		F57DFE081A82EDA20034387D /* ExerciseSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseSummaryViewController.h; sourceTree = "<group>"; };
+		F57DFE091A82EDA20034387D /* ExerciseSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseSummaryViewController.m; sourceTree = "<group>"; };
+		F58172601A6B707700E299F9 /* ChooseBirthYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseBirthYearViewController.h; sourceTree = "<group>"; };
+		F58172611A6B707700E299F9 /* ChooseBirthYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseBirthYearViewController.m; sourceTree = "<group>"; };
+		F58172631A6B709100E299F9 /* ChooseBirthYearDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseBirthYearDelegate.h; sourceTree = "<group>"; };
+		F583656C1B2236CD000E37A8 /* QuickEstimateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickEstimateController.h; sourceTree = "<group>"; };
+		F583656D1B2236CD000E37A8 /* QuickEstimateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickEstimateController.m; sourceTree = "<group>"; };
+		F5860E881A798D0800DC1941 /* FoodSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodSummaryViewController.h; sourceTree = "<group>"; };
+		F5860E891A798D0800DC1941 /* FoodSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodSummaryViewController.m; sourceTree = "<group>"; };
+		F5860E8C1A798E8700DC1941 /* FoodSummaryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodSummaryDelegate.h; sourceTree = "<group>"; };
+		F58A17081B7E4D4400AA5D3F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F58A17091B7E4D4400AA5D3F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F58C7BC81A75652100B38FFC /* IntroPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroPageViewController.h; sourceTree = "<group>"; };
+		F58C7BC91A75652100B38FFC /* IntroPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroPageViewController.m; sourceTree = "<group>"; };
+		F58C7BCC1A75687200B38FFC /* IntroContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroContentViewController.m; sourceTree = "<group>"; };
+		F58C7BCF1A75B1B800B38FFC /* UserSetupPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSetupPageViewController.h; sourceTree = "<group>"; };
+		F58C7BD01A75B1B800B38FFC /* UserSetupPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSetupPageViewController.m; sourceTree = "<group>"; };
+		F58C7BD21A75BE4E00B38FFC /* UserSetupPageViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSetupPageViewControllerProtocol.h; sourceTree = "<group>"; };
+		F58C7E061A76DA5700BB9F50 /* ChooseOrganizationCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseOrganizationCodeViewController.h; sourceTree = "<group>"; };
+		F58C7E071A76DA5700BB9F50 /* ChooseOrganizationCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseOrganizationCodeViewController.m; sourceTree = "<group>"; };
+		F58C7E091A76DAFF00BB9F50 /* ChooseOrganizationCodeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseOrganizationCodeDelegate.h; sourceTree = "<group>"; };
+		F58C7E0B1A76DDAE00BB9F50 /* ChooseNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseNameViewController.h; sourceTree = "<group>"; };
+		F58C7E0C1A76DDAE00BB9F50 /* ChooseNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseNameViewController.m; sourceTree = "<group>"; };
+		F58C7E0E1A76DDCE00BB9F50 /* ChooseNameDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseNameDelegate.h; sourceTree = "<group>"; };
+		F593318C1AD08C470042D9DA /* UserSetupFirstControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSetupFirstControllerDelegate.h; sourceTree = "<group>"; };
+		F59A5A551BE430B200566044 /* NotificationExerciseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationExerciseClass.h; sourceTree = "<group>"; };
+		F59A5A561BE430B200566044 /* NotificationExerciseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationExerciseClass.m; sourceTree = "<group>"; };
+		F59F77161A7C5FA500247D6B /* GlucoGuideTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucoGuideTabBarController.h; sourceTree = "<group>"; };
+		F59F77171A7C5FA500247D6B /* GlucoGuideTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucoGuideTabBarController.m; sourceTree = "<group>"; };
+		F5AC72531A69985700C9363F /* ChooseGenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseGenderViewController.h; sourceTree = "<group>"; };
+		F5AC72541A69985700C9363F /* ChooseGenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseGenderViewController.m; sourceTree = "<group>"; };
+		F5AC72561A69992200C9363F /* ChooseGenderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseGenderDelegate.h; sourceTree = "<group>"; };
+		F5AC72581A69B4EA00C9363F /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
+		F5AC72591A69B4EA00C9363F /* NotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesViewController.m; sourceTree = "<group>"; };
+		F5AC72671A69C9DE00C9363F /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		F5AC72681A69C9DE00C9363F /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		F5AD7D9B1A7B295300972935 /* MealCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealCalculator.h; sourceTree = "<group>"; };
+		F5AD7D9C1A7B295300972935 /* MealCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealCalculator.m; sourceTree = "<group>"; };
+		F5AD7DA21A7B2F3B00972935 /* MealCalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealCalculatorTests.m; sourceTree = "<group>"; };
+		F5B4CBD61AF599A9006BBAC5 /* WeightHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightHelper.h; sourceTree = "<group>"; };
+		F5B4CBD71AF599A9006BBAC5 /* WeightHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightHelper.m; sourceTree = "<group>"; };
+		F5C152D11AF2CF2100F7193D /* InputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		F5C152D21AF2CF2100F7193D /* InputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
+		F5C9EF231A0AD86E00705100 /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		F5C9EF241A0AD86E00705100 /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		F5C9EF281A0AE70700705100 /* StyleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleManager.h; sourceTree = "<group>"; };
+		F5C9EF291A0AE70700705100 /* StyleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleManager.m; sourceTree = "<group>"; };
+		F5CE76641A14402A00EBA5D7 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		F5CE76651A14402A00EBA5D7 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F5D6D1E51A770E5600615CBC /* ChooseBMIAndWaistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseBMIAndWaistViewController.h; sourceTree = "<group>"; };
+		F5D6D1E61A770E5600615CBC /* ChooseBMIAndWaistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseBMIAndWaistViewController.m; sourceTree = "<group>"; };
+		F5D6D1E81A770E6700615CBC /* ChooseBMIAndWaistDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseBMIAndWaistDelegate.h; sourceTree = "<group>"; };
+		F5D6FC3F1AAA9EB40094B63B /* GGImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGImagePickerController.h; sourceTree = "<group>"; };
+		F5D6FC401AAA9EB40094B63B /* GGImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGImagePickerController.m; sourceTree = "<group>"; };
+		F5DA3AC71B8E33B70079404A /* HelpTipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpTipController.h; sourceTree = "<group>"; };
+		F5DA3AC81B8E33B70079404A /* HelpTipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpTipController.m; sourceTree = "<group>"; };
+		F5DA3ACB1B8E368E0079404A /* OverlayAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayAnimationManager.h; sourceTree = "<group>"; };
+		F5DA3ACC1B8E368E0079404A /* OverlayAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayAnimationManager.m; sourceTree = "<group>"; };
+		F5EC23C61BDAFD7100EEC4CA /* AddMealRecordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMealRecordController.h; sourceTree = "<group>"; };
+		F5EC23C71BDAFD7100EEC4CA /* AddMealRecordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMealRecordController.m; sourceTree = "<group>"; };
+		F5F88BC01B3C8481005BC693 /* NotesDetailOldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesDetailOldController.h; sourceTree = "<group>"; };
+		F5F88BC11B3C8481005BC693 /* NotesDetailOldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesDetailOldController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52FF07719F9A24B0012FCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9106D41D9A277A00E79E7E /* lame.framework in Frameworks */,
+				A946BFF01A3F969C00B0CB88 /* libcurl.a in Frameworks */,
+				4C8E663D1D91B8B1004769DC /* AVFoundation.framework in Frameworks */,
+				861EDB8E1B5AFB4700928E10 /* EventKit.framework in Frameworks */,
+				A95A28C51A492C5600A7CE36 /* libz.dylib in Frameworks */,
+				A9CBD96B1A48A1C60001E274 /* libsqlite3.dylib in Frameworks */,
+				88113A1A6E49A8708E3E4B25 /* libPods-GoHealthNow.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52FF09319F9A24B0012FCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE49605B4BB26D7390D2622 /* libPods-GoHealthNowTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181D30021BB2090B00253030 /* Medication */ = {
+			isa = PBXGroup;
+			children = (
+				18DA19F61BB09F2600DFBE89 /* NotificationMedicationClass.h */,
+				18DA19F71BB09F2600DFBE89 /* NotificationMedicationClass.m */,
+				18DA19EF1BB09CAB00DFBE89 /* MedicationInputTableViewCell.h */,
+				18DA19ED1BB09CAB00DFBE89 /* MedicationInputTableViewCell.m */,
+				18DA19EC1BB09CAB00DFBE89 /* MedicationInputViewController.h */,
+				18DA19EE1BB09CAB00DFBE89 /* MedicationInputViewController.m */,
+				18DA19FA1BB0F02500DFBE89 /* DosageInputViewController.h */,
+				18DA19F91BB0F02500DFBE89 /* DosageInputViewController.m */,
+			);
+			name = Medication;
+			sourceTree = "<group>";
+		};
+		1850AB651BBE27CF0054695E /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				1806DAE01BBDAA4700B4885E /* ChooseRemindersViewController.h */,
+				1806DADF1BBDAA4700B4885E /* ChooseRemindersViewController.m */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		1852928B1BB38A9F00EF876F /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				4C6711A91BCDB00A0078E669 /* UIAlertController+Window.h */,
+				4C6711AA1BCDB00A0078E669 /* UIAlertController+Window.m */,
+				186027D01BBB09D5008235B7 /* LocalNotificationResponseAssistant.h */,
+				186027D11BBB09D5008235B7 /* LocalNotificationResponseAssistant.m */,
+				1852928F1BB38AEE00EF876F /* LocalNotificationAssistant.h */,
+				1852928E1BB38AEE00EF876F /* LocalNotificationAssistant.m */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		18DA19F21BB09D0500DFBE89 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F62CA1C40388200E93AAE /* NotificationDuplicateCheckClass.h */,
+				4C6F62C91C40388200E93AAE /* NotificationDuplicateCheckClass.m */,
+				4C66EA8F1DF62FBF00518E83 /* BloodPressure */,
+				F59A5A541BE4309B00566044 /* Exercise */,
+				4C6711AC1BCDC70C0078E669 /* Diet */,
+				4CDC717B1BC8DC580000BEB5 /* BloodGlucose */,
+				181D30021BB2090B00253030 /* Medication */,
+				18DA19EA1BB0995700DFBE89 /* NotificationListViewController.h */,
+				18DA19E91BB0995700DFBE89 /* NotificationListViewController.m */,
+				181D30031BB2F7D800253030 /* NotificationSelectViewController.h */,
+				181D30041BB2F7D800253030 /* NotificationSelectViewController.m */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		4C320F9E1C6DA0FC0004EE47 /* PedometerClass */ = {
+			isa = PBXGroup;
+			children = (
+				4C320F9F1C6DA1B80004EE47 /* PedometerClass.h */,
+				4C320FA01C6DA1B80004EE47 /* PedometerClass.m */,
+			);
+			name = PedometerClass;
+			sourceTree = "<group>";
+		};
+		4C3397591D09096E0064F5F7 /* ActivityLevel */ = {
+			isa = PBXGroup;
+			children = (
+				4C3397561D08FDD20064F5F7 /* ActivityLevel.h */,
+				4C3397571D08FDD20064F5F7 /* ActivityLevel.m */,
+			);
+			name = ActivityLevel;
+			sourceTree = "<group>";
+		};
+		4C34FE771DC9625B0095FDDE /* ChooseConditionEthnicity */ = {
+			isa = PBXGroup;
+			children = (
+				4C34FE781DC9625B0095FDDE /* ChooseConditionEthnicityDelegate.h */,
+				4C34FE791DC9625B0095FDDE /* ChooseConditionEthnicityViewController.h */,
+				4C34FE7A1DC9625B0095FDDE /* ChooseConditionEthnicityViewController.m */,
+			);
+			path = ChooseConditionEthnicity;
+			sourceTree = "<group>";
+		};
+		4C66EA8F1DF62FBF00518E83 /* BloodPressure */ = {
+			isa = PBXGroup;
+			children = (
+				4C66EA911DF6322400518E83 /* NotificationBloodPressureClass.h */,
+				4C66EA901DF6322400518E83 /* NotificationBloodPressureClass.m */,
+				4C66EA931DF6322400518E83 /* BloodPressureNotificationViewController.h */,
+				4C66EA921DF6322400518E83 /* BloodPressureNotificationViewController.m */,
+			);
+			name = BloodPressure;
+			sourceTree = "<group>";
+		};
+		4C6711AC1BCDC70C0078E669 /* Diet */ = {
+			isa = PBXGroup;
+			children = (
+				4C6711B11BCDCA2C0078E669 /* NotificationDietClass.h */,
+				4C6711B01BCDCA2C0078E669 /* NotificationDietClass.m */,
+				4C6711AE1BCDC7BA0078E669 /* DietNotificationViewController.h */,
+				4C6711AD1BCDC7BA0078E669 /* DietNotificationViewController.m */,
+			);
+			name = Diet;
+			sourceTree = "<group>";
+		};
+		4C6B14721D1C444200344E82 /* CalorieDistribution */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B14741D1C445600344E82 /* CalorieDistribution.h */,
+				4C6B14731D1C445600344E82 /* CalorieDistribution.m */,
+			);
+			name = CalorieDistribution;
+			sourceTree = "<group>";
+		};
+		4C8D73101C42184800EA69A3 /* BarcodeScannerView */ = {
+			isa = PBXGroup;
+			children = (
+				4C4B5D4E1C4779FC0096463A /* BarcodeScanner.h */,
+				4C4B5D4D1C4779FC0096463A /* BarcodeScanner.m */,
+			);
+			path = BarcodeScannerView;
+			sourceTree = "<group>";
+		};
+		4C9106931D9A0D4400E79E7E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4C9106941D9A0D4400E79E7E /* AFHTTPSessionManager.h */,
+				4C9106951D9A0D4400E79E7E /* AFHTTPSessionManager.m */,
+				4C9106961D9A0D4400E79E7E /* AFNetworking.h */,
+				4C9106971D9A0D4400E79E7E /* AFNetworkReachabilityManager.h */,
+				4C9106981D9A0D4400E79E7E /* AFNetworkReachabilityManager.m */,
+				4C9106991D9A0D4400E79E7E /* AFSecurityPolicy.h */,
+				4C91069A1D9A0D4400E79E7E /* AFSecurityPolicy.m */,
+				4C91069B1D9A0D4400E79E7E /* AFURLRequestSerialization.h */,
+				4C91069C1D9A0D4400E79E7E /* AFURLRequestSerialization.m */,
+				4C91069D1D9A0D4400E79E7E /* AFURLResponseSerialization.h */,
+				4C91069E1D9A0D4400E79E7E /* AFURLResponseSerialization.m */,
+				4C91069F1D9A0D4400E79E7E /* AFURLSessionManager.h */,
+				4C9106A01D9A0D4400E79E7E /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		4C9E73B01DDC034D0062D682 /* ChooseSpecialIDCode */ = {
+			isa = PBXGroup;
+			children = (
+				4C9E73B11DDC05510062D682 /* ChooseSpecialIDCodeViewController.h */,
+				4C9E73B21DDC05510062D682 /* ChooseSpecialIDCodeViewController.m */,
+			);
+			name = ChooseSpecialIDCode;
+			sourceTree = "<group>";
+		};
+		4CA94F471BEA903F00073FC4 /* XMLService */ = {
+			isa = PBXGroup;
+			children = (
+				4CA94F481BEA904E00073FC4 /* XMLUpdateClass.h */,
+				4CA94F491BEA904E00073FC4 /* XMLUpdate Class.m */,
+			);
+			name = XMLService;
+			sourceTree = "<group>";
+		};
+		4CA94F4C1BEAA3AB00073FC4 /* lastEnteredExerciseClass */ = {
+			isa = PBXGroup;
+			children = (
+				4CA94F501BEBADF200073FC4 /* LastEnteredExerciseClass.h */,
+				4CA94F511BEBADF200073FC4 /* LastEnteredExerciseClass.m */,
+			);
+			name = lastEnteredExerciseClass;
+			sourceTree = "<group>";
+		};
+		4CA94F5C1BED190A00073FC4 /* TextAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				4CA94F591BED176600073FC4 /* TextAlertController.h */,
+				4CA94F5A1BED176600073FC4 /* TextAlertController.m */,
+			);
+			name = TextAlertController;
+			sourceTree = "<group>";
+		};
+		4CCC62041C76F620007C087A /* RateApp */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC62051C76F63A007C087A /* iRate.h */,
+				4CCC62061C76F63A007C087A /* iRate.m */,
+			);
+			name = RateApp;
+			sourceTree = "<group>";
+		};
+		4CDC717B1BC8DC580000BEB5 /* BloodGlucose */ = {
+			isa = PBXGroup;
+			children = (
+				4C409A491BCC88AD001478F9 /* NotificationBloodGlucoseClass.h */,
+				4C409A481BCC88AD001478F9 /* NotificationBloodGlucoseClass.m */,
+				4CDC717D1BC8DD760000BEB5 /* BloodGlucoseNotificationViewController.h */,
+				4CDC717C1BC8DD760000BEB5 /* BloodGlucoseNotificationViewController.m */,
+			);
+			name = BloodGlucose;
+			sourceTree = "<group>";
+		};
+		4CE851B21D9AD7A8004DACAE /* Mp3Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				4CE851B31D9AD850004DACAE /* lame.h */,
+				4CE851B41D9AD894004DACAE /* Mp3EncodeOperation.h */,
+				4CE851B51D9AD894004DACAE /* Mp3EncodeOperation.m */,
+				4CE851B61D9AD894004DACAE /* Mp3Recorder.h */,
+				4CE851B71D9AD894004DACAE /* Mp3Recorder.m */,
+				4CE851B81D9AD894004DACAE /* Mp3RecordingClient.h */,
+				4CE851B91D9AD894004DACAE /* Mp3RecordingClient.m */,
+			);
+			name = Mp3Encoder;
+			sourceTree = "<group>";
+		};
+		5DF9E5FD1A20DC38000431AE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				865B89CB1E0F8281005BC591 /* Localization */,
+				4CE851B21D9AD7A8004DACAE /* Mp3Encoder */,
+				4C6B14721D1C444200344E82 /* CalorieDistribution */,
+				4C3397591D09096E0064F5F7 /* ActivityLevel */,
+				4CCC62041C76F620007C087A /* RateApp */,
+				4C320F9E1C6DA0FC0004EE47 /* PedometerClass */,
+				4CA94F471BEA903F00073FC4 /* XMLService */,
+				1852928B1BB38A9F00EF876F /* Notification */,
+				A9CBD9591A4512B10001E274 /* Storage */,
+				A946C0261A4213F200B0CB88 /* Networking */,
+				A9CBD9601A453AC70001E274 /* ServicesConstants.h */,
+				A94DB5C81A55DC8200E5530B /* GGUtils.h */,
+				A94DB5C91A55DCFA00E5530B /* GGUtils.m */,
+				A9B71FAD1AF512040004B42E /* GoalsDelegate.h */,
+				A9B71FAE1AF512230004B42E /* GoalsDelegate.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		5DF9E6001A20DC98000431AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5AD7D991A7B290700972935 /* MealCalculator */,
+				5DF9E6031A20DCBE000431AE /* User.h */,
+				5DF9E6011A20DCAE000431AE /* User.m */,
+				4C331EFC1CEA1ECD0058252A /* NotificationRecord.h */,
+				4C331EFD1CEA1ECD0058252A /* NotificationRecord.m */,
+				A901D4721A6E7E98006E76B8 /* WeightRecord.h */,
+				A901D4701A6E7E80006E76B8 /* WeightRecord.m */,
+				A901D46D1A6E7D41006E76B8 /* A1CRecord.h */,
+				A901D46E1A6E7D51006E76B8 /* A1CRecord.m */,
+				A9CBD9611A4878FF0001E274 /* FoodItem.h */,
+				A9CBD9621A487BF10001E274 /* FoodItem.m */,
+				D60032041CDD441800484D62 /* CustomizedFoodItem.h */,
+				D60032051CDD441800484D62 /* CustomizedFoodItem.m */,
+				A95B67E91A581848004BCD57 /* GGRecord.h */,
+				A9CBD9671A48887B0001E274 /* MealRecord.h */,
+				A9CBD9681A489F1B0001E274 /* MealRecord.m */,
+				A94DB5CB1A55F8B000E5530B /* GlucoseRecord.h */,
+				A94DB5CC1A55F8C600E5530B /* GlucoseRecord.m */,
+				18DA19F41BB09E8300DFBE89 /* MedicationRecord.h */,
+				18DA19F31BB09E8300DFBE89 /* MedicationRecord.m */,
+				A93034F11AF0247700055067 /* BPRecord.h */,
+				D6062D6B1D52DC79004322D3 /* BPRecord.m */,
+				A94DB5CE1A55F8FB00E5530B /* SleepRecord.h */,
+				A94DB5CF1A55F90A00E5530B /* SleepRecord.m */,
+				A94DB5D11A55F92500E5530B /* ExerciseRecord.h */,
+				A94DB5D21A55FB5600E5530B /* ExerciseRecord.m */,
+				A9077E151A623E3C003992A3 /* RecommendationRecord.h */,
+				A9077E161A623F1A003992A3 /* RecommendationRecord.m */,
+				A940D7F11ABC6F59004546C5 /* NoteRecord.h */,
+				A940D7F21ABC6FEC004546C5 /* NoteRecord.m */,
+				A9B71FB01AF5130C0004B42E /* WeightGoal.h */,
+				A9B71FB11AF5133E0004B42E /* WeightGoal.m */,
+				8630A3D71CB0673A00396904 /* ExerciseGoal.h */,
+				8630A3D81CB0673A00396904 /* ExerciseGoal.m */,
+				18ABDF681B9C03B10071031E /* EmailAssistant.h */,
+				18ABDF661B9C035F0071031E /* EmailAssistant.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		60996400D2CF8CA28D50187C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				561907019DAD2552356EE0CB /* Pods-GoHealthNow.debug.xcconfig */,
+				268B4B6F9080C87EC25E1099 /* Pods-GoHealthNow.release.xcconfig */,
+				8D3047AEA7D4D1F1E30B057D /* Pods-GoHealthNowTests.debug.xcconfig */,
+				E2B090156C301079EC60F148 /* Pods-GoHealthNowTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		860F912C1CB30953009EBC95 /* DropdownList */ = {
+			isa = PBXGroup;
+			children = (
+				860F91301CB309C9009EBC95 /* dropdownList.h */,
+				860F91311CB309C9009EBC95 /* dropdownList.m */,
+			);
+			name = DropdownList;
+			sourceTree = "<group>";
+		};
+		862C04331B56F70200886013 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				861EDB871B5AFAE500928E10 /* ReminderCard.h */,
+				861EDB881B5AFAE500928E10 /* ReminderCard.m */,
+			);
+			name = Reminder;
+			sourceTree = "<group>";
+		};
+		8635825A1B166E5B00F0C253 /* ServingSize */ = {
+			isa = PBXGroup;
+			children = (
+				863582661B16749700F0C253 /* ServingSizeView.xib */,
+				863582631B1671C200F0C253 /* ServingSizeView.h */,
+				863582641B1671C200F0C253 /* ServingSizeView.m */,
+			);
+			name = ServingSize;
+			sourceTree = "<group>";
+		};
+		8637B5A31B1CFD6C00F3FD5B /* ImageCard */ = {
+			isa = PBXGroup;
+			children = (
+				8637B5A41B1CFD7B00F3FD5B /* ImageCard.h */,
+				8637B5A51B1CFD7B00F3FD5B /* ImageCard.m */,
+			);
+			name = ImageCard;
+			sourceTree = "<group>";
+		};
+		864E20C51AE67BCD00C40C35 /* GGWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				864E20C71AE67D7400C40C35 /* GGWebBrowserViewController.h */,
+				864E20C81AE67D7400C40C35 /* GGWebBrowserViewController.m */,
+				F5429D9C1BACCE4C00C5B73C /* GGWebBrowserProxy.h */,
+				F5429D9D1BACCE4C00C5B73C /* GGWebBrowserProxy.m */,
+			);
+			name = GGWebBrowser;
+			sourceTree = "<group>";
+		};
+		865B89CB1E0F8281005BC591 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				865B89CC1E0F82C7005BC591 /* LocalizationManager.h */,
+				865B89CD1E0F82C7005BC591 /* LocalizationManager.m */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		86791A0A1CD92E8A00B3DB4D /* FoodRecognitionCameraBase */ = {
+			isa = PBXGroup;
+			children = (
+				86791A0B1CD92F1A00B3DB4D /* FoodRecognitionCameraBaseViewController.h */,
+				86791A0C1CD92F1A00B3DB4D /* FoodRecognitionCameraBaseViewController.m */,
+				867EFEEA1CDE7A030099BE4C /* FoodLabelSelectionViewController.h */,
+				867EFEEB1CDE7A030099BE4C /* FoodLabelSelectionViewController.m */,
+			);
+			name = FoodRecognitionCameraBase;
+			sourceTree = "<group>";
+		};
+		867F69FB1B5D885E0067AF82 /* SlideInCardBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				861EDB891B5AFAE500928E10 /* SlideInCardBaseView.h */,
+				861EDB8A1B5AFAE500928E10 /* SlideInCardBaseView.m */,
+			);
+			name = SlideInCardBaseView;
+			sourceTree = "<group>";
+		};
+		8697CDD61E42AF11007C73EE /* RecorderIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				8697CDD71E42AF3A007C73EE /* RecorderIndicator.h */,
+				8697CDD81E42AF3A007C73EE /* RecorderIndicator.m */,
+			);
+			name = RecorderIndicator;
+			sourceTree = "<group>";
+		};
+		86A600971C750F12002CA20D /* Medication */ = {
+			isa = PBXGroup;
+			children = (
+				86A600981C750F2D002CA20D /* MedicationSummaryTableViewController.h */,
+				86A600991C750F2D002CA20D /* MedicationSummaryTableViewController.m */,
+			);
+			name = Medication;
+			sourceTree = "<group>";
+		};
+		86AC76481AF7F47C00F034A8 /* Charting */ = {
+			isa = PBXGroup;
+			children = (
+				86AC76491AF7F4C700F034A8 /* GGPlotTheme.h */,
+				86AC764A1AF7F4C700F034A8 /* GGPlotTheme.m */,
+				86AC764B1AF7F4C700F034A8 /* GraphConstants.h */,
+				86AC764C1AF7F4C700F034A8 /* GGPlot.h */,
+				86AC764D1AF7F4C700F034A8 /* GGPlot.m */,
+			);
+			name = Charting;
+			sourceTree = "<group>";
+		};
+		86DAA7A81BDA716D00033D08 /* GGTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				86DAA7A91BDA71A500033D08 /* GGTabBar.h */,
+				86DAA7AA1BDA71A500033D08 /* GGTabBar.m */,
+			);
+			name = GGTabBar;
+			sourceTree = "<group>";
+		};
+		86F26D111B0FB5880028F84D /* NutritionBreakdownBar */ = {
+			isa = PBXGroup;
+			children = (
+				86F26D181B0FB6340028F84D /* multiColorBar.h */,
+				86F26D191B0FB6340028F84D /* multiColorBar.m */,
+			);
+			name = NutritionBreakdownBar;
+			sourceTree = "<group>";
+		};
+		86FE1D971ED75310007C7714 /* LabTest */ = {
+			isa = PBXGroup;
+			children = (
+				F50C56121AF6F20200B8432F /* A1C */,
+				86FE1D9B1ED753BE007C7714 /* LabTestTableViewController.h */,
+				86FE1D9C1ED753BE007C7714 /* LabTestTableViewController.m */,
+			);
+			name = LabTest;
+			sourceTree = "<group>";
+		};
+		A90FD6791D2EEDBD0079182D /* buildtools */ = {
+			isa = PBXGroup;
+			children = (
+				A90FD67A1D2EEDBD0079182D /* build-libcurl-ios.sh */,
+			);
+			path = buildtools;
+			sourceTree = "<group>";
+		};
+		A946C0261A4213F200B0CB88 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4C9106931D9A0D4400E79E7E /* AFNetworking */,
+				A908F8B61A660F7B0041009E /* Reachability.h */,
+				A908F8B71A660F900041009E /* Reachability.m */,
+				A946BFE81A3D342C00B0CB88 /* HttpClient.mm */,
+				A946BFEA1A3D344700B0CB88 /* HttpClient.h */,
+				5DF9E6051A20DE98000431AE /* GlucoguideAPI.m */,
+				5DF9E6071A20DEAF000431AE /* GlucoguideAPI.h */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		A95A28C21A492A3C00A7CE36 /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				A90FD6791D2EEDBD0079182D /* buildtools */,
+				A95A28C31A492AC100A7CE36 /* curl */,
+			);
+			name = thirdparty;
+			sourceTree = "<group>";
+		};
+		A9CBD9591A4512B10001E274 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				A901D4731A6E7FAA006E76B8 /* DBHelper.h */,
+				A901D4741A6E7FCA006E76B8 /* DBHelper.mm */,
+				A9CBD95A1A4515550001E274 /* SecurityStorage.m */,
+				A9CBD95C1A4515880001E274 /* SecurityStorage.h */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
+		D6062D1E1D0B6C64004322D3 /* DialGaugeView */ = {
+			isa = PBXGroup;
+			children = (
+				D6062D1B1D0B6C46004322D3 /* dialGaugeView.h */,
+				D6062D1C1D0B6C46004322D3 /* dialGaugeView.m */,
+			);
+			name = DialGaugeView;
+			sourceTree = "<group>";
+		};
+		D6062D631D36A53D004322D3 /* InputSelection */ = {
+			isa = PBXGroup;
+			children = (
+				D6062D601D36A526004322D3 /* InputSelectionTableViewController.h */,
+				D6062D611D36A526004322D3 /* InputSelectionTableViewController.m */,
+			);
+			name = InputSelection;
+			sourceTree = "<group>";
+		};
+		D6062D671D50F679004322D3 /* BloodPressure */ = {
+			isa = PBXGroup;
+			children = (
+				D6062D641D50F64F004322D3 /* AddBloodPressureViewController.h */,
+				D6062D651D50F64F004322D3 /* AddBloodPressureViewController.m */,
+				D6062D681D51A68A004322D3 /* BloodPressureSummaryViewController.h */,
+				D6062D691D51A68A004322D3 /* BloodPressureSummaryViewController.m */,
+			);
+			name = BloodPressure;
+			sourceTree = "<group>";
+		};
+		D6FD91611D690C2300FC5713 /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+				D6FD915E1D690C1400FC5713 /* AddWeightViewController.h */,
+				D6FD915F1D690C1400FC5713 /* AddWeightViewController.m */,
+			);
+			name = Weight;
+			sourceTree = "<group>";
+		};
+		DFAAEEBD005374E0BDE260CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6D278B1DE3F5EE00EB9341 /* UserNotifications.framework */,
+				4C6D278C1DE3F5EE00EB9341 /* UserNotificationsUI.framework */,
+				4C9106D31D9A277A00E79E7E /* lame.framework */,
+				4C8E663C1D91B8B1004769DC /* AVFoundation.framework */,
+				861EDB8D1B5AFB4700928E10 /* EventKit.framework */,
+				A9CBD96A1A48A1C60001E274 /* libsqlite3.dylib */,
+				A946BFEF1A3F969C00B0CB88 /* libcurl.a */,
+				A946BFED1A3F685500B0CB88 /* libz.dylib */,
+				75163CDC739DDF5C16227BC8 /* libPods-GoHealthNow.a */,
+				332C6878CF132EBCC9893B26 /* libPods-GoHealthNowTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F50C56121AF6F20200B8432F /* A1C */ = {
+			isa = PBXGroup;
+			children = (
+				F50C56131AF6F22700B8432F /* A1CView.xib */,
+				F50C56151AF6F7E700B8432F /* A1CView.h */,
+				F50C56161AF6F7E700B8432F /* A1CView.m */,
+				D6FD915B1D67FB3A00FC5713 /* AddA1CViewController.h */,
+				D6FD915C1D67FB3A00FC5713 /* AddA1CViewController.m */,
+			);
+			name = A1C;
+			sourceTree = "<group>";
+		};
+		F515978B1A8AD050009C25E9 /* GGProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				F515978C1A8AD071009C25E9 /* GGProgressView.h */,
+				F515978D1A8AD071009C25E9 /* GGProgressView.m */,
+			);
+			name = GGProgressView;
+			sourceTree = "<group>";
+		};
+		F523EC6C1A68A1400020E189 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F523EC691A6893880020E189 /* ProfileTableViewController.h */,
+				F523EC6A1A6893880020E189 /* ProfileTableViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		F523EC6D1A68A2990020E189 /* ChooseUnit */ = {
+			isa = PBXGroup;
+			children = (
+				F523EC751A68AD2D0020E189 /* ChooseUnitViewController.h */,
+				F523EC761A68AD2D0020E189 /* ChooseUnitViewController.m */,
+				F523EC781A68AF1F0020E189 /* ChooseUnitDelegate.h */,
+			);
+			name = ChooseUnit;
+			sourceTree = "<group>";
+		};
+		F523EC6F1A68A2BF0020E189 /* ChooseBirthYear */ = {
+			isa = PBXGroup;
+			children = (
+				F58172601A6B707700E299F9 /* ChooseBirthYearViewController.h */,
+				F58172611A6B707700E299F9 /* ChooseBirthYearViewController.m */,
+				F58172631A6B709100E299F9 /* ChooseBirthYearDelegate.h */,
+			);
+			name = ChooseBirthYear;
+			sourceTree = "<group>";
+		};
+		F523EC701A68A2C60020E189 /* ChooseGender */ = {
+			isa = PBXGroup;
+			children = (
+				F5AC72531A69985700C9363F /* ChooseGenderViewController.h */,
+				F5AC72541A69985700C9363F /* ChooseGenderViewController.m */,
+				F5AC72561A69992200C9363F /* ChooseGenderDelegate.h */,
+			);
+			name = ChooseGender;
+			sourceTree = "<group>";
+		};
+		F523EC711A68A2D10020E189 /* ChooseHeight */ = {
+			isa = PBXGroup;
+			children = (
+				F50944D31A6DDF03000CDCD0 /* ChooseHeightViewController.h */,
+				F50944D41A6DDF03000CDCD0 /* ChooseHeightViewController.m */,
+				F50944D61A6DDF22000CDCD0 /* ChooseHeightDelegate.h */,
+			);
+			name = ChooseHeight;
+			sourceTree = "<group>";
+		};
+		F523EC721A68A2F40020E189 /* ChooseWeight */ = {
+			isa = PBXGroup;
+			children = (
+				F56B003A1A6C94ED005A5ED1 /* ChooseWeightViewController.h */,
+				F56B003B1A6C94ED005A5ED1 /* ChooseWeightViewController.m */,
+				F56B003D1A6C9513005A5ED1 /* ChooseWeightDelegate.h */,
+				F5B4CBD61AF599A9006BBAC5 /* WeightHelper.h */,
+				F5B4CBD71AF599A9006BBAC5 /* WeightHelper.m */,
+			);
+			name = ChooseWeight;
+			sourceTree = "<group>";
+		};
+		F523EC741A68A3150020E189 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9EF231A0AD86E00705100 /* UIColor+Extensions.h */,
+				F5C9EF241A0AD86E00705100 /* UIColor+Extensions.m */,
+				F5C9EF281A0AE70700705100 /* StyleManager.h */,
+				F5C9EF291A0AE70700705100 /* StyleManager.m */,
+			);
+			name = Styles;
+			sourceTree = "<group>";
+		};
+		F52FF07119F9A24A0012FCA4 = {
+			isa = PBXGroup;
+			children = (
+				8630F9FA1E5BA51900094630 /* assets */,
+				F52FF07C19F9A24B0012FCA4 /* GoHealthNow */,
+				F52FF09919F9A24B0012FCA4 /* GlucoGuideTests */,
+				F52FF07B19F9A24B0012FCA4 /* Products */,
+				DFAAEEBD005374E0BDE260CD /* Frameworks */,
+				60996400D2CF8CA28D50187C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F52FF07B19F9A24B0012FCA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52FF07A19F9A24B0012FCA4 /* GoHealthNow.app */,
+				F52FF09619F9A24B0012FCA4 /* GoHealthNowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52FF07C19F9A24B0012FCA4 /* GoHealthNow */ = {
+			isa = PBXGroup;
+			children = (
+				86F6A8C41C4E97EF0097235C /* GoHealthNow.entitlements */,
+				A95A28C21A492A3C00A7CE36 /* thirdparty */,
+				F53800E91A2142BA004812D5 /* Common */,
+				5DF9E6001A20DC98000431AE /* Model */,
+				5DF9E5FD1A20DC38000431AE /* Services */,
+				F5346D7519FC717400256D06 /* Interface */,
+				F52FF08119F9A24B0012FCA4 /* AppDelegate.h */,
+				F52FF08219F9A24B0012FCA4 /* AppDelegate.m */,
+				F52FF08D19F9A24B0012FCA4 /* Images.xcassets */,
+				F52FF07D19F9A24B0012FCA4 /* Supporting Files */,
+			);
+			path = GoHealthNow;
+			sourceTree = "<group>";
+		};
+		F52FF07D19F9A24B0012FCA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C272EAC1E0A4C5D0071C4ED /* InfoPlist.strings */,
+				4C272EA71E0A4C5C0071C4ED /* Localizable.strings */,
+				4C272EA11E0A4C5A0071C4ED /* AFNetworking.strings */,
+				F505F96F1C02304B00B5A0B6 /* iTunesArtwork */,
+				F505F9701C02304B00B5A0B6 /* iTunesArtwork@2x */,
+				F52FF07E19F9A24B0012FCA4 /* Info.plist */,
+				F52FF07F19F9A24B0012FCA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F52FF09919F9A24B0012FCA4 /* GlucoGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				A901D4781A6E8051006E76B8 /* WeightRecordTests.m */,
+				A97C1ED91B1A670600EDD3FB /* FoodItemTests.m */,
+				A9C680071AA8EC010004C02D /* MealRecordTests.m */,
+				A9FA4E511AD2C18100242B16 /* NoteRecordTests.m */,
+				A9C474081B42EE0500DDE126 /* InsulinRecordTests.m */,
+				A936DAFA1B4ADE79004B0D01 /* GlucoseRecordTests.m */,
+				A980815A1A558138006B5518 /* RecordSaveTests.m */,
+				A901D4761A6E803C006E76B8 /* DBRecordTests.m */,
+				F52FF09C19F9A24B0012FCA4 /* GlucoGuideTests.m */,
+				A946C0241A4001CA00B0CB88 /* GGAPITests.m */,
+				A95A28C71A4F5D7700A7CE36 /* UserAPITests.m */,
+				A9077E181A648B05003992A3 /* RecommendationRecordTests.m */,
+				F52FF09A19F9A24B0012FCA4 /* Supporting Files */,
+				F5AD7DA21A7B2F3B00972935 /* MealCalculatorTests.m */,
+				A9B71FB31AF90A920004B42E /* GoalsDelegateTests.m */,
+			);
+			path = GlucoGuideTests;
+			sourceTree = "<group>";
+		};
+		F52FF09A19F9A24B0012FCA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C272E9C1E0A4C590071C4ED /* InfoPlist.strings */,
+				F52FF09B19F9A24B0012FCA4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F533C7541B1D484F00BFA87B /* StretchableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				F533C75A1B1D4DDD00BFA87B /* StretchableHeaderView.h */,
+				F533C75B1B1D4DDD00BFA87B /* StretchableHeaderView.m */,
+			);
+			name = StretchableHeaderView;
+			sourceTree = "<group>";
+		};
+		F5346D7519FC717400256D06 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				F5C9EF1F1A0AD72200705100 /* Common */,
+				18DA19F21BB09D0500DFBE89 /* Notifications */,
+				F58A17071B7E4CEC00AA5D3F /* ThirdParty */,
+				F550908B1AF440D000DD9B0F /* Goals */,
+				F5C152D01AF2B11400F7193D /* Progress */,
+				F5C152CF1AF2B10900F7193D /* Home */,
+				F5C152CE1AF2B0DB00F7193D /* Input */,
+				F534DC581AD203BD001E58E0 /* Notes */,
+				F58C7BC71A7564E400B38FFC /* Intro */,
+				F57C13A41A17C6F6008F7BE7 /* Registration */,
+				F57C13A31A17C6CF008F7BE7 /* Settings */,
+				F57C13A21A17C6BD008F7BE7 /* Recommendations */,
+				F52FF08A19F9A24B0012FCA4 /* Main.storyboard */,
+				4C0537961D26355C005E037F /* Launch Screen.storyboard */,
+				F59F77161A7C5FA500247D6B /* GlucoGuideTabBarController.h */,
+				F59F77171A7C5FA500247D6B /* GlucoGuideTabBarController.m */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		F534DC581AD203BD001E58E0 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				F5AC72581A69B4EA00C9363F /* NotesViewController.h */,
+				F5AC72591A69B4EA00C9363F /* NotesViewController.m */,
+				F534DC591AD209E7001E58E0 /* NotesDetailController.h */,
+				F534DC5A1AD209E7001E58E0 /* NotesDetailController.m */,
+				F5734D741B3B50AC00CDE6BB /* NotesDetailBodyView.xib */,
+				F5F88BC01B3C8481005BC693 /* NotesDetailOldController.h */,
+				F5F88BC11B3C8481005BC693 /* NotesDetailOldController.m */,
+				D63F21E81CE4FB510061E731 /* ShowPhotoController.h */,
+				D63F21E91CE4FB510061E731 /* ShowPhotoController.m */,
+			);
+			name = Notes;
+			sourceTree = "<group>";
+		};
+		F53800E91A2142BA004812D5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F53800EA1A2142D4004812D5 /* Constants.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		F53C69CB1B686FB5006DB9CA /* ChooseCalorieDistribution */ = {
+			isa = PBXGroup;
+			children = (
+				F53C69CC1B687009006DB9CA /* CalorieDistributionController.h */,
+				F53C69CD1B687009006DB9CA /* CalorieDistributionController.m */,
+				F53C69CF1B693EBC006DB9CA /* MultiColumnTableLayout.h */,
+				F53C69D01B693EBC006DB9CA /* MultiColumnTableLayout.m */,
+			);
+			name = ChooseCalorieDistribution;
+			sourceTree = "<group>";
+		};
+		F550908B1AF440D000DD9B0F /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				F550908F1AF4411700DD9B0F /* GoalsViewController.h */,
+				F55090901AF4411700DD9B0F /* GoalsViewController.m */,
+			);
+			name = Goals;
+			sourceTree = "<group>";
+		};
+		F55FF53A1AAE77A2002229A8 /* MealPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				863B764B1CE9419400A6BDCB /* MealPhotoViewController.h */,
+				863B764C1CE9419400A6BDCB /* MealPhotoViewController.m */,
+			);
+			name = MealPhoto;
+			sourceTree = "<group>";
+		};
+		F575C70C1A184539009A77AE /* ChooseDateTime */ = {
+			isa = PBXGroup;
+			children = (
+				F57C13A81A183B67008F7BE7 /* ChooseDateTimeViewController.h */,
+				F57C13A91A183B67008F7BE7 /* ChooseDateTimeViewController.m */,
+				F575C70D1A184577009A77AE /* ChooseDateTimeDelegate.h */,
+			);
+			name = ChooseDateTime;
+			sourceTree = "<group>";
+		};
+		F57C139E1A17C662008F7BE7 /* Glucose */ = {
+			isa = PBXGroup;
+			children = (
+				F57C13A51A17D3A8008F7BE7 /* AddGlucoseRecordViewController.h */,
+				F57C13A61A17D3A8008F7BE7 /* AddGlucoseRecordViewController.m */,
+				863D8C381C7246AF00DCC34B /* BloodGlucoseSummaryViewController.h */,
+				863D8C391C7246AF00DCC34B /* BloodGlucoseSummaryViewController.m */,
+			);
+			name = Glucose;
+			sourceTree = "<group>";
+		};
+		F57C139F1A17C676008F7BE7 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				F57B3FA81A23EA45009B9FA7 /* AddSleepRecordViewController.h */,
+				F57B3FA91A23EA45009B9FA7 /* AddSleepRecordViewController.m */,
+			);
+			name = Sleep;
+			sourceTree = "<group>";
+		};
+		F57C13A01A17C67E008F7BE7 /* Diet */ = {
+			isa = PBXGroup;
+			children = (
+				86791A0A1CD92E8A00B3DB4D /* FoodRecognitionCameraBase */,
+				4C8D73101C42184800EA69A3 /* BarcodeScannerView */,
+				F55FF53A1AAE77A2002229A8 /* MealPhoto */,
+				F5860E8B1A798E6500DC1941 /* FoodSummary */,
+				F533C7191B1CF8FD00BFA87B /* RecentMealsController.h */,
+				F533C71A1B1CF8FD00BFA87B /* RecentMealsController.m */,
+				F54F4F7F1B211C8700B4CABF /* SearchFoodController.h */,
+				F54F4F801B211C8700B4CABF /* SearchFoodController.m */,
+				D6F2B3AA1CDFE37100DB40A4 /* ManualInputController.h */,
+				D6F2B3AB1CDFE37100DB40A4 /* ManualInputController.m */,
+				D6062D181D0B6569004322D3 /* NutritionFactsGaugeController.h */,
+				D6062D191D0B6569004322D3 /* NutritionFactsGaugeController.m */,
+				F583656C1B2236CD000E37A8 /* QuickEstimateController.h */,
+				F583656D1B2236CD000E37A8 /* QuickEstimateController.m */,
+				F5EC23C61BDAFD7100EEC4CA /* AddMealRecordController.h */,
+				F5EC23C71BDAFD7100EEC4CA /* AddMealRecordController.m */,
+				4C8D730D1C42183700EA69A3 /* BarcodeViewController.h */,
+				4C8D730E1C42183700EA69A3 /* BarcodeViewController.m */,
+			);
+			name = Diet;
+			sourceTree = "<group>";
+		};
+		F57C13A11A17C686008F7BE7 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				4CA94F4C1BEAA3AB00073FC4 /* lastEnteredExerciseClass */,
+				F5083FC91A242D3C009833FB /* ChooseExerciseTypeViewController.h */,
+				F5083FCA1A242D3C009833FB /* ChooseExerciseTypeViewController.m */,
+				F57A629C1A29508B00282335 /* AddExerciseRecordViewController.h */,
+				F57A629D1A29508B00282335 /* AddExerciseRecordViewController.m */,
+				F57DFE081A82EDA20034387D /* ExerciseSummaryViewController.h */,
+				F57DFE091A82EDA20034387D /* ExerciseSummaryViewController.m */,
+				4C75B85D1CAC6C90004FBCE9 /* ExerciseHistoryDayViewController.h */,
+				4C75B85C1CAC6C90004FBCE9 /* ExerciseHistoryDayViewController.m */,
+				86DC37411C8A2803001BCBA0 /* ExerciseHistoryTableViewController.h */,
+				86DC37421C8A2803001BCBA0 /* ExerciseHistoryTableViewController.m */,
+			);
+			name = Exercise;
+			sourceTree = "<group>";
+		};
+		F57C13A21A17C6BD008F7BE7 /* Recommendations */ = {
+			isa = PBXGroup;
+			children = (
+				F566410F1ACCCCFD008A0500 /* RecommendationDetailViewController.h */,
+				F56641101ACCCCFD008A0500 /* RecommendationDetailViewController.m */,
+			);
+			name = Recommendations;
+			sourceTree = "<group>";
+		};
+		F57C13A31A17C6CF008F7BE7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D6062D631D36A53D004322D3 /* InputSelection */,
+				F523EC6C1A68A1400020E189 /* Profile */,
+				F5CE76641A14402A00EBA5D7 /* SettingsViewController.h */,
+				F5CE76651A14402A00EBA5D7 /* SettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		F57C13A41A17C6F6008F7BE7 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				182C0C181B9641C300793408 /* RegisterLoginViewController.h */,
+				182C0C191B9641C300793408 /* RegisterLoginViewController.m */,
+				F58C7BCE1A75B17900B38FFC /* UserSetup */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		F5860E8B1A798E6500DC1941 /* FoodSummary */ = {
+			isa = PBXGroup;
+			children = (
+				8635825A1B166E5B00F0C253 /* ServingSize */,
+				F5860E881A798D0800DC1941 /* FoodSummaryViewController.h */,
+				F5860E891A798D0800DC1941 /* FoodSummaryViewController.m */,
+				4C320FA21C739A920004EE47 /* ConversionChartViewController.h */,
+				4C320FA31C739A920004EE47 /* ConversionChartViewController.m */,
+				F5860E8C1A798E8700DC1941 /* FoodSummaryDelegate.h */,
+			);
+			name = FoodSummary;
+			sourceTree = "<group>";
+		};
+		F58A17071B7E4CEC00AA5D3F /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				F58A17081B7E4D4400AA5D3F /* SWRevealViewController.h */,
+				F58A17091B7E4D4400AA5D3F /* SWRevealViewController.m */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		F58C7BC71A7564E400B38FFC /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				F58C7BC81A75652100B38FFC /* IntroPageViewController.h */,
+				F58C7BC91A75652100B38FFC /* IntroPageViewController.m */,
+				8630F9F91E5BA46100094630 /* IntroContentViewController.h */,
+				F58C7BCC1A75687200B38FFC /* IntroContentViewController.m */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		F58C7BCE1A75B17900B38FFC /* UserSetup */ = {
+			isa = PBXGroup;
+			children = (
+				F58C7BCF1A75B1B800B38FFC /* UserSetupPageViewController.h */,
+				F58C7BD01A75B1B800B38FFC /* UserSetupPageViewController.m */,
+				F58C7BD21A75BE4E00B38FFC /* UserSetupPageViewControllerProtocol.h */,
+				F575AE151ACE2C9C007385DD /* UserSetupFirstViewController.h */,
+				F575AE161ACE2C9C007385DD /* UserSetupFirstViewController.m */,
+				F593318C1AD08C470042D9DA /* UserSetupFirstControllerDelegate.h */,
+			);
+			name = UserSetup;
+			sourceTree = "<group>";
+		};
+		F58C7E051A76DA2900BB9F50 /* ChooseOrganizationCode */ = {
+			isa = PBXGroup;
+			children = (
+				F58C7E091A76DAFF00BB9F50 /* ChooseOrganizationCodeDelegate.h */,
+				F58C7E061A76DA5700BB9F50 /* ChooseOrganizationCodeViewController.h */,
+				F58C7E071A76DA5700BB9F50 /* ChooseOrganizationCodeViewController.m */,
+			);
+			name = ChooseOrganizationCode;
+			sourceTree = "<group>";
+		};
+		F58C7E0A1A76DD9900BB9F50 /* ChooseName */ = {
+			isa = PBXGroup;
+			children = (
+				F58C7E0B1A76DDAE00BB9F50 /* ChooseNameViewController.h */,
+				F58C7E0C1A76DDAE00BB9F50 /* ChooseNameViewController.m */,
+				F58C7E0E1A76DDCE00BB9F50 /* ChooseNameDelegate.h */,
+			);
+			name = ChooseName;
+			sourceTree = "<group>";
+		};
+		F59A5A541BE4309B00566044 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				F59A5A551BE430B200566044 /* NotificationExerciseClass.h */,
+				F59A5A561BE430B200566044 /* NotificationExerciseClass.m */,
+				4CEA48821BE7BE6F004DFD24 /* ExerciseNotificationViewController.h */,
+				4CEA48831BE7BE82004DFD24 /* ExerciseNotificationViewController.m */,
+			);
+			name = Exercise;
+			sourceTree = "<group>";
+		};
+		F5AD7D991A7B290700972935 /* MealCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				86B4E2151B484137008B6B5B /* MacroNutrientEstimation.xml */,
+				F5AD7D9B1A7B295300972935 /* MealCalculator.h */,
+				F5AD7D9C1A7B295300972935 /* MealCalculator.m */,
+			);
+			name = MealCalculator;
+			sourceTree = "<group>";
+		};
+		F5C152CE1AF2B0DB00F7193D /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				86FE1D971ED75310007C7714 /* LabTest */,
+				D6FD91611D690C2300FC5713 /* Weight */,
+				86A600971C750F12002CA20D /* Medication */,
+				F57C13A11A17C686008F7BE7 /* Exercise */,
+				F57C13A01A17C67E008F7BE7 /* Diet */,
+				F57C139F1A17C676008F7BE7 /* Sleep */,
+				F57C139E1A17C662008F7BE7 /* Glucose */,
+				D6062D671D50F679004322D3 /* BloodPressure */,
+				F5C152D11AF2CF2100F7193D /* InputViewController.h */,
+				F5C152D21AF2CF2100F7193D /* InputViewController.m */,
+			);
+			name = Input;
+			sourceTree = "<group>";
+		};
+		F5C152CF1AF2B10900F7193D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F550908C1AF440F300DD9B0F /* HomeViewController.h */,
+				F550908D1AF440F300DD9B0F /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F5C152D01AF2B11400F7193D /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				F55090921AF4414700DD9B0F /* ProgressViewController.h */,
+				F55090931AF4414700DD9B0F /* ProgressViewController.m */,
+				F520C3021AF9766E007F8DBE /* ProgressDetailController.h */,
+				F520C3031AF9766F007F8DBE /* ProgressDetailController.m */,
+			);
+			name = Progress;
+			sourceTree = "<group>";
+		};
+		F5C9EF1F1A0AD72200705100 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8697CDD61E42AF11007C73EE /* RecorderIndicator */,
+				4C9E73B01DDC034D0062D682 /* ChooseSpecialIDCode */,
+				860F912C1CB30953009EBC95 /* DropdownList */,
+				4CA94F5C1BED190A00073FC4 /* TextAlertController */,
+				D6062D1E1D0B6C64004322D3 /* DialGaugeView */,
+				86DAA7A81BDA716D00033D08 /* GGTabBar */,
+				1850AB651BBE27CF0054695E /* Notifications */,
+				F5DA3ACA1B8E36530079404A /* ViewControllerTransitions */,
+				F5DA3AC51B8E33970079404A /* HelpTip */,
+				F53C69CB1B686FB5006DB9CA /* ChooseCalorieDistribution */,
+				867F69FB1B5D885E0067AF82 /* SlideInCardBaseView */,
+				862C04331B56F70200886013 /* Reminder */,
+				F533C7541B1D484F00BFA87B /* StretchableHeaderView */,
+				8637B5A31B1CFD6C00F3FD5B /* ImageCard */,
+				86F26D111B0FB5880028F84D /* NutritionBreakdownBar */,
+				86AC76481AF7F47C00F034A8 /* Charting */,
+				864E20C51AE67BCD00C40C35 /* GGWebBrowser */,
+				F5D6FC3E1AAA9E220094B63B /* ImagePicker */,
+				F515978B1A8AD050009C25E9 /* GGProgressView */,
+				F5D6D1E41A770E1800615CBC /* ChooseBMIAndWaist */,
+				F58C7E0A1A76DD9900BB9F50 /* ChooseName */,
+				F58C7E051A76DA2900BB9F50 /* ChooseOrganizationCode */,
+				F523EC741A68A3150020E189 /* Styles */,
+				F523EC721A68A2F40020E189 /* ChooseWeight */,
+				F523EC711A68A2D10020E189 /* ChooseHeight */,
+				F523EC701A68A2C60020E189 /* ChooseGender */,
+				F523EC6F1A68A2BF0020E189 /* ChooseBirthYear */,
+				F523EC6D1A68A2990020E189 /* ChooseUnit */,
+				F575C70C1A184539009A77AE /* ChooseDateTime */,
+				4C34FE771DC9625B0095FDDE /* ChooseConditionEthnicity */,
+				F5AC72671A69C9DE00C9363F /* UIView+Extensions.h */,
+				F5AC72681A69C9DE00C9363F /* UIView+Extensions.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		F5D6D1E41A770E1800615CBC /* ChooseBMIAndWaist */ = {
+			isa = PBXGroup;
+			children = (
+				F5D6D1E51A770E5600615CBC /* ChooseBMIAndWaistViewController.h */,
+				F5D6D1E61A770E5600615CBC /* ChooseBMIAndWaistViewController.m */,
+				F5D6D1E81A770E6700615CBC /* ChooseBMIAndWaistDelegate.h */,
+			);
+			name = ChooseBMIAndWaist;
+			sourceTree = "<group>";
+		};
+		F5D6FC3E1AAA9E220094B63B /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F5D6FC3F1AAA9EB40094B63B /* GGImagePickerController.h */,
+				F5D6FC401AAA9EB40094B63B /* GGImagePickerController.m */,
+			);
+			name = ImagePicker;
+			sourceTree = "<group>";
+		};
+		F5DA3AC51B8E33970079404A /* HelpTip */ = {
+			isa = PBXGroup;
+			children = (
+				F5DA3AC71B8E33B70079404A /* HelpTipController.h */,
+				F5DA3AC81B8E33B70079404A /* HelpTipController.m */,
+			);
+			name = HelpTip;
+			sourceTree = "<group>";
+		};
+		F5DA3ACA1B8E36530079404A /* ViewControllerTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				F5DA3ACB1B8E368E0079404A /* OverlayAnimationManager.h */,
+				F5DA3ACC1B8E368E0079404A /* OverlayAnimationManager.m */,
+			);
+			name = ViewControllerTransitions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52FF07919F9A24B0012FCA4 /* GoHealthNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52FF0A019F9A24B0012FCA4 /* Build configuration list for PBXNativeTarget "GoHealthNow" */;
+			buildPhases = (
+				D55077428A3A09FABA8A1469 /* [CP] Check Pods Manifest.lock */,
+				F52FF07619F9A24B0012FCA4 /* Sources */,
+				F52FF07719F9A24B0012FCA4 /* Frameworks */,
+				F52FF07819F9A24B0012FCA4 /* Resources */,
+				1DAE11372E71C2A4EF1FAE13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoHealthNow;
+			productName = GlucoGuide;
+			productReference = F52FF07A19F9A24B0012FCA4 /* GoHealthNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F52FF09519F9A24B0012FCA4 /* GoHealthNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52FF0A319F9A24B0012FCA4 /* Build configuration list for PBXNativeTarget "GoHealthNowTests" */;
+			buildPhases = (
+				4E23869DDAAAC42CDD9C1FE2 /* [CP] Check Pods Manifest.lock */,
+				F52FF09219F9A24B0012FCA4 /* Sources */,
+				F52FF09319F9A24B0012FCA4 /* Frameworks */,
+				F52FF09419F9A24B0012FCA4 /* Resources */,
+				3713723D4CFB357AC0140845 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52FF09819F9A24B0012FCA4 /* PBXTargetDependency */,
+			);
+			name = GoHealthNowTests;
+			productName = GlucoGuideTests;
+			productReference = F52FF09619F9A24B0012FCA4 /* GoHealthNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F52FF07219F9A24A0012FCA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = GoHealthNow;
+				TargetAttributes = {
+					F52FF07919F9A24B0012FCA4 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 27339BXENH;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					F52FF09519F9A24B0012FCA4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F52FF07919F9A24B0012FCA4;
+					};
+				};
+			};
+			buildConfigurationList = F52FF07519F9A24A0012FCA4 /* Build configuration list for PBXProject "GoHealthNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F52FF07119F9A24A0012FCA4;
+			productRefGroup = F52FF07B19F9A24B0012FCA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52FF07919F9A24B0012FCA4 /* GoHealthNow */,
+				F52FF09519F9A24B0012FCA4 /* GoHealthNowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52FF07819F9A24B0012FCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8678C46B1E5CA5840002316D /* A1CView.xib in Resources */,
+				F505F9721C02304B00B5A0B6 /* iTunesArtwork@2x in Resources */,
+				4C272E9F1E0A4C5A0071C4ED /* AFNetworking.strings in Resources */,
+				4C272EA51E0A4C5C0071C4ED /* Localizable.strings in Resources */,
+				4C272EAA1E0A4C5D0071C4ED /* InfoPlist.strings in Resources */,
+				863582671B16749700F0C253 /* ServingSizeView.xib in Resources */,
+				F52FF08C19F9A24B0012FCA4 /* Main.storyboard in Resources */,
+				86B4E2161B484137008B6B5B /* MacroNutrientEstimation.xml in Resources */,
+				4C0537971D26355C005E037F /* Launch Screen.storyboard in Resources */,
+				F505F9711C02304B00B5A0B6 /* iTunesArtwork in Resources */,
+				8630F9FB1E5BA51900094630 /* assets in Resources */,
+				A90FD67B1D2EEDBD0079182D /* build-libcurl-ios.sh in Resources */,
+				F5734D751B3B50AC00CDE6BB /* NotesDetailBodyView.xib in Resources */,
+				F52FF08E19F9A24B0012FCA4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52FF09419F9A24B0012FCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C272E9A1E0A4C590071C4ED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DAE11372E71C2A4EF1FAE13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoHealthNow/Pods-GoHealthNow-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoHealthNow/Pods-GoHealthNow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3713723D4CFB357AC0140845 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoHealthNowTests/Pods-GoHealthNowTests-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoHealthNowTests/Pods-GoHealthNowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E23869DDAAAC42CDD9C1FE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoHealthNowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D55077428A3A09FABA8A1469 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoHealthNow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F52FF07619F9A24B0012FCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8678C46E1E5CA9D90002316D /* User.m in Sources */,
+				8678C46D1E5CA8710002316D /* ConversionChartViewController.m in Sources */,
+				8678C46C1E5CA5E70002316D /* dialGaugeView.m in Sources */,
+				4C79579A1CEAFEB5005E2F3D /* ReminderCard.m in Sources */,
+				4C7957991CEAFEA6005E2F3D /* NotificationRecord.m in Sources */,
+				F5C9EF2A1A0AE70700705100 /* StyleManager.m in Sources */,
+				865B89CE1E0F82C7005BC591 /* LocalizationManager.m in Sources */,
+				863B764D1CE9419400A6BDCB /* MealPhotoViewController.m in Sources */,
+				181D30051BB2F7D800253030 /* NotificationSelectViewController.m in Sources */,
+				4C66EA941DF6322400518E83 /* NotificationBloodPressureClass.m in Sources */,
+				F533C71B1B1CF8FD00BFA87B /* RecentMealsController.m in Sources */,
+				4C34FE7B1DC9625B0095FDDE /* ChooseConditionEthnicityViewController.m in Sources */,
+				F5C152D31AF2CF2100F7193D /* InputViewController.m in Sources */,
+				4C66EA951DF6322400518E83 /* BloodPressureNotificationViewController.m in Sources */,
+				4C9106A11D9A0D4400E79E7E /* AFHTTPSessionManager.m in Sources */,
+				F5860E8A1A798D0800DC1941 /* FoodSummaryViewController.m in Sources */,
+				D60032061CDD441800484D62 /* CustomizedFoodItem.m in Sources */,
+				18DA19F81BB09F2600DFBE89 /* NotificationMedicationClass.m in Sources */,
+				A9077E171A623F1A003992A3 /* RecommendationRecord.m in Sources */,
+				A9CBD95B1A4515550001E274 /* SecurityStorage.m in Sources */,
+				86DC37431C8A2803001BCBA0 /* ExerciseHistoryTableViewController.m in Sources */,
+				F58172621A6B707700E299F9 /* ChooseBirthYearViewController.m in Sources */,
+				F58C7E0D1A76DDAE00BB9F50 /* ChooseNameViewController.m in Sources */,
+				4C9106A61D9A0D4400E79E7E /* AFURLSessionManager.m in Sources */,
+				F520C3041AF9766F007F8DBE /* ProgressDetailController.m in Sources */,
+				18DA19EB1BB0995700DFBE89 /* NotificationListViewController.m in Sources */,
+				4C9106A51D9A0D4400E79E7E /* AFURLResponseSerialization.m in Sources */,
+				F5AD7D9D1A7B295300972935 /* MealCalculator.m in Sources */,
+				A901D4751A6E7FCA006E76B8 /* DBHelper.mm in Sources */,
+				A94DB5CA1A55DCFA00E5530B /* GGUtils.m in Sources */,
+				F58C7BCA1A75652100B38FFC /* IntroPageViewController.m in Sources */,
+				D6062D6C1D52DC79004322D3 /* BPRecord.m in Sources */,
+				F534DC5B1AD209E7001E58E0 /* NotesDetailController.m in Sources */,
+				F5083FCB1A242D3C009833FB /* ChooseExerciseTypeViewController.m in Sources */,
+				D6062D621D36A526004322D3 /* InputSelectionTableViewController.m in Sources */,
+				F53C69D11B693EBC006DB9CA /* MultiColumnTableLayout.m in Sources */,
+				8630A3D91CB0673A00396904 /* ExerciseGoal.m in Sources */,
+				A9CBD9691A489F1B0001E274 /* MealRecord.m in Sources */,
+				18DA19F01BB09CAB00DFBE89 /* MedicationInputTableViewCell.m in Sources */,
+				4C6711B21BCDCA2C0078E669 /* NotificationDietClass.m in Sources */,
+				4CE851BB1D9AD894004DACAE /* Mp3Recorder.m in Sources */,
+				F523EC6B1A6893880020E189 /* ProfileTableViewController.m in Sources */,
+				860F91321CB309C9009EBC95 /* dropdownList.m in Sources */,
+				F56641111ACCCCFD008A0500 /* RecommendationDetailViewController.m in Sources */,
+				86AC764F1AF7F4C700F034A8 /* GGPlot.m in Sources */,
+				863D8C3A1C7246AF00DCC34B /* BloodGlucoseSummaryViewController.m in Sources */,
+				A9B71FAF1AF512230004B42E /* GoalsDelegate.m in Sources */,
+				F53C69CE1B687009006DB9CA /* CalorieDistributionController.m in Sources */,
+				F58C7E081A76DA5700BB9F50 /* ChooseOrganizationCodeViewController.m in Sources */,
+				86FE1D9D1ED753BE007C7714 /* LabTestTableViewController.m in Sources */,
+				F523EC771A68AD2D0020E189 /* ChooseUnitViewController.m in Sources */,
+				F52FF08319F9A24B0012FCA4 /* AppDelegate.m in Sources */,
+				D6062D6A1D51A68A004322D3 /* BloodPressureSummaryViewController.m in Sources */,
+				A94DB5CD1A55F8C600E5530B /* GlucoseRecord.m in Sources */,
+				D6FD91601D690C1400FC5713 /* AddWeightViewController.m in Sources */,
+				A9CBD9631A487BF10001E274 /* FoodItem.m in Sources */,
+				867EFEEC1CDE7A030099BE4C /* FoodLabelSelectionViewController.m in Sources */,
+				F50C56171AF6F7E700B8432F /* A1CView.m in Sources */,
+				864E20C91AE67D7400C40C35 /* GGWebBrowserViewController.m in Sources */,
+				F58C7BCD1A75687200B38FFC /* IntroContentViewController.m in Sources */,
+				F583656E1B2236CD000E37A8 /* QuickEstimateController.m in Sources */,
+				A901D4711A6E7E80006E76B8 /* WeightRecord.m in Sources */,
+				D63F21EA1CE4FB510061E731 /* ShowPhotoController.m in Sources */,
+				86F26D1A1B0FB6340028F84D /* multiColorBar.m in Sources */,
+				4CA94F521BEBADF200073FC4 /* LastEnteredExerciseClass.m in Sources */,
+				F57DFE0A1A82EDA20034387D /* ExerciseSummaryViewController.m in Sources */,
+				4C3397581D08FDD20064F5F7 /* ActivityLevel.m in Sources */,
+				4C6711AF1BCDC7BA0078E669 /* DietNotificationViewController.m in Sources */,
+				F52FF08019F9A24B0012FCA4 /* main.m in Sources */,
+				4CCC62071C76F63A007C087A /* iRate.m in Sources */,
+				4C8D730F1C42183700EA69A3 /* BarcodeViewController.m in Sources */,
+				F54F4F811B211C8700B4CABF /* SearchFoodController.m in Sources */,
+				F5B4CBD81AF599A9006BBAC5 /* WeightHelper.m in Sources */,
+				4CEA48841BE7BE82004DFD24 /* ExerciseNotificationViewController.m in Sources */,
+				8637B5A61B1CFD7B00F3FD5B /* ImageCard.m in Sources */,
+				4C6F62CB1C40388200E93AAE /* NotificationDuplicateCheckClass.m in Sources */,
+				F57C13AA1A183B67008F7BE7 /* ChooseDateTimeViewController.m in Sources */,
+				A94DB5D31A55FB5600E5530B /* ExerciseRecord.m in Sources */,
+				F59A5A571BE430B200566044 /* NotificationExerciseClass.m in Sources */,
+				4C6711AB1BCDB00A0078E669 /* UIAlertController+Window.m in Sources */,
+				4CE851BC1D9AD894004DACAE /* Mp3RecordingClient.m in Sources */,
+				863582651B1671C200F0C253 /* ServingSizeView.m in Sources */,
+				4CA94F5B1BED176600073FC4 /* TextAlertController.m in Sources */,
+				F5DA3AC91B8E33B70079404A /* HelpTipController.m in Sources */,
+				4CA94F4A1BEA904E00073FC4 /* XMLUpdate Class.m in Sources */,
+				F57B3FAA1A23EA45009B9FA7 /* AddSleepRecordViewController.m in Sources */,
+				A94DB5D01A55F90A00E5530B /* SleepRecord.m in Sources */,
+				F5D6D1E71A770E5600615CBC /* ChooseBMIAndWaistViewController.m in Sources */,
+				86791A0D1CD92F1A00B3DB4D /* FoodRecognitionCameraBaseViewController.m in Sources */,
+				F550908E1AF440F300DD9B0F /* HomeViewController.m in Sources */,
+				4C6B14751D1C445600344E82 /* CalorieDistribution.m in Sources */,
+				186027D21BBB09D5008235B7 /* LocalNotificationResponseAssistant.m in Sources */,
+				F5AC72691A69C9DE00C9363F /* UIView+Extensions.m in Sources */,
+				F5F88BC21B3C8481005BC693 /* NotesDetailOldController.m in Sources */,
+				4C9106A31D9A0D4400E79E7E /* AFSecurityPolicy.m in Sources */,
+				A946BFE91A3D342C00B0CB88 /* HttpClient.mm in Sources */,
+				18DA19F51BB09E8300DFBE89 /* MedicationRecord.m in Sources */,
+				F5DA3ACD1B8E368E0079404A /* OverlayAnimationManager.m in Sources */,
+				4C320FA11C6DA1B90004EE47 /* PedometerClass.m in Sources */,
+				A901D46F1A6E7D51006E76B8 /* A1CRecord.m in Sources */,
+				4CDC717E1BC8DD760000BEB5 /* BloodGlucoseNotificationViewController.m in Sources */,
+				18ABDF671B9C035F0071031E /* EmailAssistant.m in Sources */,
+				F515978E1A8AD071009C25E9 /* GGProgressView.m in Sources */,
+				F56B003C1A6C94ED005A5ED1 /* ChooseWeightViewController.m in Sources */,
+				4CE851BA1D9AD894004DACAE /* Mp3EncodeOperation.m in Sources */,
+				F5429D9E1BACCE4C00C5B73C /* GGWebBrowserProxy.m in Sources */,
+				F59F77181A7C5FA500247D6B /* GlucoGuideTabBarController.m in Sources */,
+				F58A170A1B7E4D4400AA5D3F /* SWRevealViewController.m in Sources */,
+				F5AC72551A69985700C9363F /* ChooseGenderViewController.m in Sources */,
+				18DA19FB1BB0F02500DFBE89 /* DosageInputViewController.m in Sources */,
+				A940D7F31ABC6FEC004546C5 /* NoteRecord.m in Sources */,
+				4C75B85E1CAC6C90004FBCE9 /* ExerciseHistoryDayViewController.m in Sources */,
+				F57C13A71A17D3A8008F7BE7 /* AddGlucoseRecordViewController.m in Sources */,
+				F5CE76661A14402A00EBA5D7 /* SettingsViewController.m in Sources */,
+				1806DAE11BBDAA4700B4885E /* ChooseRemindersViewController.m in Sources */,
+				5DF9E6061A20DE98000431AE /* GlucoguideAPI.m in Sources */,
+				F533C75C1B1D4DDD00BFA87B /* StretchableHeaderView.m in Sources */,
+				86DAA7AB1BDA71A500033D08 /* GGTabBar.m in Sources */,
+				D6FD915D1D67FB3A00FC5713 /* AddA1CViewController.m in Sources */,
+				F5D6FC411AAA9EB40094B63B /* GGImagePickerController.m in Sources */,
+				86AC764E1AF7F4C700F034A8 /* GGPlotTheme.m in Sources */,
+				A908F8B81A660F900041009E /* Reachability.m in Sources */,
+				A9B71FB21AF5133E0004B42E /* WeightGoal.m in Sources */,
+				F55090911AF4411700DD9B0F /* GoalsViewController.m in Sources */,
+				4C409A4A1BCC88AD001478F9 /* NotificationBloodGlucoseClass.m in Sources */,
+				D6F2B3AC1CDFE37100DB40A4 /* ManualInputController.m in Sources */,
+				F58C7BD11A75B1B800B38FFC /* UserSetupPageViewController.m in Sources */,
+				4C9E73B31DDC05510062D682 /* ChooseSpecialIDCodeViewController.m in Sources */,
+				8697CDD91E42AF3A007C73EE /* RecorderIndicator.m in Sources */,
+				D6062D661D50F64F004322D3 /* AddBloodPressureViewController.m in Sources */,
+				F575AE171ACE2C9C007385DD /* UserSetupFirstViewController.m in Sources */,
+				86A6009A1C750F2D002CA20D /* MedicationSummaryTableViewController.m in Sources */,
+				4C4B5D4F1C4779FC0096463A /* BarcodeScanner.m in Sources */,
+				F5AC725A1A69B4EA00C9363F /* NotesViewController.m in Sources */,
+				4C9106A41D9A0D4400E79E7E /* AFURLRequestSerialization.m in Sources */,
+				F55090941AF4414700DD9B0F /* ProgressViewController.m in Sources */,
+				18DA19F11BB09CAB00DFBE89 /* MedicationInputViewController.m in Sources */,
+				182C0C1A1B9641C300793408 /* RegisterLoginViewController.m in Sources */,
+				861EDB8C1B5AFAE500928E10 /* SlideInCardBaseView.m in Sources */,
+				F5EC23C81BDAFD7100EEC4CA /* AddMealRecordController.m in Sources */,
+				D6062D1A1D0B6569004322D3 /* NutritionFactsGaugeController.m in Sources */,
+				185292911BB38AEE00EF876F /* LocalNotificationAssistant.m in Sources */,
+				F57A629E1A29508C00282335 /* AddExerciseRecordViewController.m in Sources */,
+				F50944D51A6DDF03000CDCD0 /* ChooseHeightViewController.m in Sources */,
+				F5C9EF251A0AD86E00705100 /* UIColor+Extensions.m in Sources */,
+				4C9106A21D9A0D4400E79E7E /* AFNetworkReachabilityManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52FF09219F9A24B0012FCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97C1EDA1B1A670600EDD3FB /* FoodItemTests.m in Sources */,
+				A901D4771A6E803C006E76B8 /* DBRecordTests.m in Sources */,
+				A9C680081AA8EC010004C02D /* MealRecordTests.m in Sources */,
+				A946C0251A4001CA00B0CB88 /* GGAPITests.m in Sources */,
+				A9077E191A648B05003992A3 /* RecommendationRecordTests.m in Sources */,
+				F52FF09D19F9A24B0012FCA4 /* GlucoGuideTests.m in Sources */,
+				F5AD7DA31A7B2F3B00972935 /* MealCalculatorTests.m in Sources */,
+				A9FA4E521AD2C18100242B16 /* NoteRecordTests.m in Sources */,
+				A901D4791A6E8051006E76B8 /* WeightRecordTests.m in Sources */,
+				A936DAFB1B4ADE79004B0D01 /* GlucoseRecordTests.m in Sources */,
+				A9C474091B42EE0500DDE126 /* InsulinRecordTests.m in Sources */,
+				A95A28C81A4F5D7700A7CE36 /* UserAPITests.m in Sources */,
+				A9B71FB41AF90A920004B42E /* GoalsDelegateTests.m in Sources */,
+				A980815B1A558138006B5518 /* RecordSaveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F52FF09819F9A24B0012FCA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52FF07919F9A24B0012FCA4 /* GoHealthNow */;
+			targetProxy = F52FF09719F9A24B0012FCA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C272E9C1E0A4C590071C4ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C272E9B1E0A4C590071C4ED /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C272EA11E0A4C5A0071C4ED /* AFNetworking.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C272EA01E0A4C5A0071C4ED /* fr */,
+			);
+			name = AFNetworking.strings;
+			sourceTree = "<group>";
+		};
+		4C272EA71E0A4C5C0071C4ED /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C272EA61E0A4C5C0071C4ED /* fr */,
+				861EFF941E0E39BA00BDBD54 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4C272EAC1E0A4C5D0071C4ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C272EAB1E0A4C5D0071C4ED /* fr */,
+				861EFF951E0E39CE00BDBD54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F52FF08A19F9A24B0012FCA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52FF08B19F9A24B0012FCA4 /* Base */,
+				4C272EA21E0A4C5B0071C4ED /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F52FF09E19F9A24B0012FCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F52FF09F19F9A24B0012FCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52FF0A119F9A24B0012FCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 561907019DAD2552356EE0CB /* Pods-GoHealthNow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoHealthNow/GoHealthNow.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 27339BXENH;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thirdparty/lib",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AFXMLDictionarySerializer\"",
+					"\"${PODS_ROOT}/Headers/Public/Bolts\"",
+					"\"${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK/FacebookSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/OMGHTTPURLRQ\"",
+					"\"${PODS_ROOT}/Headers/Public/PromiseKit\"",
+					"\"${PODS_ROOT}/Headers/Public/PromiseKit-AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/XMLDictionary\"",
+					thirdparty/include,
+					"\"${PODS_ROOT}/Headers/Public/CorePlot/ios\"",
+				);
+				INFOPLIST_FILE = GoHealthNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thirdparty/lib",
+					"$(PROJECT_DIR)/GlucoGuide",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thirdparty/lib",
+					"$(PROJECT_DIR)/GlucoGuide",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uwo.GoHealthNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		F52FF0A219F9A24B0012FCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268B4B6F9080C87EC25E1099 /* Pods-GoHealthNow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoHealthNow/GoHealthNow.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 27339BXENH;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thirdparty/lib",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AFXMLDictionarySerializer\"",
+					"\"${PODS_ROOT}/Headers/Public/Bolts\"",
+					"\"${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/Facebook-iOS-SDK/FacebookSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/OMGHTTPURLRQ\"",
+					"\"${PODS_ROOT}/Headers/Public/PromiseKit\"",
+					"\"${PODS_ROOT}/Headers/Public/PromiseKit-AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/XMLDictionary\"",
+					thirdparty/include,
+				);
+				INFOPLIST_FILE = GoHealthNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/thirdparty/lib",
+					"$(PROJECT_DIR)/GlucoGuide",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = thirdparty/lib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uwo.GoHealthNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		F52FF0A419F9A24B0012FCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3047AEA7D4D1F1E30B057D /* Pods-GoHealthNowTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlucoGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uwo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoHealthNow.app/GoHealthNow";
+			};
+			name = Debug;
+		};
+		F52FF0A519F9A24B0012FCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B090156C301079EC60F148 /* Pods-GoHealthNowTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlucoGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uwo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoHealthNow.app/GoHealthNow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F52FF07519F9A24A0012FCA4 /* Build configuration list for PBXProject "GoHealthNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52FF09E19F9A24B0012FCA4 /* Debug */,
+				F52FF09F19F9A24B0012FCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52FF0A019F9A24B0012FCA4 /* Build configuration list for PBXNativeTarget "GoHealthNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52FF0A119F9A24B0012FCA4 /* Debug */,
+				F52FF0A219F9A24B0012FCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52FF0A319F9A24B0012FCA4 /* Build configuration list for PBXNativeTarget "GoHealthNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52FF0A419F9A24B0012FCA4 /* Debug */,
+				F52FF0A519F9A24B0012FCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F52FF07219F9A24A0012FCA4 /* Project object */;
+}

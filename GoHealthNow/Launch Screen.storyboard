@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreen copy 6.png" translatesAutoresizingMaskIntoConstraints="NO" id="pvr-B6-bKN">
+                                <rect key="frame" x="180" y="180" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="23T-kQ-7dE"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="6PG-Fa-ryL"/>
+                                    <constraint firstAttribute="width" constant="240" id="AbM-el-mip"/>
+                                    <constraint firstAttribute="height" constant="240" id="bU7-sy-iuh"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="fos-UI-j0s"/>
+                                    <constraint firstAttribute="width" constant="240" id="qZa-Mz-wnT"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="23T-kQ-7dE"/>
+                                        <exclude reference="6PG-Fa-ryL"/>
+                                        <exclude reference="fos-UI-j0s"/>
+                                        <exclude reference="qZa-Mz-wnT"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pvr-B6-bKN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QcK-0g-BkU"/>
+                            <constraint firstItem="pvr-B6-bKN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UHs-up-mIc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchScreen copy 6.png" width="1024" height="1024"/>
+    </resources>
+</document>
