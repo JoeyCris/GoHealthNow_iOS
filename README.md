@@ -1,6 +1,6 @@
 # GoHealthNow_iOS
 
-The iOS App of GoHelathNow in Objective-C.
+The iOS App of GoHelathNow in Objective-C. Added the functionalty of Facebook Login myself.
 
 Users could register or login with their email account or Facebook account. 
 
